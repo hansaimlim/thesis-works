@@ -61,7 +61,8 @@ flags.DEFINE_bool(
     "favor_shorter_ngram", True,
     "Whether to set higher probabilities for sampling shorter ngrams.")
 
-flags.DEFINE_integer("max_seq_length", 384, "Maximum sequence length.")
+flags.DEFINE_integer("max_seq_length", 384, "Maximum sequence length.\
+        For Pfam database, approx. 4.63% sequences are longer than 384. Average token density is 0.3863 (148.34/384)")
 
 flags.DEFINE_bool("triplet", False,
                  "Set True for amino acid triplet sentences. Default is singlet.")
