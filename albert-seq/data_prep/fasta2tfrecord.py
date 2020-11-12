@@ -29,6 +29,40 @@ from six.moves import range
 from six.moves import zip
 import tensorflow.compat.v1 as tf
 
+"""
+Amino acid frequency in all Pfam sequences.
+    It is used for masked_lm_weights. (inversely weighted; frequent AA -> low weight)
+    This feature for triplets is not available yet.
+    Some amino acids are too rare to be considered, so manually set to a small value
+    Manual values (small): set to large values so their weights are low 
+        B=0.1500
+        J=0.8000
+        X=0.8000
+        Z=0.1500
+    Manual values (large): set to small values so their weights are high
+        O=0.0150
+        U=0.0150
+"""
+PAD_TOKEN = "[PAD]"
+CLS_TOKEN = "[CLS]"
+SEP_TOKEN = "[SEP]"
+UNK_TOKEN = "[UNK]"
+MASK_TOKEN = "[MASK]"
+AA_FREQ = {
+    "A": 0.0900, "B": 0.1500, "C": 0.0142, "D": 0.0548, 
+    "E": 0.0604, "F": 0.0419, "G": 0.0760, "H": 0.0230, 
+    "I": 0.0604, "J": 0.8000, "K": 0.0490, "L": 0.1014, 
+    "M": 0.0228, "N": 0.0372, "O": 0.0150, "P": 0.0439, 
+    "Q": 0.0353, "R": 0.0557, "S": 0.0616, "T": 0.0541, 
+    "U": 0.0150, "V": 0.0739, "W": 0.0132, "X": 0.8000, 
+    "Y": 0.0313, "Z": 0.1500
+}
+AA_WEIGHT = {a:0.05/AA_FREQ[a] for a in AA_FREQ.keys()}
+AA_WEIGHT[PAD_TOKEN] = 0.0
+AA_WEIGHT[CLS_TOKEN] = 0.0
+AA_WEIGHT[SEP_TOKEN] = 0.0
+AA_WEIGHT[UNK_TOKEN] = 0.0
+
 flags = tf.flags
 
 FLAGS = flags.FLAGS
@@ -43,23 +77,6 @@ flags.DEFINE_string(
 flags.DEFINE_string(
     "vocab_file", None,
     "The vocabulary file that the ALBERT model was trained on.")
-
-flags.DEFINE_bool(
-    "do_lower_case", True,
-    "Whether to lower case the input text. Should be True for uncased "
-    "models and False for cased models.")
-
-flags.DEFINE_bool(
-    "do_whole_word_mask", True,
-    "Whether to use whole word masking rather than per-WordPiece masking.")
-
-flags.DEFINE_bool(
-    "do_permutation", False,
-    "Whether to do the permutation training.")
-
-flags.DEFINE_bool(
-    "favor_shorter_ngram", True,
-    "Whether to set higher probabilities for sampling shorter ngrams.")
 
 flags.DEFINE_integer("max_seq_length", 384, "Maximum sequence length.\
         For Pfam database, approx. 4.63% sequences are longer than 384. Average token density is 0.3863 (148.34/384)")
@@ -80,10 +97,6 @@ flags.DEFINE_integer(
 
 flags.DEFINE_float("masked_lm_prob", 0.15, "Masked LM probability.")
 
-flags.DEFINE_float(
-    "short_seq_prob", 0.0,
-    "Probability of creating sequences which are shorter than the "
-    "maximum length.")
 
 
 class TrainingInstance(object):
@@ -110,12 +123,7 @@ class TrainingInstance(object):
 
 
 def write_instance_to_example_files(instances, tokenizer, max_seq_length,
-                                    max_predictions_per_seq, output_files, 
-                                    token_weights={'j':0.1,'9':0.1,
-                                                   '[PAD]':0.0,'[UNK]':0.0,
-                                                   '[SEP]':0.0,'x':0.1
-                                                  }
-                                    #token_weights controls special tokens that need different weights than 1.0
+                                    max_predictions_per_seq, output_files
                                    ):
     """Create TF example files from TrainingInstances."""
     writers = []
@@ -135,13 +143,12 @@ def write_instance_to_example_files(instances, tokenizer, max_seq_length,
         masked_lm_ids = tokenizer.convert_tokens_to_ids(instance.masked_lm_labels)
         masked_lm_weights = []
         for tok in instance.masked_lm_labels:
-            if tok in token_weights:
-                masked_lm_weights.append(token_weights[tok])
-            else:
+            if tok.upper() in AA_WEIGHT: #for singlets, use frequency-based weights
+                masked_lm_weights.append(AA_WEIGHT[tok.upper()])
+            else: #for triplets, uniform weights
                 masked_lm_weights.append(1.0)
 
-        multiplier = 1 + int(FLAGS.do_permutation)
-        while len(masked_lm_positions) < max_predictions_per_seq * multiplier:
+        while len(masked_lm_positions) < max_predictions_per_seq:
             masked_lm_positions.append(0)
             masked_lm_ids.append(0)
             masked_lm_weights.append(0.0)
@@ -193,7 +200,7 @@ def create_float_feature(values):
 
 
 def create_training_instances(input_files, tokenizer, max_seq_length,
-                              dupe_factor, short_seq_prob, masked_lm_prob,
+                              dupe_factor, masked_lm_prob,
                               max_predictions_per_seq, rng):
     """Create `TrainingInstance`s from FASTA file(s)."""
     all_documents = []
@@ -230,14 +237,14 @@ def create_training_instances(input_files, tokenizer, max_seq_length,
     for _ in range(dupe_factor):
         instances.extend(
                 create_instances_from_document(
-                    all_documents, max_seq_length, short_seq_prob,
+                    all_documents, max_seq_length,
                     masked_lm_prob, max_predictions_per_seq, vocab_words, rng))
 
     rng.shuffle(instances)
     return instances
 
 def create_instances_from_document(
-    all_documents, max_seq_length, short_seq_prob,
+    all_documents, max_seq_length,
     masked_lm_prob, max_predictions_per_seq, vocab_words, rng):
     """Creates `TrainingInstance`s for a single document."""
 
@@ -251,14 +258,14 @@ def create_instances_from_document(
     while i < len(all_documents):
         segment = all_documents[i]
         if segment:
-            tokens = ["[CLS]"]
+            tokens = [CLS_TOKEN]
             for j in range(min(len(segment),max_num_tokens)):
                 tokens.extend(segment[j])
 
             assert len(tokens) >= 1
 
             while len(tokens) <= max_num_tokens:
-                tokens.append("[PAD]")
+                tokens.append(PAD_TOKEN)
 
             (tokens, masked_lm_positions,
                 masked_lm_labels) = create_masked_lm_predictions(
@@ -275,70 +282,33 @@ def create_instances_from_document(
 MaskedLmInstance = collections.namedtuple("MaskedLmInstance",
                                           ["index", "label"])
 
-
-def _is_start_piece_sp(piece):
-    """Check if the current word piece is the starting piece (sentence piece)."""
-    special_pieces = set(list('!"#$%&\"()*+,-./:;?@[\\]^_`{|}~'))
-    special_pieces.add(u"€".encode("utf-8"))
-    special_pieces.add(u"£".encode("utf-8"))
-    # Note(mingdachen):
-    # For foreign characters, we always treat them as a whole piece.
-    english_chars = set(list("abcdefghijklmnopqrstuvwxyz"))
-    if (six.ensure_str(piece).startswith("▁") or
-        six.ensure_str(piece).startswith("<") or piece in special_pieces or
-        not all([i.lower() in english_chars.union(special_pieces)
-               for i in piece])):
-        return True
-    else:
-        return False
-
-
-def _is_start_piece_bert(piece):
-    """Check if the current word piece is the starting piece (BERT)."""
-      # When a word has been split into
-      # WordPieces, the first token does not have any marker and any subsequence
-      # tokens are prefixed with ##. So whenever we see the ## token, we
-      # append it to the previous set of word indexes.
-    return not six.ensure_str(piece).startswith("##")
-
-def is_start_piece(piece):
-    _is_start_piece_bert(piece)
-
-
 def create_masked_lm_predictions(tokens, masked_lm_prob,
                                  max_predictions_per_seq, vocab_words, rng):
     """Creates the predictions for the masked LM objective."""
     cand_indexes = []
 
     for (i, token) in enumerate(tokens):
-        if token == "[CLS]" or token == "[SEP]":
+        if token == CLS_TOKEN or token == SEP_TOKEN:
             continue
-        if (FLAGS.do_whole_word_mask and len(cand_indexes) >= 1 and
-            not is_start_piece(token)):
-            cand_indexes[-1].append(i)
         else:
-            cand_indexes.append([i])
-    
-    output_tokens = list(tokens)
-
-    masked_lm_positions = []
-    masked_lm_labels = []
-
-    if masked_lm_prob == 0:
-        return (output_tokens, masked_lm_positions,
-            masked_lm_labels)
+            cand_indexes.append(i)
 
     num_to_predict = min(max_predictions_per_seq,
                        max(1, int(round(len(tokens) * masked_lm_prob))))
 
-    # Note(mingdachen):
-    # By default, we set the probilities to favor shorter ngram sequences.
     ngrams = np.arange(1, FLAGS.ngram + 1, dtype=np.int64)
     pvals = 1. / np.arange(1, FLAGS.ngram + 1)
     pvals /= pvals.sum(keepdims=True)
+    
+    masked_lm_positions = []
+    masked_lm_labels = []
+    masked_lms = []
+    output_tokens = list(tokens)
+    covered_indices = set()
 
-    if not FLAGS.favor_shorter_ngram:
-        pvals = pvals[::-1]
+    if masked_lm_prob == 0:
+        return (output_tokens, masked_lm_positions,
+            masked_lm_labels)
 
     ngram_indexes = []
     for idx in range(len(cand_indexes)):
@@ -348,147 +318,51 @@ def create_masked_lm_predictions(tokens, masked_lm_prob,
         ngram_indexes.append(ngram_index)
 
     rng.shuffle(ngram_indexes)
+    for ngram_index in ngram_indexes:
 
-    masked_lms = []
-    covered_indexes = set()
-    for cand_index_set in ngram_indexes:
-        if len(masked_lms) >= num_to_predict:
+        if len(covered_indices) >= num_to_predict:
             break
-        if not cand_index_set:
+        if not ngram_index:
             continue
-        # Note(mingdachen):
-        # Skip current piece if they are covered in lm masking or previous ngrams.
-        for index_set in cand_index_set[0]:
-            for index in index_set:
-                if index in covered_indexes:
-                    continue
 
-        n = np.random.choice(ngrams[:len(cand_index_set)],
-                         p=pvals[:len(cand_index_set)] /
-                         pvals[:len(cand_index_set)].sum(keepdims=True))
-        index_set = sum(cand_index_set[n - 1], [])
-        n -= 1
-        # Note(mingdachen):
-        # Repeatedly looking for a candidate that does not exceed the
-        # maximum number of predictions by trying shorter ngrams.
-        while len(masked_lms) + len(index_set) > num_to_predict:
-            if n == 0:
-                break
-            index_set = sum(cand_index_set[n - 1], [])
-            n -= 1
-        # If adding a whole-word mask would exceed the maximum number of
-        # predictions, then just skip this candidate.
-        if len(masked_lms) + len(index_set) > num_to_predict:
-            continue
-        is_any_index_covered = False
-        for index in index_set:
-            if index in covered_indexes:
-                is_any_index_covered = True
-                break
-        if is_any_index_covered:
-            continue
-        for index in index_set:
-            covered_indexes.add(index)
+        n = np.random.choice(ngrams[:len(ngram_index)],
+                             p=pvals[:len(ngram_index)]/pvals[:len(ngram_index)].sum(keepdims=True))
 
-            masked_token = None
-          # 80% of the time, replace with [MASK]
-            if rng.random() < 0.8:
-                masked_token = "[MASK]"
+        covered_index = set() 
+        for idx in ngram_index[n-1]:
+            if idx in covered_indices:
+                continue
+            if (idx+1 in covered_indices) or (idx-1 in covered_indices):
+                #prevent accidental consecutive masks
+                continue
             else:
-            # 10% of the time, keep original
-                if rng.random() < 0.5:
-                    masked_token = tokens[index]
-                # 10% of the time, replace with random word
-                else:
-                    masked_token = vocab_words[rng.randint(0, len(vocab_words) - 1)]
+                covered_index.add(idx)
+        covered_indices = covered_indices.union(covered_index)
 
-            output_tokens[index] = masked_token
-
-            masked_lms.append(MaskedLmInstance(index=index, label=tokens[index]))
-    assert len(masked_lms) <= num_to_predict
-
-    rng.shuffle(ngram_indexes)
-
-    select_indexes = set()
-    if FLAGS.do_permutation:
-        for cand_index_set in ngram_indexes:
-            if len(select_indexes) >= num_to_predict:
-                break
-            if not cand_index_set:
-                continue
-          # Note(mingdachen):
-          # Skip current piece if they are covered in lm masking or previous ngrams.
-            for index_set in cand_index_set[0]:
-                for index in index_set:
-                    if index in covered_indexes or index in select_indexes:
-                        continue
-
-            n = np.random.choice(ngrams[:len(cand_index_set)],
-                               p=pvals[:len(cand_index_set)] /
-                               pvals[:len(cand_index_set)].sum(keepdims=True))
-            index_set = sum(cand_index_set[n - 1], [])
-            n -= 1
-
-            while len(select_indexes) + len(index_set) > num_to_predict:
-                if n == 0:
-                    break
-                index_set = sum(cand_index_set[n - 1], [])
-                n -= 1
-              # If adding a whole-word mask would exceed the maximum number of
-              # predictions, then just skip this candidate.
-            if len(select_indexes) + len(index_set) > num_to_predict:
-                continue
-            is_any_index_covered = False
-            for index in index_set:
-                if index in covered_indexes or index in select_indexes:
-                    is_any_index_covered = True
-                    break
-            if is_any_index_covered:
-                continue
-            for index in index_set:
-                select_indexes.add(index)
-        assert len(select_indexes) <= num_to_predict
-
-        select_indexes = sorted(select_indexes)
-        permute_indexes = list(select_indexes)
-        rng.shuffle(permute_indexes)
-        orig_token = list(output_tokens)
-
-        for src_i, tgt_i in zip(select_indexes, permute_indexes):
-            output_tokens[src_i] = orig_token[tgt_i]
-            masked_lms.append(MaskedLmInstance(index=src_i, label=orig_token[src_i]))
+    for idx in covered_indices:
+        if len(masked_lms)>=num_to_predict:
+            break
+        if rng.random() <= 0.85:
+            tok = MASK_TOKEN
+        else:
+            tok = tokens[idx]
+        output_tokens[idx] = tok
+        masked_lms.append(MaskedLmInstance(index=idx, label=tokens[idx]))
 
     masked_lms = sorted(masked_lms, key=lambda x: x.index)
-
     for p in masked_lms:
         masked_lm_positions.append(p.index)
         masked_lm_labels.append(p.label)
+
+    assert len(masked_lms) <= num_to_predict
+
     return (output_tokens, masked_lm_positions, masked_lm_labels)
-
-
-def truncate_seq_pair(tokens_a, tokens_b, max_num_tokens, rng):
-    """Truncates a pair of sequences to a maximum sequence length."""
-    while True:
-        total_length = len(tokens_a) + len(tokens_b)
-        if total_length <= max_num_tokens:
-            break
-
-        trunc_tokens = tokens_a if len(tokens_a) > len(tokens_b) else tokens_b
-        assert len(trunc_tokens) >= 1
-
-        # We want to sometimes truncate from the front and sometimes from the
-        # back to add more randomness and avoid biases.
-        if rng.random() < 0.5:
-            del trunc_tokens[0]
-        else:
-            trunc_tokens.pop()
-
 
 def main(_):
     tf.logging.set_verbosity(tf.logging.INFO)
 
     tokenizer = tokenization.FullTokenizer(
-        vocab_file=FLAGS.vocab_file, do_lower_case=FLAGS.do_lower_case,
+        vocab_file=FLAGS.vocab_file, do_lower_case=True,
         spm_model_file=None)
 
     input_files = []
@@ -502,7 +376,7 @@ def main(_):
     rng = random.Random(FLAGS.random_seed)
     instances = create_training_instances(
         input_files, tokenizer, FLAGS.max_seq_length, FLAGS.dupe_factor,
-        FLAGS.short_seq_prob, FLAGS.masked_lm_prob, FLAGS.max_predictions_per_seq,
+        FLAGS.masked_lm_prob, FLAGS.max_predictions_per_seq,
         rng)
 
     tf.logging.info("number of instances: %i", len(instances))
