@@ -1,0 +1,832 @@
+Entry	Status	Protein names	Gene names	Gene names  (primary )	Gene names  (synonym )	Organism	Organism ID	Length
+P35414	reviewed	Apelin receptor (Angiotensin receptor-like 1) (G-protein coupled receptor APJ) (G-protein coupled receptor HG11)	APLNR AGTRL1 APJ	APLNR	AGTRL1 APJ	Homo sapiens (Human)	9606	380
+P07550	reviewed	Beta-2 adrenergic receptor (Beta-2 adrenoreceptor) (Beta-2 adrenoceptor)	ADRB2 ADRB2R B2AR	ADRB2	ADRB2R B2AR	Homo sapiens (Human)	9606	413
+O60241	reviewed	Adhesion G protein-coupled receptor B2 (Brain-specific angiogenesis inhibitor 2)	ADGRB2 BAI2	ADGRB2	BAI2	Homo sapiens (Human)	9606	1585
+Q86SQ3	reviewed	Putative adhesion G protein-coupled receptor E4P (EGF-like module receptor 4) (EGF-like module-containing mucin-like hormone receptor-like 4) (G-protein coupled receptor 127) (G-protein coupled receptor PGR16)	ADGRE4P EMR4 EMR4P GPR127 PGR16	ADGRE4P	EMR4 EMR4P GPR127 PGR16	Homo sapiens (Human)	9606	457
+Q8IZF3	reviewed	Adhesion G protein-coupled receptor F4 (G-protein coupled receptor 115) (G-protein coupled receptor PGR18)	ADGRF4 GPR115 PGR18	ADGRF4	GPR115 PGR18	Homo sapiens (Human)	9606	695
+Q86SQ4	reviewed	Adhesion G-protein coupled receptor G6 (Developmentally regulated G-protein-coupled receptor) (G-protein coupled receptor 126) (Vascular inducible G protein-coupled receptor) [Cleaved into: ADGRG6 N-terminal fragment (ADGRG6-NTF); ADGRG6 C-terminal fragment (ADGRG6-CTF)]	ADGRG6 DREG GPR126 VIGR	ADGRG6	DREG GPR126 VIGR	Homo sapiens (Human)	9606	1221
+Q8IZF5	reviewed	Adhesion G-protein coupled receptor F3 (G-protein coupled receptor 113) (G-protein coupled receptor PGR23)	ADGRF3 GPR113 PGR23 UNQ9196/PRO34000	ADGRF3	GPR113 PGR23	Homo sapiens (Human)	9606	1079
+P35368	reviewed	Alpha-1B adrenergic receptor (Alpha-1B adrenoreceptor) (Alpha-1B adrenoceptor)	ADRA1B	ADRA1B		Homo sapiens (Human)	9606	520
+Q9Y653	reviewed	Adhesion G-protein coupled receptor G1 (G-protein coupled receptor 56) (Protein TM7XN1) [Cleaved into: ADGRG1 N-terminal fragment (ADGRG1 NT) (GPR56 N-terminal fragment) (GPR56 NT) (GPR56(N)) (GPR56 extracellular subunit) (GPR56 subunit alpha); ADGRG1 C-terminal fragment (ADGRG1 CT) (GPR56 C-terminal fragment) (GPR56 CT) (GPR56(C)) (GPR56 seven-transmembrane subunit) (GPR56 7TM) (GPR56 subunit beta)]	ADGRG1 GPR56 TM7LN4 TM7XN1 UNQ540/PRO1083	ADGRG1	GPR56 TM7LN4 TM7XN1	Homo sapiens (Human)	9606	693
+Q14246	reviewed	Adhesion G protein-coupled receptor E1 (EGF-like module receptor 1) (EGF-like module-containing mucin-like hormone receptor-like 1) (EMR1 hormone receptor)	ADGRE1 EMR1 TM7LN3	ADGRE1	EMR1 TM7LN3	Homo sapiens (Human)	9606	886
+Q9UHX3	reviewed	Adhesion G protein-coupled receptor E2 (EGF-like module receptor 2) (EGF-like module-containing mucin-like hormone receptor-like 2) (CD antigen CD312)	ADGRE2 EMR2	ADGRE2	EMR2	Homo sapiens (Human)	9606	823
+P08588	reviewed	Beta-1 adrenergic receptor (Beta-1 adrenoreceptor) (Beta-1 adrenoceptor)	ADRB1 ADRB1R B1AR	ADRB1	ADRB1R B1AR	Homo sapiens (Human)	9606	477
+Q6QNK2	reviewed	Adhesion G-protein coupled receptor D1 (G-protein coupled receptor 133) (G-protein coupled receptor PGR25)	ADGRD1 GPR133 PGR25	ADGRD1	GPR133 PGR25	Homo sapiens (Human)	9606	874
+Q8IZF7	reviewed	Adhesion G-protein coupled receptor F2 (G-protein coupled receptor 111) (G-protein coupled receptor PGR20)	ADGRF2 GPR111 PGR20	ADGRF2	GPR111 PGR20	Homo sapiens (Human)	9606	708
+Q96K78	reviewed	Adhesion G-protein coupled receptor G7 (G-protein coupled receptor 128)	ADGRG7 GPR128	ADGRG7	GPR128	Homo sapiens (Human)	9606	797
+Q9HAR2	reviewed	Adhesion G protein-coupled receptor L3 (Calcium-independent alpha-latrotoxin receptor 3) (CIRL-3) (Latrophilin-3) (Lectomedin-3)	ADGRL3 KIAA0768 LEC3 LPHN3	ADGRL3	KIAA0768 LEC3 LPHN3	Homo sapiens (Human)	9606	1447
+Q8IZP9	reviewed	Adhesion G-protein coupled receptor G2 (G-protein coupled receptor 64) (Human epididymis-specific protein 6) (He6)	ADGRG2 GPR64 HE6 TM7LN2	ADGRG2	GPR64 HE6 TM7LN2	Homo sapiens (Human)	9606	1017
+P50052	reviewed	Type-2 angiotensin II receptor (Angiotensin II type-2 receptor) (AT2)	AGTR2	AGTR2		Homo sapiens (Human)	9606	363
+Q8WXG9	reviewed	Adhesion G-protein coupled receptor V1 (ADGRV1) (EC 3.4.-.-) (G-protein coupled receptor 98) (Monogenic audiogenic seizure susceptibility protein 1 homolog) (Usher syndrome type-2C protein) (Very large G-protein coupled receptor 1) [Cleaved into: ADGRV1 subunit alpha; ADGRV1 subunit beta]	ADGRV1 GPR98 KIAA0686 KIAA1943 MASS1 VLGR1	ADGRV1	GPR98 KIAA0686 KIAA1943 MASS1 VLGR1	Homo sapiens (Human)	9606	6306
+P13945	reviewed	Beta-3 adrenergic receptor (Beta-3 adrenoreceptor) (Beta-3 adrenoceptor)	ADRB3 ADRB3R B3AR	ADRB3	ADRB3R B3AR	Homo sapiens (Human)	9606	408
+P25100	reviewed	Alpha-1D adrenergic receptor (Alpha-1A adrenergic receptor) (Alpha-1D adrenoreceptor) (Alpha-1D adrenoceptor) (Alpha-adrenergic receptor 1a)	ADRA1D ADRA1A	ADRA1D	ADRA1A	Homo sapiens (Human)	9606	572
+Q8IZF2	reviewed	Adhesion G protein-coupled receptor F5 (G-protein coupled receptor 116)	ADGRF5 GPR116 KIAA0758	ADGRF5	GPR116 KIAA0758	Homo sapiens (Human)	9606	1346
+Q9HBW9	reviewed	Adhesion G protein-coupled receptor L4 (EGF, latrophilin and seven transmembrane domain-containing protein 1) (EGF-TM7-latrophilin-related protein) (ETL protein)	ADGRL4 ELTD1 ETL UNQ202/PRO228	ADGRL4	ELTD1 ETL	Homo sapiens (Human)	9606	690
+Q01718	reviewed	Adrenocorticotropic hormone receptor (ACTH receptor) (ACTH-R) (Adrenocorticotropin receptor) (Melanocortin receptor 2) (MC2-R)	MC2R ACTHR	MC2R	ACTHR	Homo sapiens (Human)	9606	297
+O60242	reviewed	Adhesion G protein-coupled receptor B3 (Brain-specific angiogenesis inhibitor 3)	ADGRB3 BAI3 KIAA0550	ADGRB3	BAI3 KIAA0550	Homo sapiens (Human)	9606	1522
+P08172	reviewed	Muscarinic acetylcholine receptor M2	CHRM2	CHRM2		Homo sapiens (Human)	9606	466
+P25106	reviewed	Atypical chemokine receptor 3 (C-X-C chemokine receptor type 7) (CXC-R7) (CXCR-7) (Chemokine orphan receptor 1) (G-protein coupled receptor 159) (G-protein coupled receptor RDC1 homolog) (RDC-1)	ACKR3 CMKOR1 CXCR7 GPR159 RDC1	ACKR3	CMKOR1 CXCR7 GPR159 RDC1	Homo sapiens (Human)	9606	362
+P18825	reviewed	Alpha-2C adrenergic receptor (Alpha-2 adrenergic receptor subtype C4) (Alpha-2C adrenoreceptor) (Alpha-2C adrenoceptor) (Alpha-2CAR)	ADRA2C ADRA2L2 ADRA2RL2	ADRA2C	ADRA2L2 ADRA2RL2	Homo sapiens (Human)	9606	462
+P08912	reviewed	Muscarinic acetylcholine receptor M5	CHRM5	CHRM5		Homo sapiens (Human)	9606	532
+P35348	reviewed	Alpha-1A adrenergic receptor (Alpha-1A adrenoreceptor) (Alpha-1A adrenoceptor) (Alpha-1C adrenergic receptor) (Alpha-adrenergic receptor 1c)	ADRA1A ADRA1C	ADRA1A	ADRA1C	Homo sapiens (Human)	9606	466
+Q7Z7M1	reviewed	Adhesion G-protein coupled receptor D2 (G-protein coupled receptor 144) (G-protein coupled receptor PGR24)	ADGRD2 GPR144 PGR24	ADGRD2	GPR144 PGR24	Homo sapiens (Human)	9606	963
+Q8IZF6	reviewed	Adhesion G-protein coupled receptor G4 (G-protein coupled receptor 112)	ADGRG4 GPR112	ADGRG4	GPR112	Homo sapiens (Human)	9606	3080
+Q96PE1	reviewed	Adhesion G protein-coupled receptor A2 (G-protein coupled receptor 124) (Tumor endothelial marker 5)	ADGRA2 GPR124 KIAA1531 TEM5	ADGRA2	GPR124 KIAA1531 TEM5	Homo sapiens (Human)	9606	1338
+P30556	reviewed	Type-1 angiotensin II receptor (AT1AR) (AT1BR) (Angiotensin II type-1 receptor) (AT1)	AGTR1 AGTR1A AGTR1B AT2R1 AT2R1B	AGTR1	AGTR1A AGTR1B AT2R1 AT2R1B	Homo sapiens (Human)	9606	359
+Q86Y34	reviewed	Adhesion G protein-coupled receptor G3 (G-protein coupled receptor 97) (G-protein coupled receptor PGR26)	ADGRG3 GPR97 PGR26	ADGRG3	GPR97 PGR26	Homo sapiens (Human)	9606	549
+Q86SQ6	reviewed	Adhesion G protein-coupled receptor A1 (G-protein coupled receptor 123)	ADGRA1 GPR123 KIAA1828	ADGRA1	GPR123 KIAA1828	Homo sapiens (Human)	9606	560
+O14514	reviewed	Adhesion G protein-coupled receptor B1 (Brain-specific angiogenesis inhibitor 1) [Cleaved into: Vasculostatin-40 (Vstat40); Vasculostatin-120 (Vstat120)]	ADGRB1 BAI1	ADGRB1	BAI1	Homo sapiens (Human)	9606	1584
+P28222	reviewed	5-hydroxytryptamine receptor 1B (5-HT-1B) (5-HT1B) (S12) (Serotonin 1D beta receptor) (5-HT-1D-beta) (Serotonin receptor 1B)	HTR1B HTR1DB	HTR1B	HTR1DB	Homo sapiens (Human)	9606	390
+P50406	reviewed	5-hydroxytryptamine receptor 6 (5-HT-6) (5-HT6) (Serotonin receptor 6)	HTR6	HTR6		Homo sapiens (Human)	9606	440
+P08908	reviewed	5-hydroxytryptamine receptor 1A (5-HT-1A) (5-HT1A) (G-21) (Serotonin receptor 1A)	HTR1A ADRB2RL1 ADRBRL1	HTR1A	ADRB2RL1 ADRBRL1	Homo sapiens (Human)	9606	422
+P28566	reviewed	5-hydroxytryptamine receptor 1E (5-HT-1E) (5-HT1E) (S31) (Serotonin receptor 1E)	HTR1E	HTR1E		Homo sapiens (Human)	9606	365
+P47898	reviewed	5-hydroxytryptamine receptor 5A (5-HT-5) (5-HT-5A) (5-HT5A) (Serotonin receptor 5A)	HTR5A	HTR5A		Homo sapiens (Human)	9606	357
+P28223	reviewed	5-hydroxytryptamine receptor 2A (5-HT-2) (5-HT-2A) (Serotonin receptor 2A)	HTR2A HTR2	HTR2A	HTR2	Homo sapiens (Human)	9606	471
+P30542	reviewed	Adenosine receptor A1	ADORA1	ADORA1		Homo sapiens (Human)	9606	326
+P28335	reviewed	5-hydroxytryptamine receptor 2C (5-HT-2C) (5-HT2C) (5-HTR2C) (5-hydroxytryptamine receptor 1C) (5-HT-1C) (5-HT1C) (Serotonin receptor 2C)	HTR2C HTR1C	HTR2C	HTR1C	Homo sapiens (Human)	9606	458
+P0DMS8	reviewed	Adenosine receptor A3	ADORA3	ADORA3		Homo sapiens (Human)	9606	318
+P34969	reviewed	5-hydroxytryptamine receptor 7 (5-HT-7) (5-HT7) (5-HT-X) (Serotonin receptor 7)	HTR7	HTR7		Homo sapiens (Human)	9606	479
+P41595	reviewed	5-hydroxytryptamine receptor 2B (5-HT-2B) (5-HT2B) (Serotonin receptor 2B)	HTR2B	HTR2B		Homo sapiens (Human)	9606	481
+Q13639	reviewed	5-hydroxytryptamine receptor 4 (5-HT-4) (5-HT4) (Serotonin receptor 4)	HTR4	HTR4		Homo sapiens (Human)	9606	388
+Q8IZF4	reviewed	Adhesion G-protein coupled receptor G5 (G-protein coupled receptor 114) (G-protein coupled receptor PGR27)	ADGRG5 GPR114 PGR27 UNQ2524/PRO6017	ADGRG5	GPR114 PGR27	Homo sapiens (Human)	9606	528
+Q5T601	reviewed	Adhesion G-protein coupled receptor F1 (G protein-coupled receptor 110) (G protein-coupled receptor KPG_012) (G protein-coupled receptor PGR19)	ADGRF1 GPR110 PGR19	ADGRF1	GPR110 PGR19	Homo sapiens (Human)	9606	910
+Q8IWK6	reviewed	Adhesion G protein-coupled receptor A3 (G-protein coupled receptor 125)	ADGRA3 GPR125 UNQ556/PRO1113	ADGRA3	GPR125	Homo sapiens (Human)	9606	1321
+Q9BY15	reviewed	Adhesion G protein-coupled receptor E3 (EGF-like module receptor 3) (EGF-like module-containing mucin-like hormone receptor-like 3)	ADGRE3 EMR3 UNQ683/PRO1562	ADGRE3	EMR3	Homo sapiens (Human)	9606	652
+O94910	reviewed	Adhesion G protein-coupled receptor L1 (Calcium-independent alpha-latrotoxin receptor 1) (CIRL-1) (Latrophilin-1) (Lectomedin-2)	ADGRL1 KIAA0821 LEC2 LPHN1	ADGRL1	KIAA0821 LEC2 LPHN1	Homo sapiens (Human)	9606	1474
+O95490	reviewed	Adhesion G protein-coupled receptor L2 (Calcium-independent alpha-latrotoxin receptor 2) (CIRL-2) (Latrophilin homolog 1) (Latrophilin-2) (Lectomedin-1)	ADGRL2 KIAA0786 LEC1 LPHH1 LPHN2	ADGRL2	KIAA0786 LEC1 LPHH1 LPHN2	Homo sapiens (Human)	9606	1459
+Q99788	reviewed	Chemokine-like receptor 1 (G-protein coupled receptor ChemR23) (G-protein coupled receptor DEZ)	CMKLR1 CHEMR23 DEZ	CMKLR1	CHEMR23 DEZ	Homo sapiens (Human)	9606	373
+P21554	reviewed	Cannabinoid receptor 1 (CB-R) (CB1) (CANN6)	CNR1 CNR	CNR1	CNR	Homo sapiens (Human)	9606	472
+Q9Y271	reviewed	Cysteinyl leukotriene receptor 1 (CysLTR1) (Cysteinyl leukotriene D4 receptor) (LTD4 receptor) (G-protein coupled receptor HG55) (HMTMF81)	CYSLTR1 CYSLT1	CYSLTR1	CYSLT1	Homo sapiens (Human)	9606	337
+Q9NS75	reviewed	Cysteinyl leukotriene receptor 2 (CysLTR2) (G-protein coupled receptor GPCR21) (hGPCR21) (G-protein coupled receptor HG57) (HPN321)	CYSLTR2 CYSLT2 CYSLT2R PSEC0146	CYSLTR2	CYSLT2 CYSLT2R	Homo sapiens (Human)	9606	346
+P34972	reviewed	Cannabinoid receptor 2 (CB-2) (CB2) (hCB2) (CX5)	CNR2 CB2A CB2B	CNR2	CB2A CB2B	Homo sapiens (Human)	9606	360
+P34998	reviewed	Corticotropin-releasing factor receptor 1 (CRF-R-1) (CRF-R1) (CRFR-1) (Corticotropin-releasing hormone receptor 1) (CRH-R-1) (CRH-R1)	CRHR1 CRFR CRFR1 CRHR	CRHR1	CRFR CRFR1 CRHR	Homo sapiens (Human)	9606	444
+Q13324	reviewed	Corticotropin-releasing factor receptor 2 (CRF-R-2) (CRF-R2) (CRFR-2) (Corticotropin-releasing hormone receptor 2) (CRH-R-2) (CRH-R2)	CRHR2 CRF2R CRH2R	CRHR2	CRF2R CRH2R	Homo sapiens (Human)	9606	411
+Q03431	reviewed	Parathyroid hormone/parathyroid hormone-related peptide receptor (PTH/PTHrP type I receptor) (PTH/PTHr receptor) (Parathyroid hormone 1 receptor) (PTH1 receptor)	PTH1R PTHR PTHR1	PTH1R	PTHR PTHR1	Homo sapiens (Human)	9606	593
+Q15743	reviewed	Ovarian cancer G-protein coupled receptor 1 (OGR-1) (G-protein coupled receptor 68) (GPR12A) (Sphingosylphosphorylcholine receptor)	GPR68 OGR1	GPR68	OGR1	Homo sapiens (Human)	9606	365
+P03999	reviewed	Short-wave-sensitive opsin 1 (Blue cone photoreceptor pigment) (Blue-sensitive opsin) (BOP)	OPN1SW BCP	OPN1SW	BCP	Homo sapiens (Human)	9606	348
+P0DN77	reviewed	Medium-wave-sensitive opsin 2 (Green cone photoreceptor pigment) (Green-sensitive opsin) (GOP) (Opsin 1 cone pigments medium-wave-sensitive 2)	OPN1MW2	OPN1MW2		Homo sapiens (Human)	9606	364
+Q8NGF8	reviewed	Olfactory receptor 4B1 (OST208) (Olfactory receptor OR11-106)	OR4B1	OR4B1		Homo sapiens (Human)	9606	309
+Q96RC9	reviewed	Olfactory receptor 8B4 (Olfactory receptor OR11-315)	OR8B4 OR8B4P	OR8B4	OR8B4P	Homo sapiens (Human)	9606	309
+Q8N146	reviewed	Olfactory receptor 8H3 (Olfactory receptor OR11-172)	OR8H3	OR8H3		Homo sapiens (Human)	9606	312
+Q8NGX9	reviewed	Olfactory receptor 6P1 (Olfactory receptor OR1-12)	OR6P1	OR6P1		Homo sapiens (Human)	9606	317
+Q8NGG0	reviewed	Olfactory receptor 8J3 (Olfactory receptor OR11-173)	OR8J3	OR8J3		Homo sapiens (Human)	9606	315
+Q8NH50	reviewed	Olfactory receptor 8K5 (Olfactory receptor OR11-174)	OR8K5	OR8K5		Homo sapiens (Human)	9606	307
+Q8NH09	reviewed	Olfactory receptor 8S1	OR8S1	OR8S1		Homo sapiens (Human)	9606	359
+Q96R69	reviewed	Olfactory receptor 4F4 (HS14a-1-A) (Olfactory receptor OR19-3)	OR4F4	OR4F4		Homo sapiens (Human)	9606	305
+Q8NGU2	reviewed	Olfactory receptor 9A4 (Olfactory receptor OR7-1)	OR9A4	OR9A4		Homo sapiens (Human)	9606	314
+Q8NGR4	reviewed	Olfactory receptor 5C1 (Olfactory receptor 5C2) (Olfactory receptor 9-F) (OR9-F)	OR5C1 OR5C2P	OR5C1	OR5C2P	Homo sapiens (Human)	9606	320
+Q8NGU4	reviewed	Putative olfactory receptor 2I1 (Putative olfactory receptor 2I2) (Putative olfactory receptor 2I3) (Putative olfactory receptor 2I4)	OR2I1P OR2I2 OR2I3P OR2I4P	OR2I1P	OR2I2 OR2I3P OR2I4P	Homo sapiens (Human)	9606	316
+Q8NGQ5	reviewed	Olfactory receptor 9Q1	OR9Q1	OR9Q1		Homo sapiens (Human)	9606	310
+Q8NGT1	reviewed	Olfactory receptor 2K2 (HTPCRH06) (Olfactory receptor OR9-17)	OR2K2 OR2AR1P	OR2K2	OR2AR1P	Homo sapiens (Human)	9606	316
+Q8NG98	reviewed	Olfactory receptor 7D4 (OR19-B) (Odorant receptor family subfamily D member 4RT) (Olfactory receptor OR19-7)	OR7D4 OR7D4P	OR7D4	OR7D4P	Homo sapiens (Human)	9606	312
+Q8NGA0	reviewed	Olfactory receptor 7G1 (Olfactory receptor 19-15) (OR19-15) (Olfactory receptor OR19-8)	OR7G1 OR7G1P	OR7G1	OR7G1P	Homo sapiens (Human)	9606	311
+Q8NGR9	reviewed	Olfactory receptor 1N2 (Olfactory receptor OR9-23)	OR1N2	OR1N2		Homo sapiens (Human)	9606	330
+P41586	reviewed	Pituitary adenylate cyclase-activating polypeptide type I receptor (PACAP type I receptor) (PACAP-R-1) (PACAP-R1)	ADCYAP1R1	ADCYAP1R1		Homo sapiens (Human)	9606	468
+Q96RI0	reviewed	Proteinase-activated receptor 4 (PAR-4) (Coagulation factor II receptor-like 3) (Thrombin receptor-like 3)	F2RL3 PAR4	F2RL3	PAR4	Homo sapiens (Human)	9606	385
+P35372	reviewed	Mu-type opioid receptor (M-OR-1) (MOR-1) (Mu opiate receptor) (Mu opioid receptor) (MOP) (hMOP)	OPRM1 MOR1	OPRM1	MOR1	Homo sapiens (Human)	9606	400
+Q9NZP2	reviewed	Olfactory receptor 6C2 (HSA3)	OR6C2	OR6C2		Homo sapiens (Human)	9606	312
+Q9NZP0	reviewed	Olfactory receptor 6C3 (HSA8)	OR6C3	OR6C3		Homo sapiens (Human)	9606	311
+P34982	reviewed	Olfactory receptor 1D2 (Olfactory receptor 17-4) (OR17-4) (Olfactory receptor OR17-6) (Olfactory receptor-like protein HGMP07E)	OR1D2 OLFR1	OR1D2	OLFR1	Homo sapiens (Human)	9606	312
+Q8NGG8	reviewed	Olfactory receptor 8B3 (Olfactory receptor OR11-311)	OR8B3	OR8B3		Homo sapiens (Human)	9606	313
+P04001	reviewed	Medium-wave-sensitive opsin 1 (Green cone photoreceptor pigment) (Green-sensitive opsin) (GOP)	OPN1MW GCP	OPN1MW	GCP	Homo sapiens (Human)	9606	364
+Q15617	reviewed	Olfactory receptor 8G1 (Olfactory receptor OR11-281) (Olfactory receptor TPCR25)	OR8G1 OR8G1P	OR8G1	OR8G1P	Homo sapiens (Human)	9606	311
+Q8NGW6	reviewed	Olfactory receptor 6K6 (Olfactory receptor OR1-21)	OR6K6	OR6K6		Homo sapiens (Human)	9606	343
+Q8NGY6	reviewed	Olfactory receptor 6N2 (Olfactory receptor OR1-23)	OR6N2	OR6N2		Homo sapiens (Human)	9606	317
+Q8N0Y5	reviewed	Olfactory receptor 8I2 (Olfactory receptor OR11-170)	OR8I2	OR8I2		Homo sapiens (Human)	9606	310
+P47890	reviewed	Olfactory receptor 1G1 (Olfactory receptor 17-209) (OR17-209) (Olfactory receptor 1G2) (Olfactory receptor OR17-8)	OR1G1 OR1G2	OR1G1	OR1G2	Homo sapiens (Human)	9606	313
+P04000	reviewed	Long-wave-sensitive opsin 1 (Red cone photoreceptor pigment) (Red-sensitive opsin) (ROP)	OPN1LW RCP	OPN1LW	RCP	Homo sapiens (Human)	9606	364
+Q8NGE9	reviewed	Olfactory receptor 9Q2	OR9Q2 OR9Q2P	OR9Q2	OR9Q2P	Homo sapiens (Human)	9606	314
+P0C626	reviewed	Olfactory receptor 5G3 (Olfactory receptor 5G6) (Olfactory receptor OR11-213)	OR5G3 OR5G3P OR5G6P	OR5G3	OR5G3P OR5G6P	Homo sapiens (Human)	9606	314
+Q8NGV6	reviewed	Olfactory receptor 5H6 (Olfactory receptor OR3-11)	OR5H6	OR5H6		Homo sapiens (Human)	9606	325
+Q8NGQ3	reviewed	Olfactory receptor 1S2 (Olfactory receptor OR11-231)	OR1S2	OR1S2		Homo sapiens (Human)	9606	325
+Q96RB7	reviewed	Olfactory receptor 5M11	OR5M11	OR5M11		Homo sapiens (Human)	9606	305
+Q9NQN1	reviewed	Olfactory receptor 2S2 (Olfactory receptor OR9-3)	OR2S2	OR2S2		Homo sapiens (Human)	9606	319
+P51582	reviewed	P2Y purinoceptor 4 (P2Y4) (P2P) (Uridine nucleotide receptor) (UNR)	P2RY4 NRU	P2RY4	NRU	Homo sapiens (Human)	9606	365
+Q15391	reviewed	P2Y purinoceptor 14 (P2Y14) (G-protein coupled receptor 105) (UDP-glucose receptor)	P2RY14 GPR105 KIAA0001	P2RY14	GPR105 KIAA0001	Homo sapiens (Human)	9606	338
+P47900	reviewed	P2Y purinoceptor 1 (P2Y1) (ADP receptor) (Purinergic receptor)	P2RY1	P2RY1		Homo sapiens (Human)	9606	373
+O00254	reviewed	Proteinase-activated receptor 3 (PAR-3) (Coagulation factor II receptor-like 2) (Thrombin receptor-like 2)	F2RL2 PAR3	F2RL2	PAR3	Homo sapiens (Human)	9606	374
+P55085	reviewed	Proteinase-activated receptor 2 (PAR-2) (Coagulation factor II receptor-like 1) (G-protein coupled receptor 11) (Thrombin receptor-like 1) [Cleaved into: Proteinase-activated receptor 2, alternate cleaved 1; Proteinase-activated receptor 2, alternate cleaved 2]	F2RL1 GPR11 PAR2	F2RL1	GPR11 PAR2	Homo sapiens (Human)	9606	397
+Q8NGD5	reviewed	Olfactory receptor 4K14 (Olfactory receptor OR14-22)	OR4K14	OR4K14		Homo sapiens (Human)	9606	310
+Q8NGT9	reviewed	Olfactory receptor 2A1/2A42 (Olfactory receptor OR7-16) (Olfactory receptor OR7-19)	OR2A1; OR2A42	OR2A1; OR2A42	; 	Homo sapiens (Human)	9606	310
+Q8IXE1	reviewed	Olfactory receptor 4N5 (Olfactory receptor OR14-33)	OR4N5	OR4N5		Homo sapiens (Human)	9606	308
+P0C623	reviewed	Olfactory receptor 4Q2 (olfactory receptor OR14-21)	OR4Q2 OR4Q2P	OR4Q2	OR4Q2P	Homo sapiens (Human)	9606	307
+Q8NGB4	reviewed	Olfactory receptor 4S1 (Olfactory receptor OR11-100)	OR4S1	OR4S1		Homo sapiens (Human)	9606	309
+Q8NGF9	reviewed	Olfactory receptor 4X2 (Olfactory receptor OR11-105)	OR4X2	OR4X2		Homo sapiens (Human)	9606	303
+Q8NGL7	reviewed	Olfactory receptor 4P4 (Olfactory receptor 4P3)	OR4P4 OR4P3P	OR4P4	OR4P3P	Homo sapiens (Human)	9606	312
+Q96RD1	reviewed	Olfactory receptor 6C1 (OST267)	OR6C1	OR6C1		Homo sapiens (Human)	9606	312
+Q8NH37	reviewed	Olfactory receptor 4C3 (Olfactory receptor OR11-98)	OR4C3	OR4C3		Homo sapiens (Human)	9606	302
+Q8NH72	reviewed	Olfactory receptor 4C6 (Olfactory receptor OR11-138)	OR4C6	OR4C6		Homo sapiens (Human)	9606	309
+P0DN78	reviewed	Medium-wave-sensitive opsin 3 (Green cone photoreceptor pigment) (Green-sensitive opsin) (GOP) (opsin 1 cone pigments medium-wave-sensitive 3)	OPN1MW3	OPN1MW3		Homo sapiens (Human)	9606	364
+Q8NGY5	reviewed	Olfactory receptor 6N1	OR6N1	OR6N1		Homo sapiens (Human)	9606	312
+Q8NGN0	reviewed	Olfactory receptor 4D5 (Olfactory receptor OR11-276)	OR4D5	OR4D5		Homo sapiens (Human)	9606	318
+Q8NGP2	reviewed	Olfactory receptor 8J1 (Olfactory receptor OR11-183)	OR8J1	OR8J1		Homo sapiens (Human)	9606	316
+Q5TZ20	reviewed	Olfactory receptor 2G6	OR2G6	OR2G6		Homo sapiens (Human)	9606	316
+Q9GZK4	reviewed	Olfactory receptor 2H1 (Hs6M1-16) (OLFR42A-9004.14/9026.2) (Olfactory receptor 2H6) (Olfactory receptor 2H8) (Olfactory receptor 6-2) (OR6-2) (Olfactory receptor OR6-32)	OR2H1 OR2H6 OR2H8	OR2H1	OR2H6 OR2H8	Homo sapiens (Human)	9606	316
+O95918	reviewed	Olfactory receptor 2H2 (Hs6M1-12) (Olfactory receptor 2H3) (Olfactory receptor-like protein FAT11)	OR2H2 FAT11 OLFR2 OR2H3	OR2H2	FAT11 OLFR2 OR2H3	Homo sapiens (Human)	9606	312
+Q8NH42	reviewed	Olfactory receptor 4K13 (Olfactory receptor OR14-27)	OR4K13	OR4K13		Homo sapiens (Human)	9606	304
+Q8NGL1	reviewed	Olfactory receptor 5D18 (Olfactory receptor OR11-143) (Olfactory receptor OR11-152)	OR5D18	OR5D18		Homo sapiens (Human)	9606	313
+O60431	reviewed	Olfactory receptor 1I1 (Olfactory receptor 19-20) (OR19-20)	OR1I1	OR1I1		Homo sapiens (Human)	9606	355
+Q8NGS3	reviewed	Olfactory receptor 1J1 (Olfactory receptor OR9-18)	OR1J1	OR1J1		Homo sapiens (Human)	9606	322
+O76099	reviewed	Olfactory receptor 7C1 (Olfactory receptor 7C4) (Olfactory receptor OR19-16) (Olfactory receptor TPCR86)	OR7C1 OR7C4	OR7C1	OR7C4	Homo sapiens (Human)	9606	320
+Q8NHB7	reviewed	Olfactory receptor 5K1 (HTPCRX10) (Olfactory receptor OR3-8)	OR5K1	OR5K1		Homo sapiens (Human)	9606	308
+Q8NGA1	reviewed	Olfactory receptor 1M1 (Olfactory receptor 19-6) (OR19-6) (Olfactory receptor OR19-5)	OR1M1	OR1M1		Homo sapiens (Human)	9606	313
+Q8NGP4	reviewed	Olfactory receptor 5M3 (Olfactory receptor OR11-191)	OR5M3	OR5M3		Homo sapiens (Human)	9606	307
+Q8TDS5	reviewed	Oxoeicosanoid receptor 1 (5-oxo-ETE G-protein coupled receptor) (G-protein coupled receptor 170) (G-protein coupled receptor R527) (G-protein coupled receptor TG1019)	OXER1 GPR170 TG1019	OXER1	GPR170 TG1019	Homo sapiens (Human)	9606	423
+Q96P68	reviewed	2-oxoglutarate receptor 1 (Alpha-ketoglutarate receptor 1) (G-protein coupled receptor 80) (G-protein coupled receptor 99) (P2Y purinoceptor 15) (P2Y15) (P2Y-like GPCR) (P2Y-like nucleotide receptor)	OXGR1 GPR80 GPR99 P2RY15 P2Y15	OXGR1	GPR80 GPR99 P2RY15 P2Y15	Homo sapiens (Human)	9606	337
+Q9HB89	reviewed	Neuromedin-U receptor 1 (NMU-R1) (G-protein coupled receptor 66) (G-protein coupled receptor FM-3)	NMUR1 GPR66	NMUR1	GPR66	Homo sapiens (Human)	9606	426
+Q9GZQ4	reviewed	Neuromedin-U receptor 2 (NMU-R2) (G-protein coupled receptor FM-4) (G-protein coupled receptor TGR-1)	NMUR2 NMU2R TGR1	NMUR2	NMU2R TGR1	Homo sapiens (Human)	9606	415
+Q9H1Y3	reviewed	Opsin-3 (Encephalopsin) (Panopsin)	OPN3 ECPN	OPN3	ECPN	Homo sapiens (Human)	9606	402
+Q8NGG2	reviewed	Olfactory receptor 5T2 (Olfactory receptor OR11-177)	OR5T2	OR5T2		Homo sapiens (Human)	9606	359
+Q8NH41	reviewed	Olfactory receptor 4K15 (Olfactory receptor OR14-20)	OR4K15	OR4K15		Homo sapiens (Human)	9606	348
+O14718	reviewed	Visual pigment-like receptor peropsin	RRH	RRH		Homo sapiens (Human)	9606	337
+O76000	reviewed	Putative olfactory receptor 2B3 (Hs6M1-1) (Olfactory receptor OR6-14) (OR6-4) (Olfactory receptor 6-4)	OR2B3 OR2B3P	OR2B3	OR2B3P	Homo sapiens (Human)	9606	313
+P58173	reviewed	Olfactory receptor 2B6 (Hs6M1-32) (Olfactory receptor 2B1) (Olfactory receptor 2B5) (Olfactory receptor 5-40) (OR5-40) (Olfactory receptor 6-31) (OR6-31) (Olfactory receptor OR6-4)	OR2B6 OR2B1 OR2B1P OR2B5 OR2B6P	OR2B6	OR2B1 OR2B1P OR2B5 OR2B6P	Homo sapiens (Human)	9606	313
+P59922	reviewed	Putative olfactory receptor 2B8 (Hs6M1-29P)	OR2B8P OR2B8	OR2B8P	OR2B8	Homo sapiens (Human)	9606	312
+Q5JQS5	reviewed	Olfactory receptor 2B11	OR2B11	OR2B11		Homo sapiens (Human)	9606	317
+Q8NGY2	reviewed	Olfactory receptor 6K2 (Olfactory receptor OR1-17)	OR6K2	OR6K2		Homo sapiens (Human)	9606	324
+Q8NGM9	reviewed	Olfactory receptor 8D4 (Olfactory receptor OR11-275)	OR8D4	OR8D4		Homo sapiens (Human)	9606	314
+Q8N628	reviewed	Olfactory receptor 2C3 (Olfactory receptor 2C4) (Olfactory receptor 2C5) (Olfactory receptor OR1-30)	OR2C3 OR2C4 OR2C5P	OR2C3	OR2C4 OR2C5P	Homo sapiens (Human)	9606	320
+Q8NGI4	reviewed	Olfactory receptor 4D11	OR4D11 OR4D11P	OR4D11	OR4D11P	Homo sapiens (Human)	9606	311
+P47887	reviewed	Olfactory receptor 1E2 (Olfactory receptor 17-93/17-135/17-136) (OR17-135) (OR17-136) (OR17-93) (Olfactory receptor 1E4)	OR1E2 OR1E4	OR1E2	OR1E4	Homo sapiens (Human)	9606	323
+Q96R08	reviewed	Olfactory receptor 5B12 (Olfactory receptor 5B16) (Olfactory receptor OR11-241)	OR5B12 OR5B12P OR5B16	OR5B12	OR5B12P OR5B16	Homo sapiens (Human)	9606	314
+A6NL26	reviewed	Olfactory receptor 5B21	OR5B21	OR5B21		Homo sapiens (Human)	9606	309
+Q8NH87	reviewed	Olfactory receptor 9G1 (Olfactory receptor 9G5) (Olfactory receptor OR11-114)	OR9G1 OR9G5	OR9G1	OR9G5	Homo sapiens (Human)	9606	305
+Q8NGQ1	reviewed	Olfactory receptor 9G4 (Olfactory receptor OR11-216)	OR9G4	OR9G4		Homo sapiens (Human)	9606	327
+O95221	reviewed	Olfactory receptor 5F1 (Olfactory receptor 11-10) (OR11-10) (Olfactory receptor OR11-167)	OR5F1	OR5F1		Homo sapiens (Human)	9606	314
+Q8NGR5	reviewed	Olfactory receptor 1L4 (OST046) (Olfactory receptor 1L5) (Olfactory receptor 9-E) (OR9-E) (Olfactory receptor OR9-29)	OR1L4 OR1L5	OR1L4	OR1L5	Homo sapiens (Human)	9606	311
+Q8NGR2	reviewed	Olfactory receptor 1L6 (Olfactory receptor 1L7) (Olfactory receptor OR9-30)	OR1L6 OR1L7	OR1L6	OR1L7	Homo sapiens (Human)	9606	347
+Q8NG95	reviewed	Olfactory receptor 7G3 (OST085) (Olfactory receptor OR19-9)	OR7G3	OR7G3		Homo sapiens (Human)	9606	312
+P0DMU2	reviewed	Putative olfactory receptor 8G3 pseudogene (Olfactory receptor OR11-297)	OR8G3P	OR8G3P		Homo sapiens (Human)	9606	310
+A6NGY5	reviewed	Olfactory receptor 51F1	OR51F1 OR51F1P	OR51F1	OR51F1P	Homo sapiens (Human)	9606	319
+Q8NGJ9	reviewed	Olfactory receptor 51T1 (Olfactory receptor OR11-26)	OR51T1	OR51T1		Homo sapiens (Human)	9606	327
+Q9H2C8	reviewed	Olfactory receptor 51V1 (Odorant receptor HOR3'beta1) (Olfactory receptor 51A12) (Olfactory receptor OR11-36)	OR51V1 OR51A12	OR51V1	OR51A12	Homo sapiens (Human)	9606	321
+Q9UKL2	reviewed	Olfactory receptor 52A1 (HPFH1OR) (Odorant receptor HOR3'beta4) (Olfactory receptor OR11-319)	OR52A1	OR52A1		Homo sapiens (Human)	9606	312
+A6NMU1	reviewed	Olfactory receptor 52A4	OR52A4P OR52A4	OR52A4P	OR52A4	Homo sapiens (Human)	9606	304
+Q9H2C5	reviewed	Olfactory receptor 52A5 (Odorant receptor HOR3'beta5) (Olfactory receptor OR11-33)	OR52A5	OR52A5		Homo sapiens (Human)	9606	316
+Q96RD2	reviewed	Olfactory receptor 52B2 (Olfactory receptor OR11-70)	OR52B2	OR52B2		Homo sapiens (Human)	9606	323
+Q8NGK2	reviewed	Olfactory receptor 52B4 (Olfactory receptor OR11-3)	OR52B4	OR52B4		Homo sapiens (Human)	9606	314
+O95222	reviewed	Olfactory receptor 6A2 (Olfactory receptor 11-55) (OR11-55) (Olfactory receptor 6A1) (Olfactory receptor OR11-83) (hP2 olfactory receptor)	OR6A2 OR6A1 OR6A2P	OR6A2	OR6A1 OR6A2P	Homo sapiens (Human)	9606	327
+O95007	reviewed	Olfactory receptor 6B1 (Olfactory receptor 7-3) (OR7-3) (Olfactory receptor OR7-9)	OR6B1	OR6B1		Homo sapiens (Human)	9606	311
+Q15619	reviewed	Olfactory receptor 1C1 (Olfactory receptor OR1-42) (Olfactory receptor TPCR27)	OR1C1	OR1C1		Homo sapiens (Human)	9606	314
+P0C604	reviewed	Olfactory receptor 4A8 (Olfactory receptor OR11-110)	OR4A8 OR4A8P	OR4A8	OR4A8P	Homo sapiens (Human)	9606	315
+Q96R67	reviewed	Olfactory receptor 4C12 (Olfactory receptor OR11-259)	OR4C12	OR4C12		Homo sapiens (Human)	9606	309
+Q96P65	reviewed	Pyroglutamylated RF-amide peptide receptor (AQ27) (G-protein coupled receptor 103) (Orexigenic neuropeptide QRFP receptor) (SP9155)	QRFPR GPR103	QRFPR	GPR103	Homo sapiens (Human)	9606	431
+Q8NFJ5	reviewed	Retinoic acid-induced protein 3 (G-protein coupled receptor family C group 5 member A) (Phorbol ester induced gene 1) (PEIG-1) (Retinoic acid-induced gene 1 protein) (RAIG-1)	GPRC5A GPCR5A RAI3 RAIG1	GPRC5A	GPCR5A RAI3 RAIG1	Homo sapiens (Human)	9606	357
+P49190	reviewed	Parathyroid hormone 2 receptor (PTH2 receptor)	PTH2R PTHR2	PTH2R	PTHR2	Homo sapiens (Human)	9606	550
+Q8IYL9	reviewed	Psychosine receptor (G-protein coupled receptor 65) (T-cell death-associated gene 8 protein)	GPR65 TDAG8	GPR65	TDAG8	Homo sapiens (Human)	9606	337
+P25105	reviewed	Platelet-activating factor receptor (PAF-R) (PAFr)	PTAFR PAFR	PTAFR	PAFR	Homo sapiens (Human)	9606	342
+Q13258	reviewed	Prostaglandin D2 receptor (PGD receptor) (PGD2 receptor) (Prostanoid DP receptor)	PTGDR	PTGDR		Homo sapiens (Human)	9606	359
+Q8TCW9	reviewed	Prokineticin receptor 1 (PK-R1) (G-protein coupled receptor 73) (G-protein coupled receptor ZAQ) (GPR73a)	PROKR1 GPR73 PKR1	PROKR1	GPR73 PKR1	Homo sapiens (Human)	9606	393
+Q8NFJ6	reviewed	Prokineticin receptor 2 (PK-R2) (G-protein coupled receptor 73-like 1) (G-protein coupled receptor I5E) (GPR73b) (GPRg2)	PROKR2 GPR73L1 PKR2	PROKR2	GPR73L1 PKR2	Homo sapiens (Human)	9606	384
+Q96G91	reviewed	P2Y purinoceptor 11 (P2Y11)	P2RY11	P2RY11		Homo sapiens (Human)	9606	374
+Q9Y5Y4	reviewed	Prostaglandin D2 receptor 2 (Chemoattractant receptor-homologous molecule expressed on Th2 cells) (G-protein coupled receptor 44) (CD antigen CD294)	PTGDR2 CRTH2 DL1R GPR44	PTGDR2	CRTH2 DL1R GPR44	Homo sapiens (Human)	9606	395
+P43115	reviewed	Prostaglandin E2 receptor EP3 subtype (PGE receptor EP3 subtype) (PGE2 receptor EP3 subtype) (PGE2-R) (Prostanoid EP3 receptor)	PTGER3	PTGER3		Homo sapiens (Human)	9606	390
+P35408	reviewed	Prostaglandin E2 receptor EP4 subtype (PGE receptor EP4 subtype) (PGE2 receptor EP4 subtype) (Prostanoid EP4 receptor)	PTGER4 PTGER2	PTGER4	PTGER2	Homo sapiens (Human)	9606	488
+Q9UHM6	reviewed	Melanopsin (Opsin-4)	OPN4 MOP	OPN4	MOP	Homo sapiens (Human)	9606	478
+Q8NGB6	reviewed	Olfactory receptor 4M2 (Olfactory receptor OR15-3)	OR4M2	OR4M2		Homo sapiens (Human)	9606	313
+Q8NGD1	reviewed	Olfactory receptor 4N2 (Olfactory receptor OR14-13) (Olfactory receptor OR14-8)	OR4N2	OR4N2		Homo sapiens (Human)	9606	307
+Q8N0Y3	reviewed	Olfactory receptor 4N4 (Olfactory receptor OR15-1) (Olfactory receptor OR15-5)	OR4N4	OR4N4		Homo sapiens (Human)	9606	316
+O95047	reviewed	Olfactory receptor 2A4 (Olfactory receptor 2A10) (Olfactory receptor OR6-37)	OR2A4 OR2A10	OR2A4	OR2A10	Homo sapiens (Human)	9606	310
+Q96R48	reviewed	Olfactory receptor 2A5 (Olfactory receptor 2A26) (Olfactory receptor 2A8) (Olfactory receptor 7-138/7-141) (OR7-138) (OR7-141)	OR2A5 OR2A26 OR2A8	OR2A5	OR2A26 OR2A8	Homo sapiens (Human)	9606	311
+Q9GZK3	reviewed	Olfactory receptor 2B2 (Hs6M1-10) (Olfactory receptor 2B9) (Olfactory receptor 6-1) (OR6-1)	OR2B2 OR2B9	OR2B2	OR2B9	Homo sapiens (Human)	9606	357
+Q6IFH4	reviewed	Olfactory receptor 6B2 (Olfactory receptor OR2-1)	OR6B2 OR6B2P	OR6B2	OR6B2P	Homo sapiens (Human)	9606	312
+Q8NGB2	reviewed	Olfactory receptor 4C5 (Olfactory receptor OR11-99)	OR4C5	OR4C5		Homo sapiens (Human)	9606	326
+Q15620	reviewed	Olfactory receptor 8B8 (Olfactory receptor TPCR85) (Olfactory-like receptor JCG8)	OR8B8	OR8B8		Homo sapiens (Human)	9606	311
+Q8NGG6	reviewed	Olfactory receptor 8B12 (Olfactory receptor OR11-317)	OR8B12	OR8B12		Homo sapiens (Human)	9606	310
+Q8WZ84	reviewed	Olfactory receptor 8D1 (OST004) (Olfactory receptor 8D3) (Olfactory receptor OR11-301) (Olfactory receptor-like protein JCG9)	OR8D1 OR8D3	OR8D1	OR8D3	Homo sapiens (Human)	9606	308
+Q8NGL9	reviewed	Olfactory receptor 4C16 (Olfactory receptor OR11-135)	OR4C16	OR4C16		Homo sapiens (Human)	9606	310
+Q8NGY3	reviewed	Olfactory receptor 6K3 (Olfactory receptor OR1-18)	OR6K3	OR6K3		Homo sapiens (Human)	9606	331
+Q8NG78	reviewed	Olfactory receptor 8G5 (Olfactory receptor 8G6) (Olfactory receptor OR11-298)	OR8G5 OR8G5P OR8G6	OR8G5	OR8G5P OR8G6	Homo sapiens (Human)	9606	346
+Q8NGM8	reviewed	Olfactory receptor 6M1 (Olfactory receptor OR11-271)	OR6M1	OR6M1		Homo sapiens (Human)	9606	313
+Q8NGJ0	reviewed	Olfactory receptor 5A1 (OST181) (Olfactory receptor OR11-249)	OR5A1 OR5A1P	OR5A1	OR5A1P	Homo sapiens (Human)	9606	315
+Q8NGG5	reviewed	Olfactory receptor 8K1 (Olfactory receptor OR11-182)	OR8K1	OR8K1		Homo sapiens (Human)	9606	319
+Q8N148	reviewed	Olfactory receptor 6V1 (Olfactory receptor OR7-3)	OR6V1	OR6V1		Homo sapiens (Human)	9606	313
+Q8NH79	reviewed	Olfactory receptor 6X1 (Olfactory receptor OR11-270)	OR6X1	OR6X1		Homo sapiens (Human)	9606	312
+Q8NGT5	reviewed	Olfactory receptor 9A2 (Olfactory receptor OR7-2)	OR9A2	OR9A2		Homo sapiens (Human)	9606	310
+Q8NH21	reviewed	Olfactory receptor 4F5	OR4F5	OR4F5		Homo sapiens (Human)	9606	305
+O43749	reviewed	Olfactory receptor 1F1 (Olfactory receptor 16-35) (OR16-35) (Olfactory receptor 1F10) (Olfactory receptor 1F4) (Olfactory receptor 1F5) (Olfactory receptor 1F6) (Olfactory receptor 1F7) (Olfactory receptor 1F8) (Olfactory receptor 1F9) (Olfactory receptor OR16-4)	OR1F1 OLFMF OR1F10 OR1F4 OR1F5 OR1F6 OR1F7 OR1F8 OR1F9	OR1F1	OLFMF OR1F10 OR1F4 OR1F5 OR1F6 OR1F7 OR1F8 OR1F9	Homo sapiens (Human)	9606	312
+P0C7N8	reviewed	Olfactory receptor 9G9	OR9G9	OR9G9		Homo sapiens (Human)	9606	305
+Q8NGE7	reviewed	Olfactory receptor 9K2 (Olfactory receptor OR12-2)	OR9K2	OR9K2		Homo sapiens (Human)	9606	335
+Q8NGD3	reviewed	Olfactory receptor 4K5 (Olfactory receptor OR14-16)	OR4K5	OR4K5		Homo sapiens (Human)	9606	323
+Q15622	reviewed	Olfactory receptor 7A5 (Olfactory receptor OR19-17) (Olfactory receptor TPCR92)	OR7A5	OR7A5		Homo sapiens (Human)	9606	319
+Q8NGS1	reviewed	Olfactory receptor 1J4 (HTPCRX01) (Olfactory receptor OR9-21)	OR1J4	OR1J4		Homo sapiens (Human)	9606	313
+A6NKK0	reviewed	Olfactory receptor 5H1 (HTPCRX14)	OR5H1	OR5H1		Homo sapiens (Human)	9606	313
+Q8NH94	reviewed	Olfactory receptor 1L1 (Olfactory receptor 1L2) (Olfactory receptor 9-C) (OR9-C) (Olfactory receptor OR9-27)	OR1L1 OR1L2	OR1L1	OR1L2	Homo sapiens (Human)	9606	360
+Q8NH18	reviewed	Olfactory receptor 5J2 (Olfactory receptor OR11-266)	OR5J2	OR5J2		Homo sapiens (Human)	9606	312
+Q8NG80	reviewed	Olfactory receptor 2L5 (Olfactory receptor 2L11) (Olfactory receptor OR1-53)	OR2L5 OR2L11	OR2L5	OR2L11	Homo sapiens (Human)	9606	312
+Q8NH92	reviewed	Olfactory receptor 1S1 (Olfactory receptor OR11-232)	OR1S1	OR1S1		Homo sapiens (Human)	9606	325
+Q8WZ94	reviewed	Olfactory receptor 5P3 (Olfactory receptor OR11-94) (Olfactory receptor-like protein JCG1)	OR5P3	OR5P3		Homo sapiens (Human)	9606	311
+Q8NH85	reviewed	Olfactory receptor 5R1 (Olfactory receptor OR11-185)	OR5R1 OR5R1P	OR5R1	OR5R1P	Homo sapiens (Human)	9606	324
+Q6IEZ7	reviewed	Olfactory receptor 2T5 (Olfactory receptor OR1-62)	OR2T5	OR2T5		Homo sapiens (Human)	9606	315
+Q96R30	reviewed	Olfactory receptor 2V2 (Olfactory receptor 2V3) (Olfactory receptor OR5-3)	OR2V2 OR2V3	OR2V2	OR2V3	Homo sapiens (Human)	9606	315
+Q8NGV0	reviewed	Olfactory receptor 2Y1 (Olfactory receptor OR5-2)	OR2Y1	OR2Y1		Homo sapiens (Human)	9606	311
+Q86VZ1	reviewed	P2Y purinoceptor 8 (P2Y8)	P2RY8	P2RY8		Homo sapiens (Human)	9606	359
+Q9H244	reviewed	P2Y purinoceptor 12 (P2Y12) (ADP-glucose receptor) (ADPG-R) (P2T(AC)) (P2Y(AC)) (P2Y(cyc)) (P2Y12 platelet ADP receptor) (P2Y(ADP)) (SP1999)	P2RY12 HORK3	P2RY12	HORK3	Homo sapiens (Human)	9606	342
+Q6U736	reviewed	Opsin-5 (G-protein coupled receptor 136) (G-protein coupled receptor PGR12) (Neuropsin) (Transmembrane protein 13)	OPN5 GPR136 PGR12 TMEM13	OPN5	GPR136 PGR12 TMEM13	Homo sapiens (Human)	9606	354
+P41145	reviewed	Kappa-type opioid receptor (K-OR-1) (KOR-1)	OPRK1 OPRK	OPRK1	OPRK	Homo sapiens (Human)	9606	380
+Q8NGG3	reviewed	Olfactory receptor 5T3 (Olfactory receptor OR11-178)	OR5T3	OR5T3		Homo sapiens (Human)	9606	340
+Q9UGF6	reviewed	Olfactory receptor 5V1 (Hs6M1-21) (Olfactory receptor OR6-26)	OR5V1	OR5V1		Homo sapiens (Human)	9606	321
+Q8NGC6	reviewed	Olfactory receptor 4K17 (Olfactory receptor OR14-29)	OR4K17	OR4K17		Homo sapiens (Human)	9606	315
+Q8NH43	reviewed	Olfactory receptor 4L1 (Olfactory receptor 4L2) (Olfactory receptor OR14-28)	OR4L1 OR4L2P	OR4L1	OR4L2P	Homo sapiens (Human)	9606	312
+Q6IF42	reviewed	Olfactory receptor 2A2 (Olfactory receptor 2A17) (Olfactory receptor OR7-11)	OR2A2 OR2A17P OR2A2P	OR2A2	OR2A17P OR2A2P	Homo sapiens (Human)	9606	318
+Q8NH73	reviewed	Olfactory receptor 4S2 (Olfactory receptor OR11-137)	OR4S2 OR4S2P	OR4S2	OR4S2P	Homo sapiens (Human)	9606	311
+Q8NH49	reviewed	Olfactory receptor 4X1 (Olfactory receptor OR11-104)	OR4X1	OR4X1		Homo sapiens (Human)	9606	305
+Q9P1Q5	reviewed	Olfactory receptor 1A1 (Olfactory receptor 17-7) (OR17-7) (Olfactory receptor OR17-11)	OR1A1	OR1A1		Homo sapiens (Human)	9606	309
+Q8NGG7	reviewed	Olfactory receptor 8A1 (OST025) (Olfactory receptor OR11-318)	OR8A1	OR8A1		Homo sapiens (Human)	9606	326
+Q96RD0	reviewed	Olfactory receptor 8B2 (Olfactory receptor OR11-309)	OR8B2	OR8B2		Homo sapiens (Human)	9606	313
+P58170	reviewed	Olfactory receptor 1D5 (Olfactory receptor 17-31) (OR17-31)	OR1D5	OR1D5		Homo sapiens (Human)	9606	312
+Q8NGQ2	reviewed	Olfactory receptor 6Q1 (Olfactory receptor OR11-226)	OR6Q1	OR6Q1		Homo sapiens (Human)	9606	317
+Q8NGG1	reviewed	Olfactory receptor 8J2	OR8J2 OR8J2P	OR8J2	OR8J2P	Homo sapiens (Human)	9606	315
+Q13607	reviewed	Olfactory receptor 2F1 (Olfactory receptor 2F3) (Olfactory receptor 2F4) (Olfactory receptor 2F5) (Olfactory receptor-like protein OLF3)	OR2F1 OLF3 OR2F3 OR2F3P OR2F4 OR2F5	OR2F1	OLF3 OR2F3 OR2F3P OR2F4 OR2F5	Homo sapiens (Human)	9606	317
+Q8NGZ5	reviewed	Olfactory receptor 2G2 (Olfactory receptor OR1-32)	OR2G2	OR2G2		Homo sapiens (Human)	9606	317
+Q8NH10	reviewed	Olfactory receptor 8U1	OR8U1	OR8U1		Homo sapiens (Human)	9606	309
+Q6IEY1	reviewed	Olfactory receptor 4F3/4F16/4F29 (Olfactory receptor OR1-1)	OR4F3; OR4F16; OR4F29	OR4F3; OR4F16; OR4F29	; ; 	Homo sapiens (Human)	9606	312
+Q8NGK9	reviewed	Olfactory receptor 5D16 (Olfactory receptor OR11-154)	OR5D16	OR5D16		Homo sapiens (Human)	9606	328
+P0DN80	reviewed	Olfactory receptor 5H8 (Olfactory receptor 5H8 pseudogene) (Olfactory receptor OR3-7)	OR5H8 OR5H8P	OR5H8	OR5H8P	Homo sapiens (Human)	9606	308
+Q13606	reviewed	Olfactory receptor 5I1 (Olfactory receptor OR11-159) (Olfactory receptor-like protein OLF1)	OR5I1 OLF1	OR5I1	OLF1	Homo sapiens (Human)	9606	314
+Q8NG99	reviewed	Olfactory receptor 7G2 (OST260) (Olfactory receptor 19-13) (OR19-13) (Olfactory receptor OR19-6)	OR7G2	OR7G2		Homo sapiens (Human)	9606	324
+Q96R28	reviewed	Olfactory receptor 2M2 (OST423)	OR2M2	OR2M2		Homo sapiens (Human)	9606	347
+Q6IF00	reviewed	Olfactory receptor 2T2 (Olfactory receptor OR1-43)	OR2T2 OR2T2P	OR2T2	OR2T2P	Homo sapiens (Human)	9606	324
+P41146	reviewed	Nociceptin receptor (Kappa-type 3 opioid receptor) (KOR-3) (Orphanin FQ receptor)	OPRL1 OOR ORL1	OPRL1	OOR ORL1	Homo sapiens (Human)	9606	370
+P41143	reviewed	Delta-type opioid receptor (D-OR-1) (DOR-1)	OPRD1 OPRD	OPRD1	OPRD	Homo sapiens (Human)	9606	372
+Q8NGD0	reviewed	Olfactory receptor 4M1 (Olfactory receptor OR14-7)	OR4M1	OR4M1		Homo sapiens (Human)	9606	313
+P47881	reviewed	Olfactory receptor 3A1 (Olfactory receptor 17-40) (OR17-40) (Olfactory receptor OR17-15)	OR3A1 OLFRA03	OR3A1	OLFRA03	Homo sapiens (Human)	9606	315
+Q8NH05	reviewed	Olfactory receptor 4Q3 (Olfactory receptor 4Q4) (Olfactory receptor OR14-3)	OR4Q3 C14orf13 OR4Q4	OR4Q3	C14orf13 OR4Q4	Homo sapiens (Human)	9606	313
+Q96R45	reviewed	Olfactory receptor 2A7 (Olfactory receptor OR7-18)	OR2A7	OR2A7		Homo sapiens (Human)	9606	310
+P47893	reviewed	Olfactory receptor 3A2 (Olfactory receptor 17-228) (OR17-228) (Olfactory receptor OR17-14)	OR3A2 OLFRA04	OR3A2	OLFRA04	Homo sapiens (Human)	9606	321
+P47888	reviewed	Olfactory receptor 3A3 (Olfactory receptor 17-201) (OR17-201) (Olfactory receptor 3A6) (Olfactory receptor 3A7) (Olfactory receptor 3A8) (Olfactory receptor OR17-22)	OR3A3 OR3A6 OR3A7 OR3A8P	OR3A3	OR3A6 OR3A7 OR3A8P	Homo sapiens (Human)	9606	321
+Q8NH83	reviewed	Olfactory receptor 4A5 (Olfactory receptor OR11-111)	OR4A5	OR4A5		Homo sapiens (Human)	9606	315
+Q6IEV9	reviewed	Olfactory receptor 4C11 (Olfactory receptor OR11-136)	OR4C11 OR4C11P	OR4C11	OR4C11P	Homo sapiens (Human)	9606	310
+Q8NGP0	reviewed	Olfactory receptor 4C13 (Olfactory receptor OR11-260)	OR4C13	OR4C13		Homo sapiens (Human)	9606	309
+Q8NGJ1	reviewed	Olfactory receptor 4D6 (Olfactory receptor OR11-250)	OR4D6	OR4D6		Homo sapiens (Human)	9606	314
+Q8NH40	reviewed	Olfactory receptor 6S1 (Olfactory receptor OR14-37)	OR6S1	OR6S1		Homo sapiens (Human)	9606	331
+P0C7N5	reviewed	Olfactory receptor 8U9	OR8U9	OR8U9		Homo sapiens (Human)	9606	309
+Q8NGF7	reviewed	Olfactory receptor 5B17 (Olfactory receptor 5B20) (Olfactory receptor OR11-237)	OR5B17 OR5B20P	OR5B17	OR5B20P	Homo sapiens (Human)	9606	314
+Q8NHA8	reviewed	Olfactory receptor 1F12 (Hs6M1-35P)	OR1F12 OR1F12P	OR1F12	OR1F12P	Homo sapiens (Human)	9606	337
+Q96R72	reviewed	Olfactory receptor 4K3 (Olfactory receptor OR14-14)	OR4K3 OR4K3P	OR4K3	OR4K3P	Homo sapiens (Human)	9606	315
+O76002	reviewed	Olfactory receptor 2J2 (Hs6M1-6) (Olfactory receptor 6-8) (OR6-8) (Olfactory receptor OR6-19)	OR2J2	OR2J2		Homo sapiens (Human)	9606	312
+O76001	reviewed	Olfactory receptor 2J3 (Hs6M1-3) (Olfactory receptor OR6-16) (OR6-6) (Olfactory receptor 6-6)	OR2J3	OR2J3		Homo sapiens (Human)	9606	311
+Q96RA2	reviewed	Olfactory receptor 7D2 (HTPCRH03) (Olfactory receptor 19-4) (OR19-4) (Olfactory receptor OR19-10)	OR7D2	OR7D2		Homo sapiens (Human)	9606	312
+Q8NH16	reviewed	Olfactory receptor 2L2 (HTPCRH07) (Olfactory receptor 2L12) (Olfactory receptor 2L4)	OR2L2 OR2L12 OR2L4P	OR2L2	OR2L12 OR2L4P	Homo sapiens (Human)	9606	312
+Q8NGS0	reviewed	Olfactory receptor 1N1 (Olfactory receptor 1-26) (OR1-26) (Olfactory receptor 1N3) (Olfactory receptor OR9-22)	OR1N1 OR1N3	OR1N1	OR1N3	Homo sapiens (Human)	9606	311
+Q8NH06	reviewed	Olfactory receptor 1P1 (Olfactory receptor 17-208) (OR17-208) (Olfactory receptor OR17-9)	OR1P1 OR1P1P	OR1P1	OR1P1P	Homo sapiens (Human)	9606	330
+Q15612	reviewed	Olfactory receptor 1Q1 (OST226) (Olfactory receptor 1Q2) (Olfactory receptor 1Q3) (Olfactory receptor 9-A) (OR9-A) (Olfactory receptor OR9-25) (Olfactory receptor TPCR106)	OR1Q1 OR1Q2 OR1Q3	OR1Q1	OR1Q2 OR1Q3	Homo sapiens (Human)	9606	314
+Q6IEU7	reviewed	Olfactory receptor 5M10 (Olfactory receptor OR11-207)	OR5M10	OR5M10		Homo sapiens (Human)	9606	315
+Q8NG81	reviewed	Olfactory receptor 2M7 (Olfactory receptor OR1-58)	OR2M7	OR2M7		Homo sapiens (Human)	9606	312
+Q8NG75	reviewed	Olfactory receptor 5T1 (Olfactory receptor OR11-179)	OR5T1 OR5T1P	OR5T1	OR5T1P	Homo sapiens (Human)	9606	326
+P0C7T2	reviewed	Olfactory receptor 2T7 (OST723) (olfactory receptor OR1-44)	OR2T7 OR2T7P	OR2T7	OR2T7P	Homo sapiens (Human)	9606	308
+Q8NHB1	reviewed	Olfactory receptor 2V1	OR2V1	OR2V1		Homo sapiens (Human)	9606	315
+Q9Y3N9	reviewed	Olfactory receptor 2W1 (Hs6M1-15) (Olfactory receptor OR6-13)	OR2W1	OR2W1		Homo sapiens (Human)	9606	320
+Q8NHA6	reviewed	Putative olfactory receptor 2W6 (Olfactory receptor OR6-3) (Putative olfactory receptor 2W7)	OR2W6P OR2W7P	OR2W6P	OR2W7P	Homo sapiens (Human)	9606	318
+P41231	reviewed	P2Y purinoceptor 2 (P2Y2) (ATP receptor) (P2U purinoceptor 1) (P2U1) (P2U receptor 1) (Purinergic receptor)	P2RY2 P2RU1	P2RY2	P2RU1	Homo sapiens (Human)	9606	377
+Q8NGL6	reviewed	Olfactory receptor 4A15 (Olfactory receptor OR11-118)	OR4A15	OR4A15		Homo sapiens (Human)	9606	344
+Q8NH70	reviewed	Olfactory receptor 4A16 (Olfactory receptor OR11-117)	OR4A16	OR4A16		Homo sapiens (Human)	9606	328
+Q6IF82	reviewed	Olfactory receptor 4A47 (Olfactory receptor OR11-113)	OR4A47	OR4A47		Homo sapiens (Human)	9606	309
+A6NMZ5	reviewed	Olfactory receptor 4C45	OR4C45	OR4C45		Homo sapiens (Human)	9606	311
+A6NHA9	reviewed	Olfactory receptor 4C46	OR4C46	OR4C46		Homo sapiens (Human)	9606	309
+Q8NGB8	reviewed	Olfactory receptor 4F15 (Olfactory receptor OR15-14)	OR4F15	OR4F15		Homo sapiens (Human)	9606	312
+Q8NGA8	reviewed	Olfactory receptor 4F17 (Olfactory receptor 4F11) (Olfactory receptor 4F18) (Olfactory receptor 4F19)	OR4F17 OR4F11P OR4F18 OR4F19	OR4F17	OR4F11P OR4F18 OR4F19	Homo sapiens (Human)	9606	305
+O95013	reviewed	Olfactory receptor 4F21	OR4F21 OR4F21P	OR4F21	OR4F21P	Homo sapiens (Human)	9606	312
+Q8NGJ7	reviewed	Olfactory receptor 51A2	OR51A2	OR51A2		Homo sapiens (Human)	9606	313
+Q8NGJ6	reviewed	Olfactory receptor 51A4	OR51A4	OR51A4		Homo sapiens (Human)	9606	313
+Q8NH64	reviewed	Olfactory receptor 51A7 (Olfactory receptor OR11-27)	OR51A7	OR51A7		Homo sapiens (Human)	9606	312
+Q9Y5P1	reviewed	Olfactory receptor 51B2 (Odorant receptor HOR5'beta3) (Olfactory receptor 51B1)	OR51B2 OR51B1P	OR51B2	OR51B1P	Homo sapiens (Human)	9606	312
+Q9Y5P0	reviewed	Olfactory receptor 51B4 (Odorant receptor HOR5'beta1)	OR51B4	OR51B4		Homo sapiens (Human)	9606	310
+Q9H339	reviewed	Olfactory receptor 51B5 (Odorant receptor HOR5'beta5) (Olfactory receptor OR11-37)	OR51B5	OR51B5		Homo sapiens (Human)	9606	312
+Q9H340	reviewed	Olfactory receptor 51B6 (Odorant receptor HOR5'beta6)	OR51B6	OR51B6		Homo sapiens (Human)	9606	312
+Q8NGF3	reviewed	Olfactory receptor 51D1 (Olfactory receptor OR11-14)	OR51D1	OR51D1		Homo sapiens (Human)	9606	324
+Q8TCB6	reviewed	Olfactory receptor 51E1 (D-GPCR) (G-protein coupled receptor 164) (Olfactory receptor 52A3) (Prostate-overexpressed G protein-coupled receptor) (Prostate-specific G protein-coupled receptor 2)	OR51E1 GPR164 OR51E1P OR52A3P POGR PSGR2	OR51E1	GPR164 OR51E1P OR52A3P POGR PSGR2	Homo sapiens (Human)	9606	317
+Q9H255	reviewed	Olfactory receptor 51E2 (HPRAJ) (Olfactory receptor OR11-16) (Prostate-specific G-protein coupled receptor)	OR51E2 PSGR	OR51E2	PSGR	Homo sapiens (Human)	9606	320
+Q8NH61	reviewed	Olfactory receptor 51F2 (Olfactory receptor OR11-23)	OR51F2	OR51F2		Homo sapiens (Human)	9606	342
+Q8NGK1	reviewed	Olfactory receptor 51G1 (Olfactory receptor 51G3) (Olfactory receptor OR11-29)	OR51G1 OR51G3P	OR51G1	OR51G3P	Homo sapiens (Human)	9606	321
+Q8NGK0	reviewed	Olfactory receptor 51G2 (Olfactory receptor OR11-28)	OR51G2	OR51G2		Homo sapiens (Human)	9606	314
+Q8NH63	reviewed	Olfactory receptor 51H1 (Olfactory receptor OR11-25)	OR51H1 OR51H1P	OR51H1	OR51H1P	Homo sapiens (Human)	9606	302
+Q9H343	reviewed	Olfactory receptor 51I1 (Odorant receptor HOR5'beta11) (Olfactory receptor OR11-39)	OR51I1	OR51I1		Homo sapiens (Human)	9606	314
+Q9H344	reviewed	Olfactory receptor 51I2 (Odorant receptor HOR5'beta12) (Olfactory receptor OR11-38)	OR51I2	OR51I2		Homo sapiens (Human)	9606	312
+Q9H342	reviewed	Olfactory receptor 51J1 (Odorant receptor HOR5'beta8) (Olfactory receptor 51J2)	OR51J1 OR51J1P OR51J2	OR51J1	OR51J1P OR51J2	Homo sapiens (Human)	9606	316
+Q8NGJ5	reviewed	Olfactory receptor 51L1 (Olfactory receptor OR11-31)	OR51L1	OR51L1		Homo sapiens (Human)	9606	315
+Q9H341	reviewed	Olfactory receptor 51M1 (Odorant receptor HOR5'beta7) (Olfactory receptor OR11-40)	OR51M1	OR51M1		Homo sapiens (Human)	9606	326
+Q8NH59	reviewed	Olfactory receptor 51Q1	OR51Q1	OR51Q1		Homo sapiens (Human)	9606	317
+Q8NGJ8	reviewed	Olfactory receptor 51S1 (Olfactory receptor OR11-24)	OR51S1	OR51S1		Homo sapiens (Human)	9606	323
+Q8NGW1	reviewed	Olfactory receptor 6B3 (Olfactory receptor OR2-2)	OR6B3 OR6B3P	OR6B3	OR6B3P	Homo sapiens (Human)	9606	331
+Q8NGN8	reviewed	Putative olfactory receptor 4A4 (Olfactory receptor OR11-107)	OR4A4P	OR4A4P		Homo sapiens (Human)	9606	299
+Q8NGE1	reviewed	Olfactory receptor 6C4 (Olfactory receptor OR12-10)	OR6C4	OR6C4		Homo sapiens (Human)	9606	309
+A6NF89	reviewed	Olfactory receptor 6C6	OR6C6	OR6C6		Homo sapiens (Human)	9606	314
+Q8NGZ6	reviewed	Olfactory receptor 6F1 (Olfactory receptor OR1-38)	OR6F1	OR6F1		Homo sapiens (Human)	9606	308
+O95371	reviewed	Olfactory receptor 2C1 (OLFmf3) (Olfactory receptor 2C2) (Olfactory receptor OR16-1) (Olfactory receptor OR16-2)	OR2C1 OR2C2P	OR2C1	OR2C2P	Homo sapiens (Human)	9606	312
+Q8NGM1	reviewed	Olfactory receptor 4C15 (Olfactory receptor OR11-127) (Olfactory receptor OR11-134)	OR4C15	OR4C15		Homo sapiens (Human)	9606	316
+Q8NGI9	reviewed	Olfactory receptor 5A2 (Olfactory receptor OR11-248)	OR5A2	OR5A2		Homo sapiens (Human)	9606	324
+Q8NGI6	reviewed	Olfactory receptor 4D10 (Olfactory receptor OR11-251)	OR4D10 OR4D10P	OR4D10	OR4D10P	Homo sapiens (Human)	9606	311
+P0C7N1	reviewed	Olfactory receptor 8U8	OR8U8	OR8U8		Homo sapiens (Human)	9606	319
+Q9GZK6	reviewed	Olfactory receptor 2J1 (Hs6M1-4) (Olfactory receptor 6-5) (OR6-5)	OR2J1 OR2J1P	OR2J1	OR2J1P	Homo sapiens (Human)	9606	312
+Q8NGS2	reviewed	Olfactory receptor 1J2 (HSA5) (HTPCRX15) (OST044) (Olfactory receptor 1J3) (Olfactory receptor 1J5) (Olfactory receptor OR9-19)	OR1J2 OR1J3 OR1J5	OR1J2	OR1J3 OR1J5	Homo sapiens (Human)	9606	313
+Q8NGR3	reviewed	Olfactory receptor 1K1	OR1K1	OR1K1		Homo sapiens (Human)	9606	316
+Q8NGV7	reviewed	Olfactory receptor 5H2 (Olfactory receptor OR3-10)	OR5H2	OR5H2		Homo sapiens (Human)	9606	314
+Q8NHB8	reviewed	Olfactory receptor 5K2 (Olfactory receptor OR3-9)	OR5K2	OR5K2		Homo sapiens (Human)	9606	316
+A6NMS3	reviewed	Olfactory receptor 5K4	OR5K4	OR5K4		Homo sapiens (Human)	9606	321
+Q8NGL2	reviewed	Olfactory receptor 5L1 (OST262) (Olfactory receptor OR11-151)	OR5L1	OR5L1		Homo sapiens (Human)	9606	311
+Q8NGL0	reviewed	Olfactory receptor 5L2 (HTPCRX16) (Olfactory receptor OR11-153)	OR5L2	OR5L2		Homo sapiens (Human)	9606	311
+Q8NGY9	reviewed	Olfactory receptor 2L8 (Olfactory receptor OR1-46)	OR2L8	OR2L8		Homo sapiens (Human)	9606	312
+Q8NG83	reviewed	Olfactory receptor 2M3 (Olfactory receptor 2M6) (Olfactory receptor OR1-54)	OR2M3 OR2M3P OR2M6	OR2M3	OR2M3P OR2M6	Homo sapiens (Human)	9606	312
+Q8NGP3	reviewed	Olfactory receptor 5M9 (Olfactory receptor OR11-190)	OR5M9	OR5M9		Homo sapiens (Human)	9606	310
+Q8WZ92	reviewed	Olfactory receptor 5P2 (Olfactory receptor-like protein JCG3)	OR5P2	OR5P2		Homo sapiens (Human)	9606	322
+Q8NH69	reviewed	Olfactory receptor 5W2 (Olfactory receptor 5W3) (Olfactory receptor OR11-155)	OR5W2 OR5W2P OR5W3P	OR5W2	OR5W2P OR5W3P	Homo sapiens (Human)	9606	310
+P47883	reviewed	Putative olfactory receptor 3A4 (Olfactory receptor 17-24) (OR17-24) (Olfactory receptor 3A5)	OR3A4P OR3A4 OR3A5P	OR3A4P	OR3A4 OR3A5P	Homo sapiens (Human)	9606	348
+Q9Y585	reviewed	Olfactory receptor 1A2 (Olfactory receptor 17-6) (OR17-6) (Olfactory receptor OR17-10)	OR1A2	OR1A2		Homo sapiens (Human)	9606	309
+Q8NGR6	reviewed	Olfactory receptor 1B1 (Olfactory receptor 9-B) (OR9-B) (Olfactory receptor OR9-26)	OR1B1	OR1B1		Homo sapiens (Human)	9606	318
+Q8NGG4	reviewed	Olfactory receptor 8H1 (Olfactory receptor OR11-180)	OR8H1	OR8H1		Homo sapiens (Human)	9606	311
+O95006	reviewed	Olfactory receptor 2F2 (Olfactory receptor 7-1) (OR7-1) (Olfactory receptor OR7-6)	OR2F2	OR2F2		Homo sapiens (Human)	9606	317
+Q8NGN1	reviewed	Olfactory receptor 6T1 (Olfactory receptor OR11-277)	OR6T1	OR6T1		Homo sapiens (Human)	9606	323
+P0C645	reviewed	Olfactory receptor 4E1 (Olfactory receptor OR14-43)	OR4E1 OR4E1P	OR4E1	OR4E1P	Homo sapiens (Human)	9606	315
+Q96R84	reviewed	Putative olfactory receptor 1F2 (OLFmf2)	OR1F2P OR1F2	OR1F2P	OR1F2	Homo sapiens (Human)	9606	312
+Q8NGD2	reviewed	Olfactory receptor 4K2 (Olfactory receptor OR14-15)	OR4K2	OR4K2		Homo sapiens (Human)	9606	314
+Q8NH93	reviewed	Olfactory receptor 1L3 (Olfactory receptor 9-D) (OR9-D) (Olfactory receptor OR9-28)	OR1L3	OR1L3		Homo sapiens (Human)	9606	324
+Q8NGR8	reviewed	Olfactory receptor 1L8 (Olfactory receptor OR9-24)	OR1L8	OR1L8		Homo sapiens (Human)	9606	309
+Q8NG85	reviewed	Olfactory receptor 2L3	OR2L3	OR2L3		Homo sapiens (Human)	9606	312
+Q8N349	reviewed	Olfactory receptor 2L13 (Olfactory receptor 2L14)	OR2L13 OR2L14	OR2L13	OR2L14	Homo sapiens (Human)	9606	312
+O43869	reviewed	Olfactory receptor 2T1 (Olfactory receptor 1-25) (OR1-25) (Olfactory receptor OR1-61)	OR2T1	OR2T1		Homo sapiens (Human)	9606	369
+Q8NH00	reviewed	Olfactory receptor 2T4 (Olfactory receptor OR1-60)	OR2T4	OR2T4		Homo sapiens (Human)	9606	348
+Q8NHC8	reviewed	Olfactory receptor 2T6 (OST703) (Olfactory receptor 2T9)	OR2T6 OR2T6P OR2T9	OR2T6	OR2T6P OR2T9	Homo sapiens (Human)	9606	308
+A6NH00	reviewed	Olfactory receptor 2T8	OR2T8 OR2T8P	OR2T8	OR2T8P	Homo sapiens (Human)	9606	312
+Q7Z3T1	reviewed	Olfactory receptor 2W3 (Olfactory receptor 2W8) (Olfactory receptor OR1-49)	OR2W3 OR2W3P OR2W8P	OR2W3	OR2W3P OR2W8P	Homo sapiens (Human)	9606	314
+A6NFC9	reviewed	Putative olfactory receptor 2W5	OR2W5 OR2W5P	OR2W5	OR2W5P	Homo sapiens (Human)	9606	320
+Q8NG97	reviewed	Olfactory receptor 2Z1 (Olfactory receptor 2Z2) (Olfactory receptor OR19-4)	OR2Z1 OR2Z2	OR2Z1	OR2Z2	Homo sapiens (Human)	9606	314
+Q9BPV8	reviewed	P2Y purinoceptor 13 (P2Y13) (G-protein coupled receptor 86) (G-protein coupled receptor 94)	P2RY13 GPR86 GPR94 FKSG77	P2RY13	GPR86 GPR94	Homo sapiens (Human)	9606	354
+P34995	reviewed	Prostaglandin E2 receptor EP1 subtype (PGE receptor EP1 subtype) (PGE2 receptor EP1 subtype) (Prostanoid EP1 receptor)	PTGER1	PTGER1		Homo sapiens (Human)	9606	402
+P43088	reviewed	Prostaglandin F2-alpha receptor (PGF receptor) (PGF2-alpha receptor) (Prostanoid FP receptor)	PTGFR	PTGFR		Homo sapiens (Human)	9606	359
+P43116	reviewed	Prostaglandin E2 receptor EP2 subtype (PGE receptor EP2 subtype) (PGE2 receptor EP2 subtype) (Prostanoid EP2 receptor)	PTGER2	PTGER2		Homo sapiens (Human)	9606	358
+Q99835	reviewed	Smoothened homolog (SMO) (Protein Gx)	SMO SMOH	SMO	SMOH	Homo sapiens (Human)	9606	787
+P21453	reviewed	Sphingosine 1-phosphate receptor 1 (S1P receptor 1) (S1P1) (Endothelial differentiation G-protein coupled receptor 1) (Sphingosine 1-phosphate receptor Edg-1) (S1P receptor Edg-1) (CD antigen CD363)	S1PR1 CHEDG1 EDG1	S1PR1	CHEDG1 EDG1	Homo sapiens (Human)	9606	382
+Q9H228	reviewed	Sphingosine 1-phosphate receptor 5 (S1P receptor 5) (S1P5) (Endothelial differentiation G-protein-coupled receptor 8) (Sphingosine 1-phosphate receptor Edg-8) (S1P receptor Edg-8)	S1PR5 EDG8	S1PR5	EDG8	Homo sapiens (Human)	9606	398
+P59534	reviewed	Taste receptor type 2 member 39 (T2R39) (Taste receptor type 2 member 57) (T2R57)	TAS2R39	TAS2R39		Homo sapiens (Human)	9606	338
+P59551	reviewed	Taste receptor type 2 member 60 (T2R60) (Taste receptor type 2 member 56) (T2R56)	TAS2R60	TAS2R60		Homo sapiens (Human)	9606	318
+P21731	reviewed	Thromboxane A2 receptor (TXA2-R) (Prostanoid TP receptor)	TBXA2R	TBXA2R		Homo sapiens (Human)	9606	343
+Q9P1P5	reviewed	Trace amine-associated receptor 2 (TaR-2) (Trace amine receptor 2) (G-protein coupled receptor 58)	TAAR2 GPR58	TAAR2	GPR58	Homo sapiens (Human)	9606	351
+P59543	reviewed	Taste receptor type 2 member 20 (Taste receptor type 2 member 49) (T2R49) (Taste receptor type 2 member 56) (T2R56)	TAS2R20 TAS2R49	TAS2R20	TAS2R49	Homo sapiens (Human)	9606	309
+P59535	reviewed	Taste receptor type 2 member 40 (T2R40) (G-protein coupled receptor 60) (Taste receptor type 2 member 58) (T2R58)	TAS2R40 GPR60	TAS2R40	GPR60	Homo sapiens (Human)	9606	323
+Q9NYW7	reviewed	Taste receptor type 2 member 1 (T2R1) (Taste receptor family B member 7) (TRB7)	TAS2R1	TAS2R1		Homo sapiens (Human)	9606	299
+P59536	reviewed	Taste receptor type 2 member 41 (T2R41) (Taste receptor type 2 member 59) (T2R59)	TAS2R41	TAS2R41		Homo sapiens (Human)	9606	307
+Q9NYW5	reviewed	Taste receptor type 2 member 4 (T2R4)	TAS2R4	TAS2R4		Homo sapiens (Human)	9606	299
+Q9NYW4	reviewed	Taste receptor type 2 member 5 (T2R5)	TAS2R5	TAS2R5		Homo sapiens (Human)	9606	299
+Q9NYW3	reviewed	Taste receptor type 2 member 7 (T2R7) (Taste receptor family B member 4) (TRB4)	TAS2R7	TAS2R7		Homo sapiens (Human)	9606	318
+P59541	reviewed	Taste receptor type 2 member 30 (T2R30) (Taste receptor type 2 member 47) (T2R47)	TAS2R30 TAS2R47	TAS2R30	TAS2R47	Homo sapiens (Human)	9606	319
+Q7RTR8	reviewed	Taste receptor type 2 member 42 (T2R42) (Taste receptor type 2 member 55) (T2R55)	TAS2R42 TAS2R55	TAS2R42	TAS2R55	Homo sapiens (Human)	9606	314
+Q9NYV9	reviewed	Taste receptor type 2 member 13 (T2R13) (Taste receptor family B member 3) (TRB3)	TAS2R13	TAS2R13		Homo sapiens (Human)	9606	303
+Q9NYW6	reviewed	Taste receptor type 2 member 3 (T2R3)	TAS2R3	TAS2R3		Homo sapiens (Human)	9606	316
+Q9NYW2	reviewed	Taste receptor type 2 member 8 (T2R8) (Taste receptor family B member 5) (TRB5)	TAS2R8	TAS2R8		Homo sapiens (Human)	9606	309
+Q9NYW1	reviewed	Taste receptor type 2 member 9 (T2R9) (Taste receptor family B member 6) (TRB6)	TAS2R9	TAS2R9		Homo sapiens (Human)	9606	312
+Q96RI8	reviewed	Trace amine-associated receptor 6 (TaR-6) (Trace amine receptor 6) (Trace amine receptor 4) (TaR-4)	TAAR6 TA4 TAR4 TRAR4	TAAR6	TA4 TAR4 TRAR4	Homo sapiens (Human)	9606	345
+Q9NYV8	reviewed	Taste receptor type 2 member 14 (T2R14) (Taste receptor family B member 1) (TRB1)	TAS2R14	TAS2R14		Homo sapiens (Human)	9606	317
+P59539	reviewed	Taste receptor type 2 member 45 (T2R45) (G-protein coupled receptor 59)	TAS2R45 GPR59	TAS2R45	GPR59	Homo sapiens (Human)	9606	299
+P59540	reviewed	Taste receptor type 2 member 46 (T2R46) (Taste receptor type 2 member 54) (T2R54)	TAS2R46	TAS2R46		Homo sapiens (Human)	9606	309
+P59544	reviewed	Taste receptor type 2 member 50 (T2R50) (Taste receptor type 2 member 51) (T2R51)	TAS2R50	TAS2R50		Homo sapiens (Human)	9606	299
+Q96RJ0	reviewed	Trace amine-associated receptor 1 (TaR-1) (Trace amine receptor 1)	TAAR1 TA1 TAR1 TRAR1	TAAR1	TA1 TAR1 TRAR1	Homo sapiens (Human)	9606	339
+Q969N4	reviewed	Trace amine-associated receptor 8 (TaR-8) (Trace amine receptor 8) (G-protein coupled receptor 102) (Trace amine receptor 5) (TaR-5)	TAAR8 GPR102 TA5 TAR5 TRAR5	TAAR8	GPR102 TA5 TAR5 TRAR5	Homo sapiens (Human)	9606	342
+Q96RI9	reviewed	Trace amine-associated receptor 9 (TaR-9) (Trace amine receptor 9) (Trace amine receptor 3) (TaR-3)	TAAR9 TA3 TAR3 TRAR3	TAAR9	TA3 TAR3 TRAR3	Homo sapiens (Human)	9606	348
+Q9NYV7	reviewed	Taste receptor type 2 member 16 (T2R16)	TAS2R16	TAS2R16		Homo sapiens (Human)	9606	291
+P59538	reviewed	Taste receptor type 2 member 31 (T2R31) (Taste receptor type 2 member 44) (T2R44) (Taste receptor type 2 member 53) (T2R53)	TAS2R31 TAS2R44	TAS2R31	TAS2R44	Homo sapiens (Human)	9606	309
+P59533	reviewed	Taste receptor type 2 member 38 (T2R38) (PTC bitter taste receptor) (Taste receptor type 2 member 61) (T2R61)	TAS2R38 PTC	TAS2R38	PTC	Homo sapiens (Human)	9606	333
+Q9P1P4	reviewed	Putative trace amine-associated receptor 3 (TaR-3) (Trace amine receptor 3) (hTaar3) (G-protein coupled receptor 57)	TAAR3P GPR57 TAAR3	TAAR3P	GPR57 TAAR3	Homo sapiens (Human)	9606	343
+O14804	reviewed	Trace amine-associated receptor 5 (TaR-5) (Trace amine receptor 5) (hTaar5) (Putative neurotransmitter receptor)	TAAR5 PNR	TAAR5	PNR	Homo sapiens (Human)	9606	337
+P59542	reviewed	Taste receptor type 2 member 19 (Taste receptor type 2 member 23) (Taste receptor type 2 member 48) (T2R48)	TAS2R19 TAS2R23 TAS2R48	TAS2R19	TAS2R23 TAS2R48	Homo sapiens (Human)	9606	299
+P59537	reviewed	Taste receptor type 2 member 43 (T2R43) (Taste receptor type 2 member 52) (T2R52)	TAS2R43	TAS2R43		Homo sapiens (Human)	9606	309
+Q9NYW0	reviewed	Taste receptor type 2 member 10 (T2R10) (Taste receptor family B member 2) (TRB2)	TAS2R10	TAS2R10		Homo sapiens (Human)	9606	307
+Q8WXD0	reviewed	Relaxin receptor 2 (G-protein coupled receptor 106) (G-protein coupled receptor affecting testicular descent) (Leucine-rich repeat-containing G-protein coupled receptor 8) (Relaxin family peptide receptor 2)	RXFP2 GPR106 GREAT LGR8	RXFP2	GPR106 GREAT LGR8	Homo sapiens (Human)	9606	754
+Q99500	reviewed	Sphingosine 1-phosphate receptor 3 (S1P receptor 3) (S1P3) (Endothelial differentiation G-protein coupled receptor 3) (Sphingosine 1-phosphate receptor Edg-3) (S1P receptor Edg-3)	S1PR3 EDG3	S1PR3	EDG3	Homo sapiens (Human)	9606	378
+O95136	reviewed	Sphingosine 1-phosphate receptor 2 (S1P receptor 2) (S1P2) (Endothelial differentiation G-protein coupled receptor 5) (Sphingosine 1-phosphate receptor Edg-5) (S1P receptor Edg-5)	S1PR2 EDG5	S1PR2	EDG5	Homo sapiens (Human)	9606	353
+O95977	reviewed	Sphingosine 1-phosphate receptor 4 (S1P receptor 4) (S1P4) (Endothelial differentiation G-protein coupled receptor 6) (Sphingosine 1-phosphate receptor Edg-6) (S1P receptor Edg-6)	S1PR4 EDG6	S1PR4	EDG6	Homo sapiens (Human)	9606	384
+Q9HBX9	reviewed	Relaxin receptor 1 (Leucine-rich repeat-containing G-protein coupled receptor 7) (Relaxin family peptide receptor 1)	RXFP1 LGR7	RXFP1	LGR7	Homo sapiens (Human)	9606	757
+Q9NSD7	reviewed	Relaxin-3 receptor 1 (RLN3 receptor 1) (G protein-coupled receptor SALPR) (G-protein coupled receptor GPCR135) (Relaxin family peptide receptor 3) (Somatostatin- and angiotensin-like peptide receptor)	RXFP3 RLN3R1 SALPR	RXFP3	RLN3R1 SALPR	Homo sapiens (Human)	9606	469
+Q8TDU9	reviewed	Relaxin-3 receptor 2 (RLN3 receptor 2) (G-protein coupled receptor 100) (G-protein coupled receptor GPCR142) (Insulin-like peptide INSL5 receptor) (Relaxin family peptide receptor 4)	RXFP4 GPR100 RLN3R2	RXFP4	GPR100 RLN3R2	Homo sapiens (Human)	9606	374
+Q8TE23	reviewed	Taste receptor type 1 member 2 (G-protein coupled receptor 71) (Sweet taste receptor T1R2)	TAS1R2 GPR71 T1R2 TR2	TAS1R2	GPR71 T1R2 TR2	Homo sapiens (Human)	9606	839
+Q7RTX0	reviewed	Taste receptor type 1 member 3 (Sweet taste receptor T1R3)	TAS1R3 T1R3 TR3	TAS1R3	T1R3 TR3	Homo sapiens (Human)	9606	852
+Q7RTX1	reviewed	Taste receptor type 1 member 1 (G-protein coupled receptor 70)	TAS1R1 GPR70 T1R1 TR1 GM148	TAS1R1	GPR70 T1R1 TR1	Homo sapiens (Human)	9606	841
+P16473	reviewed	Thyrotropin receptor (Thyroid-stimulating hormone receptor) (TSH-R)	TSHR LGR3	TSHR	LGR3	Homo sapiens (Human)	9606	764
+P34981	reviewed	Thyrotropin-releasing hormone receptor (TRH-R) (Thyroliberin receptor)	TRHR	TRHR		Homo sapiens (Human)	9606	398
+P47872	reviewed	Secretin receptor (SCT-R)	SCTR	SCTR		Homo sapiens (Human)	9606	440
+Q9BXA5	reviewed	Succinate receptor 1 (G-protein coupled receptor 91) (P2Y purinoceptor 1-like)	SUCNR1 GPR91	SUCNR1	GPR91	Homo sapiens (Human)	9606	334
+Q8NFZ6	reviewed	Vomeronasal type-1 receptor 2 (G-protein coupled receptor GPCR25) (hGPCR25) (V1r-like receptor 2)	VN1R2 V1RL2	VN1R2	V1RL2	Homo sapiens (Human)	9606	395
+P41587	reviewed	Vasoactive intestinal polypeptide receptor 2 (VIP-R-2) (Helodermin-preferring VIP receptor) (Pituitary adenylate cyclase-activating polypeptide type III receptor) (PACAP type III receptor) (PACAP-R-3) (PACAP-R3) (VPAC2)	VIPR2 VIP2R	VIPR2	VIP2R	Homo sapiens (Human)	9606	438
+Q9GZP7	reviewed	Vomeronasal type-1 receptor 1 (G-protein coupled receptor GPCR24) (hGPCR24) (V1r-like receptor 1) (V3r-related gene protein) (Vomeronasal olfactory receptor chromosome 19 subtype I member 1)	VN1R1 V1RL1 VNR19I1	VN1R1	V1RL1 VNR19I1	Homo sapiens (Human)	9606	353
+Q8TDU5	reviewed	Putative vomeronasal receptor-like protein 4 (G-protein coupled receptor GPCR23) (hGPCR23)	VN1R17P VNRL4	VN1R17P	VNRL4	Homo sapiens (Human)	9606	208
+Q7Z5H5	reviewed	Vomeronasal type-1 receptor 4 (G-protein coupled receptor GPCR27) (hGPCR27) (V1r-like receptor 4)	VN1R4 V1RL4	VN1R4	V1RL4	Homo sapiens (Human)	9606	301
+Q7Z5H4	reviewed	Vomeronasal type-1 receptor 5 (G-protein coupled receptor GPCR26) (hGPCR26) (V1r-like receptor 5)	VN1R5 V1RL5	VN1R5	V1RL5	Homo sapiens (Human)	9606	357
+P46094	reviewed	Chemokine XC receptor 1 (G-protein coupled receptor 5) (Lymphotactin receptor) (XC chemokine receptor 1)	XCR1 CCXCR1 GPR5	XCR1	CCXCR1 GPR5	Homo sapiens (Human)	9606	333
+Q9BXE9	reviewed	Vomeronasal type-1 receptor 3 (V1r-like receptor 3)	VN1R3 V1RL3 FKSG46	VN1R3	V1RL3	Homo sapiens (Human)	9606	311
+P32241	reviewed	Vasoactive intestinal polypeptide receptor 1 (VIP-R-1) (Pituitary adenylate cyclase-activating polypeptide type II receptor) (PACAP type II receptor) (PACAP-R-2) (PACAP-R2) (VPAC1)	VIPR1	VIPR1		Homo sapiens (Human)	9606	457
+P46663	reviewed	B1 bradykinin receptor (B1R) (BK-1 receptor)	BDKRB1 BRADYB1	BDKRB1	BRADYB1	Homo sapiens (Human)	9606	353
+Q9P296	reviewed	C5a anaphylatoxin chemotactic receptor 2 (Complement component 5a receptor 2) (G-protein coupled receptor 77)	C5AR2 C5L2 GPR77	C5AR2	C5L2 GPR77	Homo sapiens (Human)	9606	337
+P21730	reviewed	C5a anaphylatoxin chemotactic receptor 1 (C5a anaphylatoxin chemotactic receptor) (C5a-R) (C5aR) (CD antigen CD88)	C5AR1 C5AR C5R1	C5AR1	C5AR C5R1	Homo sapiens (Human)	9606	350
+Q16602	reviewed	Calcitonin gene-related peptide type 1 receptor (CGRP type 1 receptor) (Calcitonin receptor-like receptor)	CALCRL CGRPR	CALCRL	CGRPR	Homo sapiens (Human)	9606	461
+P41180	reviewed	Extracellular calcium-sensing receptor (CaR) (CaSR) (hCasR) (Parathyroid cell calcium-sensing receptor 1) (PCaR1)	CASR GPRC2A PCAR1	CASR	GPRC2A PCAR1	Homo sapiens (Human)	9606	1078
+P30988	reviewed	Calcitonin receptor (CT-R)	CALCR	CALCR		Homo sapiens (Human)	9606	508
+O00421	reviewed	C-C chemokine receptor-like 2 (Chemokine receptor CCR11) (Chemokine receptor X) (Putative MCP-1 chemokine receptor)	CCRL2 CCR11 CCR6 CKRX CRAM HCR	CCRL2	CCR11 CCR6 CKRX CRAM HCR	Homo sapiens (Human)	9606	344
+P51684	reviewed	C-C chemokine receptor type 6 (C-C CKR-6) (CC-CKR-6) (CCR-6) (Chemokine receptor-like 3) (CKR-L3) (DRY6) (G-protein coupled receptor 29) (GPR-CY4) (GPRCY4) (LARC receptor) (CD antigen CD196)	CCR6 CKRL3 CMKBR6 GPR29 STRL22	CCR6	CKRL3 CMKBR6 GPR29 STRL22	Homo sapiens (Human)	9606	374
+P32238	reviewed	Cholecystokinin receptor type A (CCK-A receptor) (CCK-AR) (Cholecystokinin-1 receptor) (CCK1-R)	CCKAR CCKRA	CCKAR	CCKRA	Homo sapiens (Human)	9606	428
+P46092	reviewed	C-C chemokine receptor type 10 (C-C CKR-10) (CC-CKR-10) (CCR-10) (G-protein coupled receptor 2)	CCR10 GPR2	CCR10	GPR2	Homo sapiens (Human)	9606	362
+P51686	reviewed	C-C chemokine receptor type 9 (C-C CKR-9) (CC-CKR-9) (CCR-9) (G-protein coupled receptor 28) (GPR-9-6) (CD antigen CDw199)	CCR9 GPR28	CCR9	GPR28	Homo sapiens (Human)	9606	369
+P32248	reviewed	C-C chemokine receptor type 7 (C-C CKR-7) (CC-CKR-7) (CCR-7) (BLR2) (CDw197) (Epstein-Barr virus-induced G-protein coupled receptor 1) (EBI1) (EBV-induced G-protein coupled receptor 1) (MIP-3 beta receptor) (CD antigen CD197)	CCR7 CMKBR7 EBI1 EVI1	CCR7	CMKBR7 EBI1 EVI1	Homo sapiens (Human)	9606	378
+P48960	reviewed	CD97 antigen (Leukocyte antigen CD97) (CD antigen CD97) [Cleaved into: CD97 antigen subunit alpha; CD97 antigen subunit beta]	CD97	CD97		Homo sapiens (Human)	9606	835
+P32246	reviewed	C-C chemokine receptor type 1 (C-C CKR-1) (CC-CKR-1) (CCR-1) (CCR1) (HM145) (LD78 receptor) (Macrophage inflammatory protein 1-alpha receptor) (MIP-1alpha-R) (RANTES-R) (CD antigen CD191)	CCR1 CMKBR1 CMKR1 SCYAR1	CCR1	CMKBR1 CMKR1 SCYAR1	Homo sapiens (Human)	9606	355
+P51681	reviewed	C-C chemokine receptor type 5 (C-C CKR-5) (CC-CKR-5) (CCR-5) (CCR5) (CHEMR13) (HIV-1 fusion coreceptor) (CD antigen CD195)	CCR5 CMKBR5	CCR5	CMKBR5	Homo sapiens (Human)	9606	352
+P41597	reviewed	C-C chemokine receptor type 2 (C-C CKR-2) (CC-CKR-2) (CCR-2) (CCR2) (Monocyte chemoattractant protein 1 receptor) (MCP-1-R) (CD antigen CD192)	CCR2 CMKBR2	CCR2	CMKBR2	Homo sapiens (Human)	9606	374
+P51685	reviewed	C-C chemokine receptor type 8 (C-C CKR-8) (CC-CKR-8) (CCR-8) (CC chemokine receptor CHEMR1) (CMKBRL2) (Chemokine receptor-like 1) (CKR-L1) (GPR-CY6) (GPRCY6) (TER1) (CD antigen CDw198)	CCR8 CKRL1 CMKBR8 CMKBRL2	CCR8	CKRL1 CMKBR8 CMKBRL2	Homo sapiens (Human)	9606	355
+P51677	reviewed	C-C chemokine receptor type 3 (C-C CKR-3) (CC-CKR-3) (CCR-3) (CCR3) (CKR3) (Eosinophil eotaxin receptor) (CD antigen CD193)	CCR3 CMKBR3	CCR3	CMKBR3	Homo sapiens (Human)	9606	355
+P25025	reviewed	C-X-C chemokine receptor type 2 (CXC-R2) (CXCR-2) (CDw128b) (GRO/MGSA receptor) (High affinity interleukin-8 receptor B) (IL-8R B) (IL-8 receptor type 2) (CD antigen CD182)	CXCR2 IL8RB	CXCR2	IL8RB	Homo sapiens (Human)	9606	360
+P61073	reviewed	C-X-C chemokine receptor type 4 (CXC-R4) (CXCR-4) (FB22) (Fusin) (HM89) (LCR1) (Leukocyte-derived seven transmembrane domain receptor) (LESTR) (Lipopolysaccharide-associated protein 3) (LAP-3) (LPS-associated protein 3) (NPYRL) (Stromal cell-derived factor 1 receptor) (SDF-1 receptor) (CD antigen CD184)	CXCR4	CXCR4		Homo sapiens (Human)	9606	352
+P30411	reviewed	B2 bradykinin receptor (B2R) (BK-2 receptor)	BDKRB2 BKR2	BDKRB2	BKR2	Homo sapiens (Human)	9606	391
+Q16581	reviewed	C3a anaphylatoxin chemotactic receptor (C3AR) (C3a-R)	C3AR1 AZ3B C3R1 HNFAG09	C3AR1	AZ3B C3R1 HNFAG09	Homo sapiens (Human)	9606	482
+P32247	reviewed	Bombesin receptor subtype-3 (BRS-3)	BRS3	BRS3		Homo sapiens (Human)	9606	399
+P28221	reviewed	5-hydroxytryptamine receptor 1D (5-HT-1D) (5-HT1D) (Serotonin 1D alpha receptor) (5-HT-1D-alpha) (Serotonin receptor 1D)	HTR1D HTR1DA HTRL	HTR1D	HTR1DA HTRL	Homo sapiens (Human)	9606	377
+P30939	reviewed	5-hydroxytryptamine receptor 1F (5-HT-1F) (5-HT1F) (Serotonin receptor 1F)	HTR1F HTR1EL	HTR1F	HTR1EL	Homo sapiens (Human)	9606	366
+P29274	reviewed	Adenosine receptor A2a	ADORA2A ADORA2	ADORA2A	ADORA2	Homo sapiens (Human)	9606	412
+P20309	reviewed	Muscarinic acetylcholine receptor M3	CHRM3	CHRM3		Homo sapiens (Human)	9606	590
+Q16570	reviewed	Atypical chemokine receptor 1 (Duffy antigen/chemokine receptor) (Fy glycoprotein) (GpFy) (Glycoprotein D) (Plasmodium vivax receptor) (CD antigen CD234)	ACKR1 DARC FY GPD	ACKR1	DARC FY GPD	Homo sapiens (Human)	9606	336
+P11229	reviewed	Muscarinic acetylcholine receptor M1	CHRM1	CHRM1		Homo sapiens (Human)	9606	460
+P29275	reviewed	Adenosine receptor A2b	ADORA2B	ADORA2B		Homo sapiens (Human)	9606	332
+O00590	reviewed	Atypical chemokine receptor 2 (C-C chemokine receptor D6) (Chemokine receptor CCR-10) (Chemokine receptor CCR-9) (Chemokine-binding protein 2) (Chemokine-binding protein D6)	ACKR2 CCBP2 CCR10 CMKBR9 D6	ACKR2	CCBP2 CCR10 CMKBR9 D6	Homo sapiens (Human)	9606	384
+Q9NPB9	reviewed	Atypical chemokine receptor 4 (C-C chemokine receptor type 11) (C-C CKR-11) (CC-CKR-11) (CCR-11) (CC chemokine receptor-like 1) (CCRL1) (CCX CKR)	ACKR4 CCBP2 CCR11 CCRL1 VSHK1	ACKR4	CCBP2 CCR11 CCRL1 VSHK1	Homo sapiens (Human)	9606	350
+P08173	reviewed	Muscarinic acetylcholine receptor M4	CHRM4	CHRM4		Homo sapiens (Human)	9606	479
+P08913	reviewed	Alpha-2A adrenergic receptor (Alpha-2 adrenergic receptor subtype C10) (Alpha-2A adrenoreceptor) (Alpha-2A adrenoceptor) (Alpha-2AAR)	ADRA2A ADRA2R ADRAR	ADRA2A	ADRA2R ADRAR	Homo sapiens (Human)	9606	450
+P18089	reviewed	Alpha-2B adrenergic receptor (Alpha-2 adrenergic receptor subtype C2) (Alpha-2B adrenoreceptor) (Alpha-2B adrenoceptor) (Alpha-2BAR)	ADRA2B ADRA2L1 ADRA2RL1	ADRA2B	ADRA2L1 ADRA2RL1	Homo sapiens (Human)	9606	450
+P25101	reviewed	Endothelin-1 receptor (Endothelin receptor type A) (ET-A) (ETA-R) (hET-AR)	EDNRA ETA ETRA	EDNRA	ETA ETRA	Homo sapiens (Human)	9606	427
+Q9NYQ6	reviewed	Cadherin EGF LAG seven-pass G-type receptor 1 (Cadherin family member 9) (Flamingo homolog 2) (hFmi2)	CELSR1 CDHF9 FMI2	CELSR1	CDHF9 FMI2	Homo sapiens (Human)	9606	3014
+Q9HCU4	reviewed	Cadherin EGF LAG seven-pass G-type receptor 2 (Cadherin family member 10) (Epidermal growth factor-like protein 2) (EGF-like protein 2) (Flamingo homolog 3) (Multiple epidermal growth factor-like domains protein 3) (Multiple EGF-like domains protein 3)	CELSR2 CDHF10 EGFL2 KIAA0279 MEGF3	CELSR2	CDHF10 EGFL2 KIAA0279 MEGF3	Homo sapiens (Human)	9606	2923
+P51679	reviewed	C-C chemokine receptor type 4 (C-C CKR-4) (CC-CKR-4) (CCR-4) (CCR4) (K5-5) (CD antigen CD194)	CCR4 CMKBR4	CCR4	CMKBR4	Homo sapiens (Human)	9606	360
+P14416	reviewed	D(2) dopamine receptor (Dopamine D2 receptor)	DRD2	DRD2		Homo sapiens (Human)	9606	443
+Q9NYQ7	reviewed	Cadherin EGF LAG seven-pass G-type receptor 3 (Cadherin family member 11) (Epidermal growth factor-like protein 1) (EGF-like protein 1) (Flamingo homolog 1) (hFmi1) (Multiple epidermal growth factor-like domains protein 2) (Multiple EGF-like domains protein 2)	CELSR3 CDHF11 EGFL1 FMI1 KIAA0812 MEGF2	CELSR3	CDHF11 EGFL1 FMI1 KIAA0812 MEGF2	Homo sapiens (Human)	9606	3312
+O60883	reviewed	G-protein coupled receptor 37-like 1 (Endothelin B receptor-like protein 2) (ETBR-LP-2)	GPR37L1 ETBRLP2	GPR37L1	ETBRLP2	Homo sapiens (Human)	9606	481
+O75899	reviewed	Gamma-aminobutyric acid type B receptor subunit 2 (GABA-B receptor 2) (GABA-B-R2) (GABA-BR2) (GABABR2) (Gb2) (G-protein coupled receptor 51) (HG20)	GABBR2 GPR51 GPRC3B	GABBR2	GPR51 GPRC3B	Homo sapiens (Human)	9606	941
+P24530	reviewed	Endothelin receptor type B (ET-B) (ET-BR) (Endothelin receptor non-selective type)	EDNRB ETRB	EDNRB	ETRB	Homo sapiens (Human)	9606	442
+Q9UBS5	reviewed	Gamma-aminobutyric acid type B receptor subunit 1 (GABA-B receptor 1) (GABA-B-R1) (GABA-BR1) (GABABR1) (Gb1)	GABBR1 GPRC3A	GABBR1	GPRC3A	Homo sapiens (Human)	9606	961
+Q92847	reviewed	Growth hormone secretagogue receptor type 1 (GHS-R) (GH-releasing peptide receptor) (GHRP) (Ghrelin receptor)	GHSR	GHSR		Homo sapiens (Human)	9606	366
+P48546	reviewed	Gastric inhibitory polypeptide receptor (GIP-R) (Glucose-dependent insulinotropic polypeptide receptor)	GIPR	GIPR		Homo sapiens (Human)	9606	466
+Q02643	reviewed	Growth hormone-releasing hormone receptor (GHRH receptor) (Growth hormone-releasing factor receptor) (GRF receptor) (GRFR)	GHRHR	GHRHR		Homo sapiens (Human)	9606	423
+O43603	reviewed	Galanin receptor type 2 (GAL2-R) (GALR-2)	GALR2 GALNR2	GALR2	GALNR2	Homo sapiens (Human)	9606	387
+O95838	reviewed	Glucagon-like peptide 2 receptor (GLP-2 receptor) (GLP-2-R) (GLP-2R)	GLP2R	GLP2R		Homo sapiens (Human)	9606	553
+Q96P88	reviewed	Putative gonadotropin-releasing hormone II receptor (GnRH II receptor) (GnRH-II-R) (Type II GnRH receptor)	GNRHR2	GNRHR2		Homo sapiens (Human)	9606	292
+Q5UAW9	reviewed	G-protein coupled receptor 157	GPR157	GPR157		Homo sapiens (Human)	9606	335
+Q7Z602	reviewed	Probable G-protein coupled receptor 141 (G-protein coupled receptor PGR13)	GPR141 PGR13	GPR141	PGR13	Homo sapiens (Human)	9606	305
+Q5T848	reviewed	Probable G-protein coupled receptor 158	GPR158 KIAA1136	GPR158	KIAA1136	Homo sapiens (Human)	9606	1215
+Q8TDV2	reviewed	Probable G-protein coupled receptor 148 (Brain and testis restricted GPCR) (G-protein coupled receptor PGR6)	GPR148 BTR PGR6	GPR148	BTR PGR6	Homo sapiens (Human)	9606	347
+Q86SP6	reviewed	Probable G-protein coupled receptor 149 (G-protein coupled receptor PGR10)	GPR149 PGR10	GPR149	PGR10	Homo sapiens (Human)	9606	731
+Q8TDT2	reviewed	Probable G-protein coupled receptor 152 (G-protein coupled receptor PGR5)	GPR152 PGR5	GPR152	PGR5	Homo sapiens (Human)	9606	470
+Q6NV75	reviewed	Probable G-protein coupled receptor 153 (G-protein coupled receptor PGR1)	GPR153 PGR1	GPR153	PGR1	Homo sapiens (Human)	9606	609
+O14626	reviewed	Probable G-protein coupled receptor 171 (G-protein coupled receptor H963)	GPR171 H963	GPR171	H963	Homo sapiens (Human)	9606	319
+Q9BXC1	reviewed	Probable G-protein coupled receptor 174	GPR174 FKSG79 GPCR17	GPR174		Homo sapiens (Human)	9606	333
+Q14439	reviewed	G-protein coupled receptor 176 (HB-954)	GPR176	GPR176		Homo sapiens (Human)	9606	515
+Q9UNW8	reviewed	Probable G-protein coupled receptor 132 (G2 accumulation protein)	GPR132 G2A	GPR132	G2A	Homo sapiens (Human)	9606	380
+Q6DWJ6	reviewed	Probable G-protein coupled receptor 139 (G(q)-coupled orphan receptor GPRg1) (G-protein-coupled receptor PGR3)	GPR139 GPRG1 PGR3	GPR139	GPRG1 PGR3	Homo sapiens (Human)	9606	353
+Q7Z601	reviewed	Probable G-protein coupled receptor 142 (G-protein coupled receptor PGR2)	GPR142 PGR2	GPR142	PGR2	Homo sapiens (Human)	9606	462
+P51810	reviewed	G-protein coupled receptor 143 (Ocular albinism type 1 protein)	GPR143 OA1	GPR143	OA1	Homo sapiens (Human)	9606	404
+Q9UJ42	reviewed	Probable G-protein coupled receptor 160 (G-protein coupled receptor GPCR1) (hGPCR1)	GPR160 GPCR150	GPR160	GPCR150	Homo sapiens (Human)	9606	338
+Q8TDV0	reviewed	Probable G-protein coupled receptor 151 (G-protein coupled receptor PGR7) (GPCR-2037)	GPR151 PGR7	GPR151	PGR7	Homo sapiens (Human)	9606	419
+Q8N6U8	reviewed	G-protein coupled receptor 161 (G-protein coupled receptor RE2)	GPR161	GPR161		Homo sapiens (Human)	9606	529
+Q8NFN8	reviewed	Probable G-protein coupled receptor 156 (G-protein coupled receptor PGR28) (GABAB-related G-protein coupled receptor)	GPR156 GABABL PGR28	GPR156	GABABL PGR28	Homo sapiens (Human)	9606	814
+Q5T6X5	reviewed	G-protein coupled receptor family C group 6 member A (hGPRC6A) (G-protein coupled receptor GPCR33) (hGPCR33)	GPRC6A	GPRC6A		Homo sapiens (Human)	9606	926
+P43220	reviewed	Glucagon-like peptide 1 receptor (GLP-1 receptor) (GLP-1-R) (GLP-1R)	GLP1R	GLP1R		Homo sapiens (Human)	9606	463
+P47871	reviewed	Glucagon receptor (GL-R)	GCGR	GCGR		Homo sapiens (Human)	9606	477
+O15218	reviewed	G-protein coupled receptor 182	GPR182 ADMR	GPR182	ADMR	Homo sapiens (Human)	9606	404
+P32249	reviewed	G-protein coupled receptor 183 (Epstein-Barr virus-induced G-protein coupled receptor 2) (EBI2) (EBV-induced G-protein coupled receptor 2) (hEBI2)	GPR183 EBI2	GPR183	EBI2	Homo sapiens (Human)	9606	361
+Q99527	reviewed	G-protein coupled estrogen receptor 1 (Chemoattractant receptor-like 2) (Flow-induced endothelial G-protein coupled receptor 1) (FEG-1) (G protein-coupled estrogen receptor 1) (G-protein coupled receptor 30) (GPCR-Br) (IL8-related receptor DRY12) (Lymphocyte-derived G-protein coupled receptor) (LYGPR) (Membrane estrogen receptor) (mER)	GPER1 CEPR CMKRL2 DRY12 GPER GPR30	GPER1	CEPR CMKRL2 DRY12 GPER GPR30	Homo sapiens (Human)	9606	375
+Q9UPC5	reviewed	Probable G-protein coupled receptor 34	GPR34	GPR34		Homo sapiens (Human)	9606	381
+O15354	reviewed	Prosaposin receptor GPR37 (Endothelin B receptor-like protein 1) (ETBR-LP-1) (G-protein coupled receptor 37) (Parkin-associated endothelin receptor-like receptor) (PAELR)	GPR37	GPR37		Homo sapiens (Human)	9606	613
+Q15760	reviewed	Probable G-protein coupled receptor 19 (GPR-NGA)	GPR19	GPR19		Homo sapiens (Human)	9606	415
+Q9Y2T5	reviewed	G-protein coupled receptor 52	GPR52	GPR52		Homo sapiens (Human)	9606	361
+Q9NQS5	reviewed	G-protein coupled receptor 84 (Inflammation-related G-protein coupled receptor EX33)	GPR84 EX33	GPR84	EX33	Homo sapiens (Human)	9606	396
+P30968	reviewed	Gonadotropin-releasing hormone receptor (GnRH receptor) (GnRH-R)	GNRHR GRHR	GNRHR	GRHR	Homo sapiens (Human)	9606	328
+Q8TDV5	reviewed	Glucose-dependent insulinotropic receptor (G-protein coupled receptor 119)	GPR119	GPR119		Homo sapiens (Human)	9606	335
+Q96P66	reviewed	Probable G-protein coupled receptor 101	GPR101	GPR101		Homo sapiens (Human)	9606	508
+Q8IZ08	reviewed	G-protein coupled receptor 135	GPR135	GPR135		Homo sapiens (Human)	9606	494
+Q96CH1	reviewed	Probable G-protein coupled receptor 146 (G-protein coupled receptor PGR8)	GPR146 PGR8	GPR146	PGR8	Homo sapiens (Human)	9606	333
+Q8NGU9	reviewed	Probable G-protein coupled receptor 150	GPR150	GPR150		Homo sapiens (Human)	9606	434
+Q16538	reviewed	Probable G-protein coupled receptor 162 (Gene-rich cluster gene A protein)	GPR162 GRCA	GPR162	GRCA	Homo sapiens (Human)	9606	588
+Q9NS66	reviewed	Probable G-protein coupled receptor 173 (Super conserved receptor expressed in brain 3)	GPR173 SREB3	GPR173	SREB3	Homo sapiens (Human)	9606	373
+Q6PRD1	reviewed	Probable G-protein coupled receptor 179 (Probable G-protein coupled receptor 158-like 1) (GPR158-like)	GPR179 GPR158L GPR158L1	GPR179	GPR158L GPR158L1	Homo sapiens (Human)	9606	2367
+Q9NZH0	reviewed	G-protein coupled receptor family C group 5 member B (A-69G12.1) (Retinoic acid-induced gene 2 protein) (RAIG-2)	GPRC5B RAIG2	GPRC5B	RAIG2	Homo sapiens (Human)	9606	403
+Q9NZD1	reviewed	G-protein coupled receptor family C group 5 member D	GPRC5D	GPRC5D		Homo sapiens (Human)	9606	345
+O43194	reviewed	G-protein coupled receptor 39	GPR39	GPR39		Homo sapiens (Human)	9606	453
+P46089	reviewed	G-protein coupled receptor 3 (ACCA orphan receptor)	GPR3 ACCA	GPR3	ACCA	Homo sapiens (Human)	9606	330
+Q9BZJ6	reviewed	Probable G-protein coupled receptor 63 (PSP24-2) (PSP24-beta)	GPR63 PSP24B	GPR63	PSP24B	Homo sapiens (Human)	9606	419
+Q99679	reviewed	Probable G-protein coupled receptor 21	GPR21	GPR21		Homo sapiens (Human)	9606	349
+O75388	reviewed	Probable G-protein coupled receptor 32	GPR32	GPR32		Homo sapiens (Human)	9606	356
+P46095	reviewed	G-protein coupled receptor 6 (Sphingosine 1-phosphate receptor GPR6)	GPR6	GPR6		Homo sapiens (Human)	9606	362
+O00270	reviewed	12-(S)-hydroxy-5,8,10,14-eicosatetraenoic acid receptor (12-(S)-HETE receptor) (12-HETER) (G-protein coupled receptor 31)	GPR31	GPR31		Homo sapiens (Human)	9606	319
+Q96P69	reviewed	G-protein coupled receptor 78	GPR78 UNQ5925/PRO19818	GPR78		Homo sapiens (Human)	9606	363
+Q9BY21	reviewed	G-protein coupled receptor 87 (G-protein coupled receptor 95)	GPR87 GPR95 FKSG78	GPR87	GPR95	Homo sapiens (Human)	9606	358
+Q14831	reviewed	Metabotropic glutamate receptor 7 (mGluR7)	GRM7 GPRC1G MGLUR7	GRM7	GPRC1G MGLUR7	Homo sapiens (Human)	9606	915
+Q9GZN0	reviewed	Probable G-protein coupled receptor 88 (Striatum-specific G-protein coupled receptor)	GPR88 STRG	GPR88	STRG	Homo sapiens (Human)	9606	384
+P47775	reviewed	G-protein coupled receptor 12	GPR12	GPR12		Homo sapiens (Human)	9606	334
+Q13304	reviewed	Uracil nucleotide/cysteinyl leukotriene receptor (UDP/CysLT receptor) (G-protein coupled receptor 17) (P2Y-like receptor) (R12)	GPR17	GPR17		Homo sapiens (Human)	9606	367
+Q9Y5Y3	reviewed	Probable G-protein coupled receptor 45 (PSP24-1) (PSP24-alpha)	GPR45	GPR45		Homo sapiens (Human)	9606	372
+O95800	reviewed	Probable G-protein coupled receptor 75	GPR75	GPR75		Homo sapiens (Human)	9606	540
+O15303	reviewed	Metabotropic glutamate receptor 6 (mGluR6)	GRM6 GPRC1F MGLUR6	GRM6	GPRC1F MGLUR6	Homo sapiens (Human)	9606	877
+P25089	reviewed	N-formyl peptide receptor 3 (FMLP-related receptor II) (FMLP-R-II) (Formyl peptide receptor-like 2)	FPR3 FPRH1 FPRL2	FPR3	FPRH1 FPRL2	Homo sapiens (Human)	9606	353
+O60755	reviewed	Galanin receptor type 3 (GAL3-R) (GALR-3)	GALR3 GALNR3	GALR3	GALNR3	Homo sapiens (Human)	9606	368
+P46093	reviewed	G-protein coupled receptor 4 (G-protein coupled receptor 19)	GPR4	GPR4		Homo sapiens (Human)	9606	362
+Q14832	reviewed	Metabotropic glutamate receptor 3 (mGluR3)	GRM3 GPRC1C MGLUR3	GRM3	GPRC1C MGLUR3	Homo sapiens (Human)	9606	879
+P32239	reviewed	Gastrin/cholecystokinin type B receptor (CCK-B receptor) (CCK-BR) (Cholecystokinin-2 receptor) (CCK2-R)	CCKBR CCKRB	CCKBR	CCKRB	Homo sapiens (Human)	9606	447
+O60353	reviewed	Frizzled-6 (Fz-6) (hFz6)	FZD6	FZD6		Homo sapiens (Human)	9606	706
+O75084	reviewed	Frizzled-7 (Fz-7) (hFz7) (FzE3)	FZD7	FZD7		Homo sapiens (Human)	9606	574
+Q9UP38	reviewed	Frizzled-1 (Fz-1) (hFz1) (FzE1)	FZD1	FZD1		Homo sapiens (Human)	9606	647
+Q13467	reviewed	Frizzled-5 (Fz-5) (hFz5) (FzE5)	FZD5 C2orf31	FZD5	C2orf31	Homo sapiens (Human)	9606	585
+P23945	reviewed	Follicle-stimulating hormone receptor (FSH-R) (Follitropin receptor)	FSHR LGR1	FSHR	LGR1	Homo sapiens (Human)	9606	695
+Q9ULW2	reviewed	Frizzled-10 (Fz-10) (hFz10) (FzE7) (CD antigen CD350)	FZD10	FZD10		Homo sapiens (Human)	9606	581
+Q14332	reviewed	Frizzled-2 (Fz-2) (hFz2) (FzE2)	FZD2	FZD2		Homo sapiens (Human)	9606	565
+Q9NPG1	reviewed	Frizzled-3 (Fz-3) (hFz3)	FZD3	FZD3		Homo sapiens (Human)	9606	666
+Q9ULV1	reviewed	Frizzled-4 (Fz-4) (hFz4) (FzE4) (CD antigen CD344)	FZD4	FZD4		Homo sapiens (Human)	9606	537
+P21728	reviewed	D(1A) dopamine receptor (Dopamine D1 receptor)	DRD1	DRD1		Homo sapiens (Human)	9606	446
+P35462	reviewed	D(3) dopamine receptor (Dopamine D3 receptor)	DRD3	DRD3		Homo sapiens (Human)	9606	400
+P21917	reviewed	D(4) dopamine receptor (D(2C) dopamine receptor) (Dopamine D4 receptor)	DRD4	DRD4		Homo sapiens (Human)	9606	419
+P21918	reviewed	D(1B) dopamine receptor (D(5) dopamine receptor) (D1beta dopamine receptor) (Dopamine D5 receptor)	DRD5 DRD1B DRD1L2	DRD5	DRD1B DRD1L2	Homo sapiens (Human)	9606	477
+P49238	reviewed	CX3C chemokine receptor 1 (C-X3-C CKR-1) (CX3CR1) (Beta chemokine receptor-like 1) (CMK-BRL-1) (CMK-BRL1) (Fractalkine receptor) (G-protein coupled receptor 13) (V28)	CX3CR1 CMKBRL1 GPR13	CX3CR1	CMKBRL1 GPR13	Homo sapiens (Human)	9606	355
+P49682	reviewed	C-X-C chemokine receptor type 3 (CXC-R3) (CXCR-3) (CKR-L2) (G protein-coupled receptor 9) (Interferon-inducible protein 10 receptor) (IP-10 receptor) (CD antigen CD183)	CXCR3 GPR9	CXCR3	GPR9	Homo sapiens (Human)	9606	368
+P25024	reviewed	C-X-C chemokine receptor type 1 (CXC-R1) (CXCR-1) (CDw128a) (High affinity interleukin-8 receptor A) (IL-8R A) (IL-8 receptor type 1) (CD antigen CD181)	CXCR1 CMKAR1 IL8RA	CXCR1	CMKAR1 IL8RA	Homo sapiens (Human)	9606	350
+P32302	reviewed	C-X-C chemokine receptor type 5 (CXC-R5) (CXCR-5) (Burkitt lymphoma receptor 1) (Monocyte-derived receptor 15) (MDR-15) (CD antigen CD185)	CXCR5 BLR1 MDR15	CXCR5	BLR1 MDR15	Homo sapiens (Human)	9606	372
+O00574	reviewed	C-X-C chemokine receptor type 6 (CXC-R6) (CXCR-6) (CDw186) (G-protein coupled receptor STRL33) (G-protein coupled receptor bonzo) (CD antigen CD186)	CXCR6 BONZO STRL33 TYMSTR	CXCR6	BONZO STRL33 TYMSTR	Homo sapiens (Human)	9606	342
+Q8NGA4	reviewed	Putative G-protein coupled receptor GPR32P1 (G-protein coupled 32 pseudogene) (G-protein coupled 32 pseudogene 1) (G-protein coupled receptor GPCR39) (hGPCR39)	GPR32P1	GPR32P1		Homo sapiens (Human)	9606	272
+P47211	reviewed	Galanin receptor type 1 (GAL1-R) (GALR-1)	GALR1 GALNR GALNR1	GALR1	GALNR GALNR1	Homo sapiens (Human)	9606	349
+P25090	reviewed	N-formyl peptide receptor 2 (FMLP-related receptor I) (FMLP-R-I) (Formyl peptide receptor-like 1) (HM63) (Lipoxin A4 receptor) (LXA4 receptor) (RFP)	FPR2 FPRH1 FPRL1 LXA4R	FPR2	FPRH1 FPRL1 LXA4R	Homo sapiens (Human)	9606	351
+P21462	reviewed	fMet-Leu-Phe receptor (fMLP receptor) (N-formyl peptide receptor) (FPR) (N-formylpeptide chemoattractant receptor)	FPR1	FPR1		Homo sapiens (Human)	9606	350
+P60893	reviewed	Probable G-protein coupled receptor 85 (Super conserved receptor expressed in brain 2)	GPR85 SREB2	GPR85	SREB2	Homo sapiens (Human)	9606	370
+Q9BXC0	reviewed	Hydroxycarboxylic acid receptor 1 (G-protein coupled receptor 104) (G-protein coupled receptor 81)	HCAR1 GPR104 GPR81 HCA1 FKSG80	HCAR1	GPR104 GPR81 HCA1	Homo sapiens (Human)	9606	346
+Q9BZJ7	reviewed	G-protein coupled receptor 62 (G-protein coupled receptor GPCR8) (hGPCR8) (G-protein coupled receptor KPG_005)	GPR62	GPR62		Homo sapiens (Human)	9606	368
+O00222	reviewed	Metabotropic glutamate receptor 8 (mGluR8)	GRM8 GPRC1H MGLUR8	GRM8	GPRC1H MGLUR8	Homo sapiens (Human)	9606	908
+Q14416	reviewed	Metabotropic glutamate receptor 2 (mGluR2)	GRM2 GPRC1B MGLUR2	GRM2	GPRC1B MGLUR2	Homo sapiens (Human)	9606	872
+P41594	reviewed	Metabotropic glutamate receptor 5 (mGluR5)	GRM5 GPRC1E MGLUR5	GRM5	GPRC1E MGLUR5	Homo sapiens (Human)	9606	1212
+Q99678	reviewed	G-protein coupled receptor 20	GPR20	GPR20		Homo sapiens (Human)	9606	358
+Q49SQ1	reviewed	Probable G-protein coupled receptor 33	GPR33	GPR33		Homo sapiens (Human)	9606	333
+Q96P67	reviewed	Probable G-protein coupled receptor 82	GPR82	GPR82		Homo sapiens (Human)	9606	336
+Q9HC97	reviewed	G-protein coupled receptor 35 (Kynurenic acid receptor) (KYNA receptor)	GPR35	GPR35		Homo sapiens (Human)	9606	309
+Q14330	reviewed	N-arachidonyl glycine receptor (NAGly receptor) (G-protein coupled receptor 18)	GPR18 GPCRW	GPR18	GPCRW	Homo sapiens (Human)	9606	331
+Q99680	reviewed	G-protein coupled receptor 22	GPR22	GPR22		Homo sapiens (Human)	9606	433
+Q8TDS4	reviewed	Hydroxycarboxylic acid receptor 2 (G-protein coupled receptor 109A) (G-protein coupled receptor HM74A) (Niacin receptor 1) (Nicotinic acid receptor)	HCAR2 GPR109A HCA2 HM74A NIACR1	HCAR2	GPR109A HCA2 HM74A NIACR1	Homo sapiens (Human)	9606	363
+P49019	reviewed	Hydroxycarboxylic acid receptor 3 (G-protein coupled receptor 109B) (G-protein coupled receptor HM74) (G-protein coupled receptor HM74B) (Niacin receptor 2) (Nicotinic acid receptor 2)	HCAR3 GPR109B HCA3 HM74B NIACR2	HCAR3	GPR109B HCA3 HM74B NIACR2	Homo sapiens (Human)	9606	387
+P30550	reviewed	Gastrin-releasing peptide receptor (GRP-R) (GRP-preferring bombesin receptor)	GRPR	GRPR		Homo sapiens (Human)	9606	384
+Q8TDU6	reviewed	G-protein coupled bile acid receptor 1 (G-protein coupled receptor GPCR19) (hGPCR19) (Membrane-type receptor for bile acids) (M-BAR) (hBG37) (BG37)	GPBAR1 TGR5	GPBAR1	TGR5	Homo sapiens (Human)	9606	330
+Q9NQ84	reviewed	G-protein coupled receptor family C group 5 member C (Retinoic acid-induced gene 3 protein) (RAIG-3)	GPRC5C RAIG3 PSEC0087	GPRC5C	RAIG3	Homo sapiens (Human)	9606	441
+P49685	reviewed	G-protein coupled receptor 15 (Brother of Bonzo) (BoB)	GPR15	GPR15		Homo sapiens (Human)	9606	360
+O15529	reviewed	G-protein coupled receptor 42	GPR42 GPR42P	GPR42	GPR42P	Homo sapiens (Human)	9606	346
+P46091	reviewed	G-protein coupled receptor 1	GPR1	GPR1		Homo sapiens (Human)	9606	355
+Q9BZJ8	reviewed	G-protein coupled receptor 61 (Biogenic amine receptor-like G-protein coupled receptor)	GPR61 BALGR GPCR3	GPR61	BALGR GPCR3	Homo sapiens (Human)	9606	451
+P22888	reviewed	Lutropin-choriogonadotropic hormone receptor (LH/CG-R) (Luteinizing hormone receptor) (LHR) (LSH-R)	LHCGR LCGR LGR2 LHRHR	LHCGR	LCGR LGR2 LHRHR	Homo sapiens (Human)	9606	699
+P25021	reviewed	Histamine H2 receptor (H2R) (HH2R) (Gastric receptor I)	HRH2	HRH2		Homo sapiens (Human)	9606	359
+Q9Y5N1	reviewed	Histamine H3 receptor (H3R) (HH3R) (G-protein coupled receptor 97)	HRH3 GPCR97	HRH3	GPCR97	Homo sapiens (Human)	9606	445
+Q9H3N8	reviewed	Histamine H4 receptor (H4R) (HH4R) (AXOR35) (G-protein coupled receptor 105) (GPRv53) (Pfi-013) (SP9144)	HRH4 GPCR105	HRH4	GPCR105	Homo sapiens (Human)	9606	390
+Q5NUL3	reviewed	Free fatty acid receptor 4 (G-protein coupled receptor 120) (G-protein coupled receptor 129) (G-protein coupled receptor GT01) (G-protein coupled receptor PGR4) (Omega-3 fatty acid receptor 1)	FFAR4 GPR120 GPR129 O3FAR1 PGR4	FFAR4	GPR120 GPR129 O3FAR1 PGR4	Homo sapiens (Human)	9606	377
+O15552	reviewed	Free fatty acid receptor 2 (G-protein coupled receptor 43)	FFAR2 FFA2 GPCR43 GPR43	FFAR2	FFA2 GPCR43 GPR43	Homo sapiens (Human)	9606	330
+O14843	reviewed	Free fatty acid receptor 3 (G-protein coupled receptor 41)	FFAR3 GPR41	FFAR3	GPR41	Homo sapiens (Human)	9606	346
+O14842	reviewed	Free fatty acid receptor 1 (G-protein coupled receptor 40)	FFAR1 GPR40	FFAR1	GPR40	Homo sapiens (Human)	9606	300
+Q9H461	reviewed	Frizzled-8 (Fz-8) (hFz8)	FZD8	FZD8		Homo sapiens (Human)	9606	694
+O00144	reviewed	Frizzled-9 (Fz-9) (hFz9) (FzE6) (CD antigen CD349)	FZD9 FZD3	FZD9	FZD3	Homo sapiens (Human)	9606	591
+P30872	reviewed	Somatostatin receptor type 1 (SS-1-R) (SS1-R) (SS1R) (SRIF-2)	SSTR1	SSTR1		Homo sapiens (Human)	9606	391
+P31391	reviewed	Somatostatin receptor type 4 (SS-4-R) (SS4-R) (SS4R)	SSTR4	SSTR4		Homo sapiens (Human)	9606	388
+P30874	reviewed	Somatostatin receptor type 2 (SS-2-R) (SS2-R) (SS2R) (SRIF-1)	SSTR2	SSTR2		Homo sapiens (Human)	9606	369
+P32745	reviewed	Somatostatin receptor type 3 (SS-3-R) (SS3-R) (SS3R) (SSR-28)	SSTR3	SSTR3		Homo sapiens (Human)	9606	418
+P35346	reviewed	Somatostatin receptor type 5 (SS-5-R) (SS5-R) (SS5R)	SSTR5	SSTR5		Homo sapiens (Human)	9606	364
+P30989	reviewed	Neurotensin receptor type 1 (NT-R-1) (NTR1) (High-affinity levocabastine-insensitive neurotensin receptor) (NTRH)	NTSR1 NTRR	NTSR1	NTRR	Homo sapiens (Human)	9606	418
+P47804	reviewed	RPE-retinal G protein-coupled receptor	RGR	RGR		Homo sapiens (Human)	9606	291
+P43119	reviewed	Prostacyclin receptor (Prostaglandin I2 receptor) (PGI receptor) (PGI2 receptor) (Prostanoid IP receptor)	PTGIR PRIPR	PTGIR	PRIPR	Homo sapiens (Human)	9606	386
+P49683	reviewed	Prolactin-releasing peptide receptor (PrRP receptor) (PrRPR) (G-protein coupled receptor 10) (hGR3)	PRLHR GPR10 GR3	PRLHR	GPR10 GR3	Homo sapiens (Human)	9606	370
+O95665	reviewed	Neurotensin receptor type 2 (NT-R-2) (NTR2) (Levocabastine-sensitive neurotensin receptor)	NTSR2	NTSR2		Homo sapiens (Human)	9606	410
+Q8N162	reviewed	Olfactory receptor 8H2 (Olfactory receptor OR11-171)	OR8H2	OR8H2		Homo sapiens (Human)	9606	312
+Q8NH51	reviewed	Olfactory receptor 8K3 (Olfactory receptor OR11-181)	OR8K3	OR8K3		Homo sapiens (Human)	9606	312
+P30953	reviewed	Olfactory receptor 1E1 (Olfactory receptor 13-66) (OR13-66) (Olfactory receptor 17-2/17-32) (OR17-2) (OR17-32) (Olfactory receptor 1E5) (Olfactory receptor 1E6) (Olfactory receptor 5-85) (OR5-85) (Olfactory receptor OR17-18) (Olfactory receptor-like protein HGMP07I)	OR1E1 OR1E5 OR1E6 OR1E9P	OR1E1	OR1E5 OR1E6 OR1E9P	Homo sapiens (Human)	9606	314
+Q96R09	reviewed	Olfactory receptor 5B2 (OST073) (Olfactory receptor OR11-240)	OR5B2	OR5B2		Homo sapiens (Human)	9606	309
+Q8NGC2	reviewed	Olfactory receptor 4E2 (Olfactory receptor OR14-42)	OR4E2	OR4E2		Homo sapiens (Human)	9606	313
+Q8WZA6	reviewed	Olfactory receptor 1E3 (Olfactory receptor 17-210) (OR17-210) (Olfactory receptor OR17-7)	OR1E3 OR1E3P	OR1E3	OR1E3P	Homo sapiens (Human)	9606	343
+Q8NGB9	reviewed	Olfactory receptor 4F6 (Olfactory receptor 4F12) (Olfactory receptor OR15-15)	OR4F6 OR4F12	OR4F6	OR4F12	Homo sapiens (Human)	9606	312
+Q8NGD4	reviewed	Olfactory receptor 4K1 (Olfactory receptor OR14-19)	OR4K1	OR4K1		Homo sapiens (Human)	9606	311
+Q8NGQ6	reviewed	Olfactory receptor 9I1 (Olfactory receptor OR11-228)	OR9I1	OR9I1		Homo sapiens (Human)	9606	314
+Q8NGL4	reviewed	Olfactory receptor 5D13 (Olfactory receptor OR11-142) (Olfactory receptor OR11-148)	OR5D13	OR5D13		Homo sapiens (Human)	9606	314
+Q8NGL3	reviewed	Olfactory receptor 5D14 (Olfactory receptor OR11-141) (Olfactory receptor OR11-150)	OR5D14	OR5D14		Homo sapiens (Human)	9606	314
+Q15077	reviewed	P2Y purinoceptor 6 (P2Y6)	P2RY6 PP2891	P2RY6		Homo sapiens (Human)	9606	328
+O00398	reviewed	Putative P2Y purinoceptor 10 (P2Y10) (P2Y-like receptor)	P2RY10	P2RY10		Homo sapiens (Human)	9606	339
+Q8NGC5	reviewed	Olfactory receptor 6J1 (Olfactory receptor 6J2)	OR6J1 OR6J2	OR6J1	OR6J2	Homo sapiens (Human)	9606	347
+P47884	reviewed	Olfactory receptor 1D4 (Olfactory receptor 17-30) (OR17-30)	OR1D4	OR1D4		Homo sapiens (Human)	9606	311
+Q9GZM6	reviewed	Olfactory receptor 8D2 (Olfactory receptor OR11-303) (Olfactory receptor-like protein JCG2)	OR8D2	OR8D2		Homo sapiens (Human)	9606	311
+Q15615	reviewed	Olfactory receptor 4D1 (Olfactory receptor 4D3) (Olfactory receptor TPCR16)	OR4D1 OR4D3	OR4D1	OR4D3	Homo sapiens (Human)	9606	310
+P58180	reviewed	Olfactory receptor 4D2 (B-lymphocyte membrane protein BC2009) (Olfactory receptor OR17-24)	OR4D2	OR4D2		Homo sapiens (Human)	9606	307
+Q9H210	reviewed	Olfactory receptor 2D2 (HB2) (Olfactory receptor 11-610) (OR11-610) (Olfactory receptor 2D1) (Olfactory receptor OR11-88)	OR2D2 OR2D1	OR2D2	OR2D1	Homo sapiens (Human)	9606	308
+Q8NGH3	reviewed	Olfactory receptor 2D3 (Olfactory receptor OR11-89)	OR2D3	OR2D3		Homo sapiens (Human)	9606	330
+Q8NGE8	reviewed	Olfactory receptor 4D9 (Olfactory receptor OR11-253)	OR4D9	OR4D9		Homo sapiens (Human)	9606	314
+Q8NGZ4	reviewed	Olfactory receptor 2G3 (Olfactory receptor OR1-33)	OR2G3	OR2G3		Homo sapiens (Human)	9606	309
+Q8NH48	reviewed	Olfactory receptor 5B3 (Olfactory receptor 5B13) (Olfactory receptor OR11-239)	OR5B3 OR5B13	OR5B3	OR5B13	Homo sapiens (Human)	9606	314
+Q8NGU1	reviewed	Putative olfactory receptor 9A1 (HSHTPRX06)	OR9A1P OR9A1	OR9A1P	OR9A1	Homo sapiens (Human)	9606	263
+Q8NGX8	reviewed	Olfactory receptor 6Y1 (Olfactory receptor 6Y2) (Olfactory receptor OR1-11)	OR6Y1 OR6Y2	OR6Y1	OR6Y2	Homo sapiens (Human)	9606	325
+Q8NGA2	reviewed	Putative olfactory receptor 7A2 (Putative olfactory receptor 7A7)	OR7A2P OR7A2 OR7A7	OR7A2P	OR7A2 OR7A7	Homo sapiens (Human)	9606	310
+O76100	reviewed	Olfactory receptor 7A10 (OST027) (Olfactory receptor OR19-18)	OR7A10	OR7A10		Homo sapiens (Human)	9606	309
+O14581	reviewed	Olfactory receptor 7A17	OR7A17	OR7A17		Homo sapiens (Human)	9606	309
+O60412	reviewed	Olfactory receptor 7C2 (Olfactory receptor 19-18) (OR19-18) (Olfactory receptor 7C3) (Olfactory receptor OR19-22)	OR7C2 OR7C3	OR7C2	OR7C3	Homo sapiens (Human)	9606	319
+A6NET4	reviewed	Olfactory receptor 5K3	OR5K3	OR5K3		Homo sapiens (Human)	9606	321
+Q8NGP8	reviewed	Olfactory receptor 5M1 (OST050) (Olfactory receptor OR11-208)	OR5M1	OR5M1		Homo sapiens (Human)	9606	315
+Q8NGP6	reviewed	Olfactory receptor 5M8 (Olfactory receptor OR11-194)	OR5M8	OR5M8		Homo sapiens (Human)	9606	311
+Q96R27	reviewed	Olfactory receptor 2M4 (HTPCRX18) (OST710) (Olfactory receptor OR1-55) (Olfactory receptor TPCR100)	OR2M4	OR2M4		Homo sapiens (Human)	9606	311
+A3KFT3	reviewed	Olfactory receptor 2M5	OR2M5 OR2M5P	OR2M5	OR2M5P	Homo sapiens (Human)	9606	312
+Q8NH03	reviewed	Olfactory receptor 2T3	OR2T3	OR2T3		Homo sapiens (Human)	9606	318
+P30559	reviewed	Oxytocin receptor (OT-R)	OXTR	OXTR		Homo sapiens (Human)	9606	389
+P25116	reviewed	Proteinase-activated receptor 1 (PAR-1) (Coagulation factor II receptor) (Thrombin receptor)	F2R CF2R PAR1 TR	F2R	CF2R PAR1 TR	Homo sapiens (Human)	9606	425
+P37288	reviewed	Vasopressin V1a receptor (V1aR) (AVPR V1a) (Antidiuretic hormone receptor 1a) (Vascular/hepatic-type arginine vasopressin receptor)	AVPR1A AVPR1	AVPR1A	AVPR1	Homo sapiens (Human)	9606	418
+P30518	reviewed	Vasopressin V2 receptor (V2R) (AVPR V2) (Antidiuretic hormone receptor) (Renal-type arginine vasopressin receptor)	AVPR2 ADHR DIR DIR3 V2R	AVPR2	ADHR DIR DIR3 V2R	Homo sapiens (Human)	9606	371
+P47901	reviewed	Vasopressin V1b receptor (V1bR) (AVPR V1b) (AVPR V3) (Antidiuretic hormone receptor 1b) (Vasopressin V3 receptor)	AVPR1B AVPR3 VPR3	AVPR1B	AVPR3 VPR3	Homo sapiens (Human)	9606	424
+Q9UKP6	reviewed	Urotensin-2 receptor (UR-2-R) (G-protein coupled receptor 14) (Urotensin II receptor) (UR-II-R)	UTS2R GPR14	UTS2R	GPR14	Homo sapiens (Human)	9606	389
+P35367	reviewed	Histamine H1 receptor (H1R) (HH1R)	HRH1	HRH1		Homo sapiens (Human)	9606	487
+Q99705	reviewed	Melanin-concentrating hormone receptor 1 (MCH receptor 1) (MCH-R1) (MCHR-1) (G-protein coupled receptor 24) (MCH-1R) (MCH1R) (MCHR) (SLC-1) (Somatostatin receptor-like protein)	MCHR1 GPR24 SLC1	MCHR1	GPR24 SLC1	Homo sapiens (Human)	9606	422
+Q969V1	reviewed	Melanin-concentrating hormone receptor 2 (MCH receptor 2) (MCH-R2) (MCHR-2) (G-protein coupled receptor 145) (GPRv17) (MCH-2R) (MCH2) (MCH2R)	MCHR2 GPR145 SLT	MCHR2	GPR145 SLT	Homo sapiens (Human)	9606	340
+Q9UBY5	reviewed	Lysophosphatidic acid receptor 3 (LPA receptor 3) (LPA-3) (Lysophosphatidic acid receptor Edg-7)	LPAR3 EDG7 LPA3	LPAR3	EDG7 LPA3	Homo sapiens (Human)	9606	353
+Q9H1C0	reviewed	Lysophosphatidic acid receptor 5 (LPA receptor 5) (LPA-5) (G-protein coupled receptor 92) (G-protein coupled receptor 93)	LPAR5 GPR92 GPR93	LPAR5	GPR92 GPR93	Homo sapiens (Human)	9606	372
+P43657	reviewed	Lysophosphatidic acid receptor 6 (LPA receptor 6) (LPA-6) (Oleoyl-L-alpha-lysophosphatidic acid receptor) (P2Y purinoceptor 5) (P2Y5) (Purinergic receptor 5) (RB intron encoded G-protein coupled receptor)	LPAR6 P2RY5	LPAR6	P2RY5	Homo sapiens (Human)	9606	344
+P32245	reviewed	Melanocortin receptor 4 (MC4-R)	MC4R	MC4R		Homo sapiens (Human)	9606	332
+Q92633	reviewed	Lysophosphatidic acid receptor 1 (LPA receptor 1) (LPA-1) (Lysophosphatidic acid receptor Edg-2)	LPAR1 EDG2 LPA1	LPAR1	EDG2 LPA1	Homo sapiens (Human)	9606	364
+P28336	reviewed	Neuromedin-B receptor (NMB-R) (Epididymis tissue protein Li 185a) (Neuromedin-B-preferring bombesin receptor)	NMBR	NMBR		Homo sapiens (Human)	9606	390
+P0DQD5	reviewed	Neuropeptide Y receptor type 4-2	NPY4R2	NPY4R2		Homo sapiens (Human)	9606	375
+Q9Y5X5	reviewed	Neuropeptide FF receptor 2 (G-protein coupled receptor 74) (G-protein coupled receptor HLWAR77) (Neuropeptide G-protein coupled receptor)	NPFFR2 GPR74 NPFF2 NPGPR	NPFFR2	GPR74 NPFF2 NPGPR	Homo sapiens (Human)	9606	522
+Q6W5P4	reviewed	Neuropeptide S receptor (G-protein coupled receptor 154) (G-protein coupled receptor PGR14) (G-protein coupled receptor for asthma susceptibility)	NPSR1 GPR154 GPRA PGR14	NPSR1	GPR154 GPRA PGR14	Homo sapiens (Human)	9606	371
+Q99463	reviewed	Putative neuropeptide Y receptor type 6 (NPY6-R) (NPY Y1-like receptor) (Putative pancreatic polypeptide receptor 2) (PP2)	NPY6R NPY1RL Y2B	NPY6R	NPY1RL Y2B	Homo sapiens (Human)	9606	290
+P49146	reviewed	Neuropeptide Y receptor type 2 (NPY2-R) (NPY-Y2 receptor) (Y2 receptor)	NPY2R	NPY2R		Homo sapiens (Human)	9606	381
+P50391	reviewed	Neuropeptide Y receptor type 4 (NPY4-R) (Pancreatic polypeptide receptor 1) (PP1)	NPY4R PPYR1	NPY4R	PPYR1	Homo sapiens (Human)	9606	375
+P25103	reviewed	Substance-P receptor (SPR) (NK-1 receptor) (NK-1R) (Tachykinin receptor 1)	TACR1 NK1R TAC1R	TACR1	NK1R TAC1R	Homo sapiens (Human)	9606	407
+Q9GZQ6	reviewed	Neuropeptide FF receptor 1 (G-protein coupled receptor 147) (RFamide-related peptide receptor OT7T022)	NPFFR1 GPR147 NPFF1	NPFFR1	GPR147 NPFF1	Homo sapiens (Human)	9606	430
+P25929	reviewed	Neuropeptide Y receptor type 1 (NPY1-R)	NPY1R NPYR NPYY1	NPY1R	NPYR NPYY1	Homo sapiens (Human)	9606	384
+Q15761	reviewed	Neuropeptide Y receptor type 5 (NPY5-R) (NPY-Y5 receptor) (NPYY5-R) (Y5 receptor)	NPY5R NPYR5	NPY5R	NPYR5	Homo sapiens (Human)	9606	445
+P48145	reviewed	Neuropeptides B/W receptor type 1 (G-protein coupled receptor 7)	NPBWR1 GPR7	NPBWR1	GPR7	Homo sapiens (Human)	9606	328
+P48146	reviewed	Neuropeptides B/W receptor type 2 (G-protein coupled receptor 8)	NPBWR2 GPR8	NPBWR2	GPR8	Homo sapiens (Human)	9606	333
+P21452	reviewed	Substance-K receptor (SKR) (NK-2 receptor) (NK-2R) (Neurokinin A receptor) (Tachykinin receptor 2)	TACR2 NK2R NKNAR TAC2R	TACR2	NK2R NKNAR TAC2R	Homo sapiens (Human)	9606	398
+P29371	reviewed	Neuromedin-K receptor (NKR) (NK-3 receptor) (NK-3R) (Neurokinin B receptor) (Tachykinin receptor 3)	TACR3 NK3R TAC3R	TACR3	NK3R TAC3R	Homo sapiens (Human)	9606	465
+P35410	reviewed	Mas-related G-protein coupled receptor MRG (MAS-R) (MAS1-like)	MAS1L MRG	MAS1L	MRG	Homo sapiens (Human)	9606	378
+P41968	reviewed	Melanocortin receptor 3 (MC3-R)	MC3R	MC3R		Homo sapiens (Human)	9606	323
+P33032	reviewed	Melanocortin receptor 5 (MC5-R) (MC-2)	MC5R	MC5R		Homo sapiens (Human)	9606	325
+P04201	reviewed	Proto-oncogene Mas	MAS1 MAS	MAS1	MAS	Homo sapiens (Human)	9606	325
+Q15722	reviewed	Leukotriene B4 receptor 1 (LTB4-R 1) (LTB4-R1) (Chemoattractant receptor-like 1) (G-protein coupled receptor 16) (P2Y purinoceptor 7) (P2Y7)	LTB4R BLT BLT1 BLTR CMKRL1 GPR16 P2RY7	LTB4R	BLT BLT1 BLTR CMKRL1 GPR16 P2RY7	Homo sapiens (Human)	9606	352
+Q9NPC1	reviewed	Leukotriene B4 receptor 2 (LTB4-R 2) (LTB4-R2) (LTB4 receptor JULF2) (Leukotriene B4 receptor BLT2) (Seven transmembrane receptor BLTR2)	LTB4R2 BLT2R BLTR2	LTB4R2	BLT2R BLTR2	Homo sapiens (Human)	9606	358
+Q9NZP5	reviewed	Olfactory receptor 5AC2 (HSA1)	OR5AC2	OR5AC2		Homo sapiens (Human)	9606	309
+Q8NH90	reviewed	Olfactory receptor 5AK2	OR5AK2	OR5AK2		Homo sapiens (Human)	9606	309
+Q8NH89	reviewed	Putative olfactory receptor 5AK3	OR5AK3P OR5AK3	OR5AK3P	OR5AK3	Homo sapiens (Human)	9606	298
+A6NHG9	reviewed	Olfactory receptor 5H14	OR5H14	OR5H14		Homo sapiens (Human)	9606	310
+A6NJZ3	reviewed	Olfactory receptor 6C65	OR6C65	OR6C65		Homo sapiens (Human)	9606	312
+A6NDL8	reviewed	Olfactory receptor 6C68	OR6C68	OR6C68		Homo sapiens (Human)	9606	312
+Q6IFN5	reviewed	Olfactory receptor 7E24 (Olfactory receptor OR19-14)	OR7E24 OR7E24P	OR7E24	OR7E24P	Homo sapiens (Human)	9606	339
+Q6IF36	reviewed	Putative olfactory receptor 8G2 (Olfactory receptor 8G4) (Olfactory receptor OR11-292) (Olfactory receptor TPCR120)	OR8G2P OR8G2 OR8G4	OR8G2P	OR8G2 OR8G4	Homo sapiens (Human)	9606	304
+Q01726	reviewed	Melanocyte-stimulating hormone receptor (MSH-R) (Melanocortin receptor 1) (MC1-R)	MC1R MSHR	MC1R	MSHR	Homo sapiens (Human)	9606	317
+Q8TDS7	reviewed	Mas-related G-protein coupled receptor member D (Beta-alanine receptor) (G-protein coupled receptor TGR7)	MRGPRD MRGD	MRGPRD	MRGD	Homo sapiens (Human)	9606	321
+Q8NGN3	reviewed	Olfactory receptor 10G4 (Olfactory receptor OR11-278)	OR10G4	OR10G4		Homo sapiens (Human)	9606	311
+Q8NH81	reviewed	Olfactory receptor 10G6 (Olfactory receptor OR11-280)	OR10G6 OR10G6P	OR10G6	OR10G6P	Homo sapiens (Human)	9606	332
+Q96LA9	reviewed	Mas-related G-protein coupled receptor member X4 (Sensory neuron-specific G-protein coupled receptor 5/6)	MRGPRX4 MRGX4 SNSR5 SNSR6	MRGPRX4	MRGX4 SNSR5 SNSR6	Homo sapiens (Human)	9606	322
+Q8NGA6	reviewed	Olfactory receptor 10H5 (Olfactory receptor OR19-25) (Olfactory receptor OR19-26)	OR10H5	OR10H5		Homo sapiens (Human)	9606	315
+Q8NG94	reviewed	Olfactory receptor 11H1 (Olfactory receptor OR22-1)	OR11H1	OR11H1		Homo sapiens (Human)	9606	326
+Q8NGS5	reviewed	Olfactory receptor 13C4 (Olfactory receptor OR9-7)	OR13C4	OR13C4		Homo sapiens (Human)	9606	318
+Q8NGV5	reviewed	Olfactory receptor 13D1 (Olfactory receptor OR9-15)	OR13D1	OR13D1		Homo sapiens (Human)	9606	346
+Q8NG92	reviewed	Olfactory receptor 13H1 (Olfactory receptor ORX-1)	OR13H1	OR13H1		Homo sapiens (Human)	9606	308
+Q8NH04	reviewed	Olfactory receptor 2T27 (Olfactory receptor OR1-67)	OR2T27	OR2T27		Homo sapiens (Human)	9606	317
+Q8NH02	reviewed	Olfactory receptor 2T29	OR2T29	OR2T29		Homo sapiens (Human)	9606	315
+Q8NGX1	reviewed	Olfactory receptor 2T34 (Olfactory receptor OR1-63)	OR2T34	OR2T34		Homo sapiens (Human)	9606	318
+Q9H346	reviewed	Olfactory receptor 52D1 (Odorant receptor HOR5'beta14) (Olfactory receptor OR11-43)	OR52D1	OR52D1		Homo sapiens (Human)	9606	318
+Q8NGH9	reviewed	Olfactory receptor 52E4 (Olfactory receptor OR11-55)	OR52E4	OR52E4		Homo sapiens (Human)	9606	312
+Q8NH55	reviewed	Olfactory receptor 52E5	OR52E5	OR52E5		Homo sapiens (Human)	9606	327
+Q6IFG1	reviewed	Olfactory receptor 52E8 (Olfactory receptor OR11-54)	OR52E8	OR52E8		Homo sapiens (Human)	9606	317
+Q8NGJ2	reviewed	Olfactory receptor 52H1 (Olfactory receptor OR11-45)	OR52H1	OR52H1		Homo sapiens (Human)	9606	320
+Q8NGK6	reviewed	Olfactory receptor 52I1 (Olfactory receptor OR11-13)	OR52I1	OR52I1		Homo sapiens (Human)	9606	324
+Q8NGK4	reviewed	Olfactory receptor 52K1 (Olfactory receptor OR11-8)	OR52K1	OR52K1		Homo sapiens (Human)	9606	314
+Q8NGH7	reviewed	Olfactory receptor 52L1 (Olfactory receptor OR11-50)	OR52L1	OR52L1		Homo sapiens (Human)	9606	329
+Q8NGH6	reviewed	Putative olfactory receptor 52L2 (Olfactory receptor OR11-74)	OR52L2P OR52L2	OR52L2P	OR52L2	Homo sapiens (Human)	9606	319
+Q8NGK5	reviewed	Olfactory receptor 52M1 (Olfactory receptor OR11-11)	OR52M1 OR52M1P	OR52M1	OR52M1P	Homo sapiens (Human)	9606	317
+Q8NGI0	reviewed	Olfactory receptor 52N2 (Olfactory receptor OR11-57)	OR52N2	OR52N2		Homo sapiens (Human)	9606	321
+Q8NGI2	reviewed	Olfactory receptor 52N4 (Olfactory receptor OR11-64)	OR52N4	OR52N4		Homo sapiens (Human)	9606	321
+Q8NH57	reviewed	Putative olfactory receptor 52P1	OR52P1P OR52P1	OR52P1P	OR52P1	Homo sapiens (Human)	9606	321
+Q6IF63	reviewed	Olfactory receptor 52W1 (Olfactory receptor OR11-71)	OR52W1 OR52W1P	OR52W1	OR52W1P	Homo sapiens (Human)	9606	320
+Q8NH54	reviewed	Olfactory receptor 56A3 (Olfactory receptor 56A6)	OR56A3 OR56A3P OR56A6	OR56A3	OR56A3P OR56A6	Homo sapiens (Human)	9606	315
+Q8NGH8	reviewed	Olfactory receptor 56A4 (Olfactory receptor OR11-49)	OR56A4	OR56A4		Homo sapiens (Human)	9606	313
+P0C7T3	reviewed	Olfactory receptor 56A5	OR56A5 OR56A5P	OR56A5	OR56A5P	Homo sapiens (Human)	9606	313
+Q8NGI3	reviewed	Olfactory receptor 56B1 (Olfactory receptor OR11-65)	OR56B1 OR56B1P	OR56B1	OR56B1P	Homo sapiens (Human)	9606	324
+Q8NGI1	reviewed	Putative olfactory receptor 56B2	OR56B2P	OR56B2P		Homo sapiens (Human)	9606	322
+Q8NH76	reviewed	Olfactory receptor 56B4 (Olfactory receptor OR11-67)	OR56B4	OR56B4		Homo sapiens (Human)	9606	319
+P0C628	reviewed	Olfactory receptor 5AC1 (Olfactory receptor OR3-2)	OR5AC1 OR5AC1P	OR5AC1	OR5AC1P	Homo sapiens (Human)	9606	307
+P0C617	reviewed	Olfactory receptor 5AL1 (Olfactory receptor OR11-184)	OR5AL1 OR5AL1P	OR5AL1	OR5AL1P	Homo sapiens (Human)	9606	328
+Q8NGI8	reviewed	Olfactory receptor 5AN1 (Olfactory receptor OR11-244)	OR5AN1	OR5AN1		Homo sapiens (Human)	9606	311
+Q8NGF4	reviewed	Olfactory receptor 5AP2	OR5AP2	OR5AP2		Homo sapiens (Human)	9606	316
+Q8NGP9	reviewed	Olfactory receptor 5AR1 (Olfactory receptor OR11-209)	OR5AR1	OR5AR1		Homo sapiens (Human)	9606	310
+Q8N127	reviewed	Olfactory receptor 5AS1 (Olfactory receptor OR11-168)	OR5AS1	OR5AS1		Homo sapiens (Human)	9606	324
+Q8NGC0	reviewed	Olfactory receptor 5AU1 (Olfactory receptor OR14-38)	OR5AU1	OR5AU1		Homo sapiens (Human)	9606	362
+A6NDH6	reviewed	Olfactory receptor 5H15	OR5H15	OR5H15		Homo sapiens (Human)	9606	313
+A6NIJ9	reviewed	Olfactory receptor 6C70	OR6C70	OR6C70		Homo sapiens (Human)	9606	312
+A6NCV1	reviewed	Olfactory receptor 6C74	OR6C74	OR6C74		Homo sapiens (Human)	9606	312
+A6NL08	reviewed	Olfactory receptor 6C75	OR6C75	OR6C75		Homo sapiens (Human)	9606	312
+A6NM76	reviewed	Olfactory receptor 6C76	OR6C76	OR6C76		Homo sapiens (Human)	9606	312
+Q86SM5	reviewed	Mas-related G-protein coupled receptor member G (G-protein coupled receptor 169)	MRGPRG GPR169 MRGG	MRGPRG	GPR169 MRGG	Homo sapiens (Human)	9606	289
+Q96LB2	reviewed	Mas-related G-protein coupled receptor member X1 (Sensory neuron-specific G-protein coupled receptor 3/4)	MRGPRX1 MRGX1 SNSR3 SNSR4	MRGPRX1	MRGX1 SNSR3 SNSR4	Homo sapiens (Human)	9606	322
+Q8NGN7	reviewed	Putative olfactory receptor 10D4	OR10D4P OR10D4	OR10D4P	OR10D4	Homo sapiens (Human)	9606	298
+Q9UGF5	reviewed	Olfactory receptor 14J1 (Hs6M1-28) (Olfactory receptor 5U1) (Olfactory receptor OR6-25)	OR14J1 OR5U1	OR14J1	OR5U1	Homo sapiens (Human)	9606	321
+Q8NGZ2	reviewed	Olfactory receptor 14K1 (Olfactory receptor 5AY1) (Olfactory receptor OR1-39)	OR14K1 OR5AY1	OR14K1	OR5AY1	Homo sapiens (Human)	9606	314
+Q8NHC6	reviewed	Putative olfactory receptor 14L1 (Putative olfactory receptor 5AV1)	OR14L1P OR5AV1P	OR14L1P	OR5AV1P	Homo sapiens (Human)	9606	308
+Q86SM8	reviewed	Mas-related G-protein coupled receptor member E (G-protein coupled receptor 167)	MRGPRE GPR167 MRGE	MRGPRE	GPR167 MRGE	Homo sapiens (Human)	9606	312
+Q8NGE5	reviewed	Olfactory receptor 10A7 (Olfactory receptor OR12-6)	OR10A7	OR10A7		Homo sapiens (Human)	9606	316
+Q8NH08	reviewed	Olfactory receptor 10AC1 (Olfactory receptor OR7-5)	OR10AC1 OR10AC1P	OR10AC1	OR10AC1P	Homo sapiens (Human)	9606	325
+Q8NGE0	reviewed	Olfactory receptor 10AD1 (Olfactory receptor OR12-1)	OR10AD1 OR10AD1P	OR10AD1	OR10AD1P	Homo sapiens (Human)	9606	317
+Q8NH80	reviewed	Putative olfactory receptor 10D3 (HTPCRX09) (Olfactory receptor OR11-293)	OR10D3 OR10D3P	OR10D3	OR10D3P	Homo sapiens (Human)	9606	312
+Q8NGC3	reviewed	Olfactory receptor 10G2	OR10G2	OR10G2		Homo sapiens (Human)	9606	310
+Q96LB0	reviewed	Mas-related G-protein coupled receptor member X3 (Sensory neuron-specific G-protein coupled receptor 1/2)	MRGPRX3 MRGX3 SNSR1 SNSR2	MRGPRX3	MRGX3 SNSR1 SNSR2	Homo sapiens (Human)	9606	322
+P30954	reviewed	Olfactory receptor 10J1 (Olfactory receptor OR1-26) (Olfactory receptor-like protein HGMP07J)	OR10J1	OR10J1		Homo sapiens (Human)	9606	320
+Q8NGX5	reviewed	Olfactory receptor 10K1 (Olfactory receptor OR1-6)	OR10K1	OR10K1		Homo sapiens (Human)	9606	313
+Q6IF99	reviewed	Olfactory receptor 10K2 (Olfactory receptor OR1-4)	OR10K2	OR10K2		Homo sapiens (Human)	9606	312
+Q8NGE3	reviewed	Olfactory receptor 10P1 (Olfactory receptor 10P2) (Olfactory receptor 10P3) (Olfactory receptor OR12-7)	OR10P1 OR10P1P OR10P2P OR10P3P	OR10P1	OR10P1P OR10P2P OR10P3P	Homo sapiens (Human)	9606	313
+Q8NGQ4	reviewed	Olfactory receptor 10Q1 (Olfactory receptor OR11-233)	OR10Q1	OR10Q1		Homo sapiens (Human)	9606	319
+Q8NGX6	reviewed	Olfactory receptor 10R2 (Olfactory receptor OR1-8)	OR10R2	OR10R2		Homo sapiens (Human)	9606	335
+Q8NGN2	reviewed	Olfactory receptor 10S1 (Olfactory receptor OR11-279)	OR10S1	OR10S1		Homo sapiens (Human)	9606	331
+Q8NGF6	reviewed	Olfactory receptor 10W1 (Olfactory receptor OR11-236)	OR10W1 OR10W1P UNQ6469/PRO34070	OR10W1	OR10W1P	Homo sapiens (Human)	9606	305
+Q8NGY0	reviewed	Olfactory receptor 10X1 (Olfactory receptor OR1-14)	OR10X1 OR10X1P	OR10X1	OR10X1P	Homo sapiens (Human)	9606	326
+Q8NGY1	reviewed	Olfactory receptor 10Z1 (Olfactory receptor OR1-15)	OR10Z1	OR10Z1		Homo sapiens (Human)	9606	313
+Q9GZK7	reviewed	Olfactory receptor 11A1 (Hs6M1-18) (Olfactory receptor 11A2) (Olfactory receptor OR6-30)	OR11A1 OR11A2	OR11A1	OR11A2	Homo sapiens (Human)	9606	315
+Q8NGC1	reviewed	Olfactory receptor 11G2 (Olfactory receptor OR14-34)	OR11G2	OR11G2		Homo sapiens (Human)	9606	345
+Q8NH07	reviewed	Olfactory receptor 11H2 (Olfactory receptor OR14-1)	OR11H2 C14orf15 OR11H2P	OR11H2	C14orf15 OR11H2P	Homo sapiens (Human)	9606	326
+P0DN82	reviewed	Olfactory receptor 12D1 (Olfactory receptor 12D1 pseudogene)	OR12D1 OR12D1P	OR12D1	OR12D1P	Homo sapiens (Human)	9606	309
+P58182	reviewed	Olfactory receptor 12D2 (Hs6M1-20) (Olfactory receptor OR6-28)	OR12D2	OR12D2		Homo sapiens (Human)	9606	307
+Q9UGF7	reviewed	Olfactory receptor 12D3 (Hs6M1-27) (Olfactory receptor OR6-27)	OR12D3	OR12D3		Homo sapiens (Human)	9606	316
+Q8NH95	reviewed	Putative olfactory receptor 13C6 (Olfactory receptor, family 13, subfamily C, member 6 pseudogene) (Olfactory receptor, family 13, subfamily C, member 7 pseudogene) (Putative olfactory receptor 13C7)	OR13C6P	OR13C6P		Homo sapiens (Human)	9606	151
+Q8NGS4	reviewed	Olfactory receptor 13F1 (Olfactory receptor OR9-6)	OR13F1	OR13F1		Homo sapiens (Human)	9606	319
+Q8NGZ3	reviewed	Olfactory receptor 13G1 (Olfactory receptor OR1-37)	OR13G1	OR13G1		Homo sapiens (Human)	9606	307
+Q8NGT2	reviewed	Olfactory receptor 13J1 (Olfactory receptor OR9-2)	OR13J1	OR13J1		Homo sapiens (Human)	9606	312
+Q96R54	reviewed	Olfactory receptor 14A2 (Olfactory receptor 5AX1) (Olfactory receptor OR1-31)	OR14A2 OR5AX1 OR5AX1P	OR14A2	OR5AX1 OR5AX1P	Homo sapiens (Human)	9606	314
+Q8NHC5	reviewed	Olfactory receptor 14A16 (Olfactory receptor 5AT1) (Olfactory receptor OR1-45)	OR14A16 OR5AT1	OR14A16	OR5AT1	Homo sapiens (Human)	9606	309
+Q8NHC7	reviewed	Olfactory receptor 14C36 (Olfactory receptor 5BF1) (Olfactory receptor OR1-59)	OR14C36 OR5BF1	OR14C36	OR5BF1	Homo sapiens (Human)	9606	312
+A6ND48	reviewed	Olfactory receptor 14I1 (Olfactory receptor 5BU1)	OR14I1 OR5BU1 OR5BU1P	OR14I1	OR5BU1 OR5BU1P	Homo sapiens (Human)	9606	311
+Q96R47	reviewed	Olfactory receptor 2A14 (OST182) (Olfactory receptor 2A6) (Olfactory receptor OR7-12)	OR2A14 OR2A14P OR2A6	OR2A14	OR2A14P OR2A6	Homo sapiens (Human)	9606	310
+A4D2G3	reviewed	Olfactory receptor 2A25 (Olfactory receptor 2A27)	OR2A25 OR2A25P OR2A27	OR2A25	OR2A25P OR2A27	Homo sapiens (Human)	9606	310
+Q8NHA4	reviewed	Olfactory receptor 2AE1 (Olfactory receptor 2AE2)	OR2AE1 OR2AE2	OR2AE1	OR2AE2	Homo sapiens (Human)	9606	323
+Q9H205	reviewed	Olfactory receptor 2AG1 (HT3) (Olfactory receptor 2AG3) (Olfactory receptor OR11-79)	OR2AG1 OR2AG3	OR2AG1	OR2AG3	Homo sapiens (Human)	9606	316
+Q8NGZ0	reviewed	Olfactory receptor 2AJ1	OR2AJ1 OR2AJ1P	OR2AJ1	OR2AJ1P	Homo sapiens (Human)	9606	328
+Q8NG84	reviewed	Olfactory receptor 2AK2 (Olfactory receptor 2AK1) (Olfactory receptor OR1-47)	OR2AK2 OR2AK1P	OR2AK2	OR2AK1P	Homo sapiens (Human)	9606	335
+A6NND4	reviewed	Olfactory receptor 2AT4 (Olfactory receptor OR11-265)	OR2AT4	OR2AT4		Homo sapiens (Human)	9606	320
+Q8NG77	reviewed	Olfactory receptor 2T12 (Olfactory receptor OR1-57)	OR2T12	OR2T12		Homo sapiens (Human)	9606	320
+Q8NG76	reviewed	Olfactory receptor 2T33 (Olfactory receptor OR1-56)	OR2T33	OR2T33		Homo sapiens (Human)	9606	320
+Q8NGX2	reviewed	Olfactory receptor 2T35 (Olfactory receptor OR1-66)	OR2T35	OR2T35		Homo sapiens (Human)	9606	323
+Q8NGF0	reviewed	Olfactory receptor 52B6 (Olfactory receptor OR11-47)	OR52B6	OR52B6		Homo sapiens (Human)	9606	335
+Q8NGJ3	reviewed	Olfactory receptor 52E1	OR52E1 OR52E1P	OR52E1	OR52E1P	Homo sapiens (Human)	9606	308
+Q8NGJ4	reviewed	Olfactory receptor 52E2	OR52E2	OR52E2		Homo sapiens (Human)	9606	325
+Q96RD3	reviewed	Olfactory receptor 52E6 (Olfactory receptor OR11-58)	OR52E6	OR52E6		Homo sapiens (Human)	9606	313
+Q8NH67	reviewed	Olfactory receptor 52I2 (Olfactory receptor OR11-12)	OR52I2	OR52I2		Homo sapiens (Human)	9606	350
+Q8NH60	reviewed	Olfactory receptor 52J3 (Olfactory receptor OR11-32)	OR52J3	OR52J3		Homo sapiens (Human)	9606	311
+Q8NGK3	reviewed	Olfactory receptor 52K2 (Olfactory receptor OR11-7)	OR52K2	OR52K2		Homo sapiens (Human)	9606	314
+Q8NH53	reviewed	Olfactory receptor 52N1 (Olfactory receptor OR11-61)	OR52N1	OR52N1		Homo sapiens (Human)	9606	320
+Q8NH56	reviewed	Olfactory receptor 52N5 (Olfactory receptor OR11-62)	OR52N5	OR52N5		Homo sapiens (Human)	9606	324
+Q8NGF1	reviewed	Olfactory receptor 52R1 (Olfactory receptor OR11-22)	OR52R1	OR52R1		Homo sapiens (Human)	9606	315
+P0C646	reviewed	Olfactory receptor 52Z1	OR52Z1 OR52Z1P	OR52Z1	OR52Z1P	Homo sapiens (Human)	9606	298
+Q8NGH5	reviewed	Olfactory receptor 56A1 (Olfactory receptor OR11-75)	OR56A1	OR56A1		Homo sapiens (Human)	9606	318
+Q9H208	reviewed	Olfactory receptor 10A2 (HP4) (Olfactory receptor OR11-86)	OR10A2 OR10A2P	OR10A2	OR10A2P	Homo sapiens (Human)	9606	303
+P58181	reviewed	Olfactory receptor 10A3 (HTPCRX12) (Olfactory receptor OR11-97)	OR10A3	OR10A3		Homo sapiens (Human)	9606	314
+Q9H209	reviewed	Olfactory receptor 10A4 (HP2) (Olfactory receptor-like protein JCG5)	OR10A4 OR10A4P	OR10A4	OR10A4P	Homo sapiens (Human)	9606	315
+Q9H207	reviewed	Olfactory receptor 10A5 (HP3) (Olfactory receptor 10A1) (Olfactory receptor 11-403) (OR11-403) (Olfactory receptor-like protein JCG6)	OR10A5 OR10A1	OR10A5	OR10A1	Homo sapiens (Human)	9606	317
+Q8NH74	reviewed	Olfactory receptor 10A6 (Olfactory receptor OR11-96)	OR10A6	OR10A6		Homo sapiens (Human)	9606	314
+Q96KK4	reviewed	Olfactory receptor 10C1 (Hs6M1-17) (Olfactory receptor 10C2)	OR10C1 OR10C2	OR10C1	OR10C2	Homo sapiens (Human)	9606	312
+Q8NGC4	reviewed	Olfactory receptor 10G3 (Olfactory receptor OR14-40)	OR10G3	OR10G3		Homo sapiens (Human)	9606	313
+Q96LB1	reviewed	Mas-related G-protein coupled receptor member X2	MRGPRX2 MRGX2	MRGPRX2	MRGX2	Homo sapiens (Human)	9606	330
+Q8NGN6	reviewed	Olfactory receptor 10G7 (Olfactory receptor OR11-283)	OR10G7	OR10G7		Homo sapiens (Human)	9606	311
+Q8NGN5	reviewed	Olfactory receptor 10G8 (Olfactory receptor OR11-282)	OR10G8	OR10G8		Homo sapiens (Human)	9606	311
+Q8NGN4	reviewed	Olfactory receptor 10G9 (Olfactory receptor 10G10)	OR10G9 OR10G10P	OR10G9	OR10G10P	Homo sapiens (Human)	9606	311
+Q8NGA5	reviewed	Olfactory receptor 10H4 (Olfactory receptor OR19-28)	OR10H4	OR10H4		Homo sapiens (Human)	9606	316
+Q5JRS4	reviewed	Olfactory receptor 10J3	OR10J3 OR10J3P	OR10J3	OR10J3P	Homo sapiens (Human)	9606	329
+Q8NGY7	reviewed	Putative olfactory receptor 10J6	OR10J6P OR10J6	OR10J6P	OR10J6	Homo sapiens (Human)	9606	276
+Q8NGC8	reviewed	Olfactory receptor 11H7 (Olfactory receptor OR14-32)	OR11H7 OR11H7P	OR11H7	OR11H7P	Homo sapiens (Human)	9606	314
+Q8NGX0	reviewed	Olfactory receptor 11L1	OR11L1	OR11L1		Homo sapiens (Human)	9606	322
+Q8NGT7	reviewed	Olfactory receptor 2A12 (Olfactory receptor OR7-10)	OR2A12 OR2A12P	OR2A12	OR2A12P	Homo sapiens (Human)	9606	310
+A6NM03	reviewed	Olfactory receptor 2AG2	OR2AG2 OR2AG2P	OR2AG2	OR2AG2P	Homo sapiens (Human)	9606	316
+Q8NGE2	reviewed	Olfactory receptor 2AP1 (Olfactory receptor OR12-9)	OR2AP1 OR2AP1P	OR2AP1	OR2AP1P	Homo sapiens (Human)	9606	309
+Q8NGZ9	reviewed	Olfactory receptor 2T10 (Olfactory receptor OR1-64)	OR2T10	OR2T10		Homo sapiens (Human)	9606	312
+Q8NH01	reviewed	Olfactory receptor 2T11 (Olfactory receptor OR1-65)	OR2T11	OR2T11		Homo sapiens (Human)	9606	316
+Q96AM1	reviewed	Mas-related G-protein coupled receptor member F (Mas-related gene F protein) (G-protein coupled receptor 140) (G-protein coupled receptor 168)	MRGPRF GPR140 GPR168 MRGF PSEC0142	MRGPRF	GPR140 GPR168 MRGF	Homo sapiens (Human)	9606	343
+Q8NH19	reviewed	Olfactory receptor 10AG1 (Olfactory receptor OR11-160)	OR10AG1	OR10AG1		Homo sapiens (Human)	9606	301
+Q9Y4A9	reviewed	Olfactory receptor 10H1 (Olfactory receptor OR19-27)	OR10H1	OR10H1		Homo sapiens (Human)	9606	318
+O60403	reviewed	Olfactory receptor 10H2 (Olfactory receptor OR19-23)	OR10H2	OR10H2		Homo sapiens (Human)	9606	315
+O60404	reviewed	Olfactory receptor 10H3 (Olfactory receptor OR19-24)	OR10H3	OR10H3		Homo sapiens (Human)	9606	316
+P0C629	reviewed	Olfactory receptor 10J4	OR10J4 OR10J4P	OR10J4	OR10J4P	Homo sapiens (Human)	9606	311
+Q8NHC4	reviewed	Olfactory receptor 10J5 (Olfactory receptor OR1-28)	OR10J5	OR10J5		Homo sapiens (Human)	9606	309
+Q8NGX3	reviewed	Olfactory receptor 10T2 (Olfactory receptor OR1-3)	OR10T2	OR10T2		Homo sapiens (Human)	9606	314
+Q8NGI7	reviewed	Olfactory receptor 10V1 (Olfactory receptor OR11-256)	OR10V1	OR10V1		Homo sapiens (Human)	9606	309
+Q8NGC9	reviewed	Olfactory receptor 11H4 (Olfactory receptor OR14-36)	OR11H4	OR11H4		Homo sapiens (Human)	9606	324
+Q8NGC7	reviewed	Olfactory receptor 11H6 (Olfactory receptor OR14-35)	OR11H6	OR11H6		Homo sapiens (Human)	9606	330
+B2RN74	reviewed	Olfactory receptor 11H12	OR11H12	OR11H12		Homo sapiens (Human)	9606	326
+Q8NGR1	reviewed	Olfactory receptor 13A1 (Olfactory receptor OR10-3)	OR13A1	OR13A1		Homo sapiens (Human)	9606	328
+Q8NGS9	reviewed	Olfactory receptor 13C2 (Olfactory receptor OR9-12)	OR13C2	OR13C2		Homo sapiens (Human)	9606	318
+Q8NGS6	reviewed	Olfactory receptor 13C3 (Olfactory receptor OR9-8)	OR13C3	OR13C3		Homo sapiens (Human)	9606	347
+Q8NGS8	reviewed	Olfactory receptor 13C5 (Olfactory receptor OR9-11)	OR13C5	OR13C5		Homo sapiens (Human)	9606	318
+Q8NGS7	reviewed	Olfactory receptor 13C8	OR13C8	OR13C8		Homo sapiens (Human)	9606	320
+Q8NGT0	reviewed	Olfactory receptor 13C9 (Olfactory receptor OR9-13)	OR13C9	OR13C9		Homo sapiens (Human)	9606	318
+Q13585	reviewed	Melatonin-related receptor (G protein-coupled receptor 50) (H9)	GPR50	GPR50		Homo sapiens (Human)	9606	617
+Q969F8	reviewed	KiSS-1 receptor (KiSS-1R) (G-protein coupled receptor 54) (G-protein coupled receptor OT7T175) (hOT7T175) (Hypogonadotropin-1) (Kisspeptins receptor) (Metastin receptor)	KISS1R AXOR12 GPR54	KISS1R	AXOR12 GPR54	Homo sapiens (Human)	9606	398
+O00155	reviewed	Probable G-protein coupled receptor 25	GPR25	GPR25		Homo sapiens (Human)	9606	361
+Q9NS67	reviewed	Probable G-protein coupled receptor 27 (Super conserved receptor expressed in brain 1)	GPR27 SREB1	GPR27	SREB1	Homo sapiens (Human)	9606	375
+Q9Y2T6	reviewed	G-protein coupled receptor 55	GPR55	GPR55		Homo sapiens (Human)	9606	319
+Q8NDV2	reviewed	G-protein coupled receptor 26	GPR26	GPR26		Homo sapiens (Human)	9606	337
+Q9NYM4	reviewed	Probable G-protein coupled receptor 83 (G-protein coupled receptor 72)	GPR83 GPR72 KIAA1540	GPR83	GPR72 KIAA1540	Homo sapiens (Human)	9606	423
+Q13255	reviewed	Metabotropic glutamate receptor 1 (mGluR1)	GRM1 GPRC1A MGLUR1	GRM1	GPRC1A MGLUR1	Homo sapiens (Human)	9606	1194
+Q14833	reviewed	Metabotropic glutamate receptor 4 (mGluR4)	GRM4 GPRC1D MGLUR4	GRM4	GPRC1D MGLUR4	Homo sapiens (Human)	9606	912
+Q99677	reviewed	Lysophosphatidic acid receptor 4 (LPA receptor 4) (LPA-4) (G-protein coupled receptor 23) (P2Y purinoceptor 9) (P2Y9) (P2Y5-like receptor) (Purinergic receptor 9)	LPAR4 GPR23 LPA4 P2RY9	LPAR4	GPR23 LPA4 P2RY9	Homo sapiens (Human)	9606	370
+O43613	reviewed	Orexin receptor type 1 (Ox-1-R) (Ox1-R) (Ox1R) (Hypocretin receptor type 1)	HCRTR1	HCRTR1		Homo sapiens (Human)	9606	425
+O43614	reviewed	Orexin receptor type 2 (Ox-2-R) (Ox2-R) (Ox2R) (Hypocretin receptor type 2)	HCRTR2	HCRTR2		Homo sapiens (Human)	9606	444
+P08100	reviewed	Rhodopsin (Opsin-2)	RHO OPN2	RHO	OPN2	Homo sapiens (Human)	9606	348
+O43193	reviewed	Motilin receptor (G-protein coupled receptor 38)	MLNR GPR38 MTLR MTLR1	MLNR	GPR38 MTLR MTLR1	Homo sapiens (Human)	9606	412
+Q9HBW0	reviewed	Lysophosphatidic acid receptor 2 (LPA receptor 2) (LPA-2) (Lysophosphatidic acid receptor Edg-4)	LPAR2 EDG4 LPA2	LPAR2	EDG4 LPA2	Homo sapiens (Human)	9606	351
+P48039	reviewed	Melatonin receptor type 1A (Mel-1A-R) (Mel1a receptor)	MTNR1A	MTNR1A		Homo sapiens (Human)	9606	350
+P49286	reviewed	Melatonin receptor type 1B (Mel-1B-R) (Mel1b receptor)	MTNR1B	MTNR1B		Homo sapiens (Human)	9606	362
+Q9BXB1	reviewed	Leucine-rich repeat-containing G-protein coupled receptor 4 (G-protein coupled receptor 48)	LGR4 GPR48	LGR4	GPR48	Homo sapiens (Human)	9606	951
+Q9HBX8	reviewed	Leucine-rich repeat-containing G-protein coupled receptor 6	LGR6 UNQ6427/PRO21331 VTS20631	LGR6		Homo sapiens (Human)	9606	967
+O75473	reviewed	Leucine-rich repeat-containing G-protein coupled receptor 5 (G-protein coupled receptor 49) (G-protein coupled receptor 67) (G-protein coupled receptor HG38)	LGR5 GPR49 GPR67	LGR5	GPR49 GPR67	Homo sapiens (Human)	9606	907
