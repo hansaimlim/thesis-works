@@ -1,9 +1,11 @@
 import os
 import sys
 import time
+import json
 import numpy as np
 import pandas as pd
 import argparse
+from packaging import version
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Any, Callable, NewType, Tuple, Union
 import torch
@@ -17,6 +19,22 @@ from filelock import FileLock
 from transformers import pipeline, PreTrainedTokenizer, BertTokenizerFast, TrainingArguments
 from transformers import AlbertConfig, AlbertModel, AlbertForMaskedLM
 from transformers import DataCollatorForLanguageModeling, Trainer
+from sklearn.metrics import confusion_matrix
+
+##### JSON modules #####
+class NumpyEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return json.JSONEncoder.default(self, obj)
+def save_json(data,filename):
+    with open(filename, 'w') as fp:
+        json.dump(data, fp, sort_keys=True, indent=4, cls=NumpyEncoder)
+def load_json(filename):
+    with open(filename, 'r') as fp:
+        data = json.load(fp)
+    return data
+##### JSON modules #####
 
 def get_amino_acid_weights_by_frequency(tokenizer):
     
@@ -285,6 +303,13 @@ def compute_metrics(pred):
     return {
         'accuracy': acc,
     }
+
+def compute_confusion_matrix(pred,classes=None):
+    #compute confusion matrix using scikit-learn
+    nz_rows, nz_cols = np.where(pred.label_ids > 0)
+    labels = pred.label_ids[nz_rows,nz_cols]
+    preds = pred.predictions.argmax(-1)[nz_rows,nz_cols]
+    return confusion_matrix(labels,preds,labels=classes)
     
 def _load_dataset(file_path,tokenizer,mode='lazy',timer=True):
     #prefix _ to avoid collision with method in datasets module
@@ -313,6 +338,88 @@ def _load_dataset(file_path,tokenizer,mode='lazy',timer=True):
         elapsed = time.time()-since
         print("{:.2f} seconds for training dataset prep (mode {})".format(elapsed,mode))
     return dataset
+
+class Trainer_custom(Trainer):
+    
+    def _maybe_log_save_evaluate(self, tr_loss, model, trial, epoch):
+        if self.control.should_log:
+            logs: Dict[str, float] = {}
+            tr_loss_scalar = tr_loss.item()
+            logs["loss"] = (tr_loss_scalar - self._logging_loss_scalar) / (
+                self.state.global_step - self._globalstep_last_logged
+            )
+            # backward compatibility for pytorch schedulers
+            logs["learning_rate"] = (
+                self.lr_scheduler.get_last_lr()[0]
+                if version.parse(torch.__version__) >= version.parse("1.4")
+                else self.lr_scheduler.get_lr()[0]
+            )
+            self._logging_loss_scalar = tr_loss_scalar
+            self._globalstep_last_logged = self.state.global_step
+
+            self.log(logs)
+
+        metrics = None
+        if self.control.should_evaluate:
+            if not hasattr(self,'confusion_matrix'):
+                #confusion matrix doesn't exist yet
+                self.confusion_matrix = {}
+            metrics = self.evaluate(update_confmat=True)
+            self._report_to_hp_search(trial, epoch, metrics)
+
+        if self.control.should_save:
+            self._save_checkpoint(model, trial, metrics=metrics)
+            self.control = self.callback_handler.on_save(self.args, self.state, self.control)
+            
+    def evaluate(self, eval_dataset: Optional[Dataset] = None, 
+                 update_confmat = False) -> Dict[str, float]:
+        """
+        Run evaluation and returns metrics.
+
+        The calling script will be responsible for providing a method to compute metrics, as they are task-dependent
+        (pass it to the init :obj:`compute_metrics` argument).
+
+        You can also subclass and override this method to inject custom behavior.
+
+        Args:
+            eval_dataset (:obj:`Dataset`, `optional`):
+                Pass a dataset if you wish to override :obj:`self.eval_dataset`. If it is an :obj:`datasets.Dataset`,
+                columns not accepted by the ``model.forward()`` method are automatically removed. It must implement the
+                :obj:`__len__` method.
+
+        Returns:
+            A dictionary containing the evaluation loss and the potential metrics computed from the predictions. The
+            dictionary also contains the epoch number which comes from the training state.
+        """
+        if eval_dataset is not None and not isinstance(eval_dataset, collections.abc.Sized):
+            raise ValueError("eval_dataset must implement __len__")
+
+        eval_dataloader = self.get_eval_dataloader(eval_dataset)
+
+        output = self.prediction_loop(
+            eval_dataloader,
+            description="Evaluation",
+            # No point gathering the predictions if there are no metrics, otherwise we defer to
+            # self.args.prediction_loss_only
+            prediction_loss_only=True if self.compute_metrics is None else None,
+        )
+
+        self.log(output.metrics)
+
+        if self.args.tpu_metrics_debug or self.args.debug:
+            # tpu-comment: Logging debug metrics for PyTorch/XLA (compile, execute times, ops, etc.)
+            xm.master_print(met.metrics_report())
+
+        self.control = self.callback_handler.on_evaluate(self.args, self.state, self.control, output.metrics)
+        
+        #Store confusion matrix
+        if update_confmat:
+            epoch = self.state.epoch
+            self.confusion_matrix[epoch] = compute_confusion_matrix(
+                output,classes=list(range(self.tokenizer.vocab_size)))
+            
+        return output.metrics
+    
 
 def main(args):
 
@@ -365,24 +472,27 @@ def main(args):
         logging_dir=args.output_dir
     )
 
-    
     data_collator = DataCollatorForLanguageModeling_custom(
         tokenizer=tokenizer, mlm=True, mlm_probability=args.masked_lm_prob
     )
-    trainer = Trainer(
+    trainer = Trainer_custom(
         model=model,
         args=training_args,
         data_collator=data_collator,
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
         #callbacks=[CustomPrinterCallback],
-        compute_metrics=compute_metrics
+        compute_metrics=compute_metrics,
+        tokenizer=tokenizer
     )
     
     print("Start training")
     trainer.train()
     print("Start evaluation")
     trainer.evaluate()
+    confmat_file = os.path.join(args.output_dir,'confusion_matrix.json')
+    save_json(trainer.confusion_matrix,confmat_file)
+    print("Confusion matrix saved to {}".format(confmat_file))
 
 if __name__ == '__main__':
     args=parse_args()
