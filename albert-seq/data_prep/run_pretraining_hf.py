@@ -211,7 +211,7 @@ class AlbertForMaskedLM_weighted(AlbertForMaskedLM):
         masked_lm_loss = None
         if labels is not None:
             if self.class_weights is not None:
-                loss_fct = CrossEntropyLoss(weight=self.class_weights)
+                loss_fct = CrossEntropyLoss(weight=self.class_weights.to(self.device))
             else:
                 loss_fct = CrossEntropyLoss()
             masked_lm_loss = loss_fct(prediction_scores.view(-1, self.config.vocab_size), labels.view(-1))
