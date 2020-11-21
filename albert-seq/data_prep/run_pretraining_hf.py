@@ -414,8 +414,8 @@ class Trainer_custom(Trainer):
         
         #Store confusion matrix
         if update_confmat:
-            epoch = self.state.epoch
-            self.confusion_matrix[epoch] = compute_confusion_matrix(
+            global_step = self.state.global_step
+            self.confusion_matrix[global_step] = compute_confusion_matrix(
                 output,classes=list(range(self.tokenizer.vocab_size)))
             
         return output.metrics
