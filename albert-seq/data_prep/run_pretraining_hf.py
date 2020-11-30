@@ -100,6 +100,15 @@ def parse_args():
     parser.add_argument('--masked_lm_prob',type=float,default=0.15,help='Probability of tokens to be masked')
     parser.add_argument('--disable_tqdm', type=str2bool, nargs='?',const=True, 
                         default=False, help='Disables tqdm for progress log')
+    parser.add_argument('--attention_probs_dropout_prob',type=float,default=0.0)
+    parser.add_argument('--hidden_dropout_prob',type=float,default=0.0)
+    parser.add_argument('--weight_decay',type=float,default=0.01)
+    parser.add_argument('--embedding_size',type=int,default=128)
+    parser.add_argument('--hidden_size',type=int,default=312)
+    parser.add_argument('--intermediate_size',type=int,default=1248)
+    parser.add_argument('--num_attention_heads',type=int,default=12)
+    parser.add_argument('--num_hidden_layers',type=int,default=4)
+    parser.add_argument('--num_hidden_groups',type=int,default=1)
     return parser.parse_args()
 
 def _collate_batch(examples, tokenizer):
@@ -430,17 +439,17 @@ def main(args):
     eval_dataset = _load_dataset(file_path=args.eval_data,tokenizer=tokenizer,mode=args.eval_input_mode,timer=True)
     
     albert_config =   {
-      "attention_probs_dropout_prob": 0.0,
+      "attention_probs_dropout_prob": args.attention_probs_dropout_prob,
       "hidden_act": "gelu_new",
-      "hidden_dropout_prob": 0.0,
-      "embedding_size": 128,
-      "hidden_size": 312,
+      "hidden_dropout_prob": args.hidden_dropout_prob,
+      "embedding_size": args.embedding_size,
+      "hidden_size": args.hidden_size,
       "initializer_range": 0.02,
-      "intermediate_size": 1248,
+      "intermediate_size": args.intermediate_size,
       "max_position_embeddings": tokenizer.model_max_length,
-      "num_attention_heads": 12,
-      "num_hidden_layers": 4,
-      "num_hidden_groups": 1,
+      "num_attention_heads": args.num_attention_heads,
+      "num_hidden_layers": args.num_hidden_layers,
+      "num_hidden_groups": args.num_hidden_groups,
       "layer_norm_eps": 1e-12,
       "inner_group_num": 1,
       "type_vocab_size": 2,
@@ -467,7 +476,7 @@ def main(args):
         do_eval=True,
         metric_for_best_model="accuracy",
         warmup_steps=args.num_warmup_steps,
-        weight_decay=0.01,
+        weight_decay=args.weight_decay,
         disable_tqdm=args.disable_tqdm,
         logging_dir=args.output_dir
     )
